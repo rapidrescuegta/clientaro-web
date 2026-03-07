@@ -8,7 +8,7 @@ export default function SegmentPage() {
       <header className="px-8 py-6 flex items-center justify-between">
         <LogoWordmark dark />
         <a
-          href="http://localhost:3000/login"
+          href="https://app.clientaro.com/login"
           className="text-sm font-semibold text-slate-400 hover:text-white transition-colors"
         >
           Log in →

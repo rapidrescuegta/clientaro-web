@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react'
 
-const CRM_URL = process.env.NEXT_PUBLIC_CRM_URL || 'http://localhost:3000'
+const CRM_URL = process.env.NEXT_PUBLIC_CRM_URL || 'https://app.clientaro.com'
 
 const plans = [
   {

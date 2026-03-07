@@ -1,6 +1,6 @@
 import { LogoWordmark } from './Logo'
 
-const CRM_URL = process.env.NEXT_PUBLIC_CRM_URL || 'http://localhost:3000'
+const CRM_URL = process.env.NEXT_PUBLIC_CRM_URL || 'https://app.clientaro.com'
 
 export function Footer() {
   return (

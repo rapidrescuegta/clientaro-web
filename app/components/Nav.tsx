@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import { LogoWordmark } from './Logo'
 
-const CRM_URL = process.env.NEXT_PUBLIC_CRM_URL || 'http://localhost:3000'
+const CRM_URL = process.env.NEXT_PUBLIC_CRM_URL || 'https://app.clientaro.com'
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function Nav({ segment }: { segment?: 'realestate' | 'b2b' }) {
