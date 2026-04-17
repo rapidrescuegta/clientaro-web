@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 const CRM_URL = process.env.NEXT_PUBLIC_CRM_URL || 'https://app.clientaro.com'
 
 export function Hero() {
@@ -61,60 +63,15 @@ export function Hero() {
               <span className="text-slate-400 text-xs">app.clientaro.com</span>
             </div>
           </div>
-          {/* Fake app UI */}
-          <div className="flex h-72">
-            {/* Sidebar */}
-            <div className="w-48 bg-white/5 border-r border-white/10 p-4 flex flex-col gap-2">
-              <div className="flex items-center gap-2 mb-3">
-                <div className="w-6 h-6 rounded bg-[#0F172A] flex items-center justify-center">
-                  <svg width="14" height="14" viewBox="0 0 40 40">
-                    <defs><linearGradient id="gh" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stopColor="#F5C842"/><stop offset="100%" stopColor="#C9930A"/></linearGradient></defs>
-                    <rect width="40" height="40" rx="9" fill="#0F172A"/>
-                    <path d="M 29.19 27.71 A 12 12 0 1 0 29.19 12.29" fill="none" stroke="url(#gh)" strokeWidth="6" strokeLinecap="round"/>
-                  </svg>
-                </div>
-                <span className="text-white text-xs font-bold">Clientaro</span>
-              </div>
-              {['Today', 'Pipeline', 'People', 'Tasks', 'Reports'].map((item, i) => (
-                <div key={item} className={`h-7 rounded-md flex items-center px-2 text-xs font-medium ${i === 0 ? 'bg-amber-500/20 text-amber-400' : 'text-slate-400'}`}>
-                  {item}
-                </div>
-              ))}
-            </div>
-            {/* Main content */}
-            <div className="flex-1 p-5">
-              <div className="text-white font-bold text-sm mb-3">Good morning, Giuseppe 👋</div>
-              <div className="grid grid-cols-3 gap-3 mb-4">
-                {[
-                  { label: 'Follow-ups due', value: '5', color: 'amber' },
-                  { label: 'Active deals', value: '12', color: 'blue' },
-                  { label: 'Referrals this month', value: '3', color: 'green' },
-                ].map(stat => (
-                  <div key={stat.label} className="bg-white/5 rounded-lg p-3 border border-white/10">
-                    <div className="text-xl font-bold text-white">{stat.value}</div>
-                    <div className="text-slate-400 text-xs mt-0.5">{stat.label}</div>
-                  </div>
-                ))}
-              </div>
-              <div className="space-y-2">
-                {[
-                  { name: 'Maria Rodriguez', action: 'Birthday tomorrow 🎂', tag: 'high' },
-                  { name: 'James Chen', action: 'No contact in 45 days', tag: 'medium' },
-                  { name: 'Sarah Williams', action: 'Post-close follow-up', tag: 'high' },
-                ].map(item => (
-                  <div key={item.name} className="flex items-center justify-between bg-white/5 rounded-lg px-3 py-2 border border-white/10">
-                    <div>
-                      <div className="text-white text-xs font-semibold">{item.name}</div>
-                      <div className="text-slate-400 text-[11px]">{item.action}</div>
-                    </div>
-                    <div className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${item.tag === 'high' ? 'bg-amber-500/20 text-amber-400' : 'bg-blue-500/20 text-blue-400'}`}>
-                      {item.tag}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
+          {/* Real product screenshot */}
+          <Image
+            src="/screenshots/today-dashboard.png"
+            alt="Clientaro Today dashboard — $12.8M pipeline, 15 active contacts, daily targets, and upcoming life events"
+            width={1440}
+            height={900}
+            priority
+            className="w-full h-auto"
+          />
         </div>
       </div>
     </section>

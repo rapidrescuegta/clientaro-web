@@ -3,6 +3,7 @@ import { Footer } from '../components/Footer'
 import { Pricing } from '../components/Pricing'
 import { CtaBanner } from '../components/CtaBanner'
 import { WhyClientaro } from '../components/WhyClientaro'
+import { ProductShowcase } from '../components/ProductShowcase'
 import { REHero } from './REHero'
 import { REFeatures } from './REFeatures'
 
@@ -17,6 +18,7 @@ export default function RealEstatePage() {
       <Nav segment="realestate" />
       <REHero />
       <REFeatures />
+      <ProductShowcase />
       <WhyClientaro segment="realestate" />
       <Pricing />
       <CtaBanner

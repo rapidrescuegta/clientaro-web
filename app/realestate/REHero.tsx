@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 const CRM_URL = process.env.NEXT_PUBLIC_CRM_URL || 'https://app.clientaro.com'
 
 export function REHero() {
@@ -42,7 +44,7 @@ export function REHero() {
         </div>
         <p className="text-slate-500 text-sm">No credit card required · Cancel anytime</p>
 
-        {/* App mockup */}
+        {/* Product screenshot */}
         <div className="mt-16 bg-[#1E293B] rounded-2xl border border-white/10 overflow-hidden shadow-2xl shadow-black/40">
           <div className="bg-[#0F172A] px-4 py-3 flex items-center gap-2 border-b border-white/10">
             <div className="flex gap-1.5">
@@ -54,38 +56,14 @@ export function REHero() {
               <span className="text-slate-400 text-xs">app.clientaro.com</span>
             </div>
           </div>
-          <div className="flex h-64">
-            <div className="w-44 bg-white/5 border-r border-white/10 p-4 space-y-1.5">
-              {['Today', 'Pipeline', 'People', 'Households', 'Tasks', 'Referrals', 'Reports'].map((item, i) => (
-                <div key={item} className={`h-7 rounded-md flex items-center px-2.5 text-xs font-medium ${i === 0 ? 'bg-amber-500/20 text-amber-400' : 'text-slate-400'}`}>
-                  {item}
-                </div>
-              ))}
-            </div>
-            <div className="flex-1 p-5">
-              <div className="text-white font-bold text-sm mb-1">Your Daily Five 🎯</div>
-              <div className="text-slate-500 text-xs mb-4">5 people to reach out to today</div>
-              <div className="space-y-2">
-                {[
-                  { name: 'Maria R.', reason: 'Birthday tomorrow 🎂', urgency: 'Today' },
-                  { name: 'James C.', reason: '1-year home anniversary approaching 🏠', urgency: 'This week' },
-                  { name: 'Sarah W.', reason: '60 days post-close — check in', urgency: 'Follow up' },
-                  { name: 'David M.', reason: 'No contact in 47 days', urgency: 'Reconnect' },
-                  { name: 'Priya S.', reason: 'Referred 2 clients — say thank you', urgency: 'Today' },
-                ].map(item => (
-                  <div key={item.name} className="flex items-center justify-between bg-white/5 rounded-lg px-3 py-2 border border-white/10">
-                    <div>
-                      <span className="text-white text-xs font-semibold">{item.name}</span>
-                      <span className="text-slate-400 text-xs ml-2">{item.reason}</span>
-                    </div>
-                    <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-400 shrink-0">
-                      {item.urgency}
-                    </span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
+          <Image
+            src="/screenshots/today-dashboard.png"
+            alt="Clientaro Today dashboard — pipeline value, contacts, daily targets, and life events at a glance"
+            width={1440}
+            height={900}
+            priority
+            className="w-full h-auto"
+          />
         </div>
       </div>
     </section>

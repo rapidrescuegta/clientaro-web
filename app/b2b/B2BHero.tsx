@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 const CRM_URL = process.env.NEXT_PUBLIC_CRM_URL || 'https://app.clientaro.com'
 
 export function B2BHero() {
@@ -55,50 +57,14 @@ export function B2BHero() {
               <span className="text-slate-400 text-xs">app.clientaro.com</span>
             </div>
           </div>
-          <div className="flex h-64">
-            <div className="w-44 bg-white/5 border-r border-white/10 p-4 space-y-1.5">
-              {['Today', 'Pipeline', 'People', 'Companies', 'Tasks', 'Activities', 'Reports'].map((item, i) => (
-                <div key={item} className={`h-7 rounded-md flex items-center px-2.5 text-xs font-medium ${i === 2 ? 'bg-amber-500/20 text-amber-400' : 'text-slate-400'}`}>
-                  {item}
-                </div>
-              ))}
-            </div>
-            <div className="flex-1 p-5">
-              <div className="text-white font-bold text-sm mb-1">Pipeline Overview 📊</div>
-              <div className="text-slate-500 text-xs mb-4">Active deals by stage</div>
-              <div className="grid grid-cols-4 gap-2 mb-4">
-                {[
-                  { stage: 'Prospect', count: 8, color: 'bg-slate-500/20 text-slate-300' },
-                  { stage: 'Proposal', count: 4, color: 'bg-blue-500/20 text-blue-300' },
-                  { stage: 'Negotiating', count: 2, color: 'bg-amber-500/20 text-amber-300' },
-                  { stage: 'Closed', count: 3, color: 'bg-green-500/20 text-green-300' },
-                ].map(s => (
-                  <div key={s.stage} className={`rounded-lg p-2.5 border border-white/10 text-center ${s.color} bg-opacity-20`}>
-                    <div className="text-lg font-bold">{s.count}</div>
-                    <div className="text-[10px] mt-0.5 opacity-80">{s.stage}</div>
-                  </div>
-                ))}
-              </div>
-              <div className="space-y-1.5">
-                {[
-                  { company: 'Acme Corp', contact: 'Jordan T.', value: '$24,000', stage: 'Proposal' },
-                  { company: 'Bright Media', contact: 'Casey R.', value: '$8,500', stage: 'Negotiating' },
-                  { company: 'Nova Solutions', contact: 'Morgan L.', value: '$41,000', stage: 'Proposal' },
-                ].map(d => (
-                  <div key={d.company} className="flex items-center justify-between bg-white/5 rounded-lg px-3 py-1.5 border border-white/10 text-xs">
-                    <div className="flex items-center gap-2">
-                      <span className="text-white font-semibold">{d.company}</span>
-                      <span className="text-slate-400">· {d.contact}</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <span className="text-green-400 font-semibold">{d.value}</span>
-                      <span className="text-amber-400 text-[10px] px-1.5 py-0.5 bg-amber-500/20 rounded">{d.stage}</span>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
+          <Image
+            src="/screenshots/pipeline.png"
+            alt="Clientaro pipeline view — $12.8M across 10 active deals, organized by stage from Lead to Closed"
+            width={1440}
+            height={900}
+            priority
+            className="w-full h-auto"
+          />
         </div>
       </div>
     </section>
