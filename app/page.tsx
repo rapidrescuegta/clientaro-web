@@ -1,6 +1,15 @@
 import Link from 'next/link'
 import { LogoWordmark } from './components/Logo'
 
+export const metadata = {
+  title: 'Clientaro — The CRM Built for Relationships',
+  description: 'Close more deals. Never miss a moment. Clientaro is the relationship-driven CRM for real estate and B2B professionals.',
+  openGraph: {
+    title: 'Clientaro — The CRM Built for Relationships',
+    description: 'The relationship-driven CRM for real estate and B2B professionals who grow their business through genuine connections.',
+  },
+}
+
 export default function SegmentPage() {
   return (
     <main className="min-h-screen bg-[#0F172A] flex flex-col">

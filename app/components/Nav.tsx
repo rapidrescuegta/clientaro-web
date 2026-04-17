@@ -17,6 +17,8 @@ export function Nav({ segment }: { segment?: 'realestate' | 'b2b' }) {
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-600">
           <a href="#features" className="hover:text-gray-900 transition-colors">Features</a>
           <a href="#pricing" className="hover:text-gray-900 transition-colors">Pricing</a>
+          <a href="/blog" className="hover:text-gray-900 transition-colors">Blog</a>
+          <a href="/newsletter" className="hover:text-amber-500 text-amber-600 font-semibold transition-colors">Free Guide</a>
         </nav>
 
         <div className="hidden md:flex items-center gap-3">
@@ -48,6 +50,8 @@ export function Nav({ segment }: { segment?: 'realestate' | 'b2b' }) {
         <div className="md:hidden bg-white border-t border-gray-100 px-6 py-4 space-y-3">
           <a href="#features" className="block text-sm font-medium text-gray-700" onClick={() => setMobileOpen(false)}>Features</a>
           <a href="#pricing" className="block text-sm font-medium text-gray-700" onClick={() => setMobileOpen(false)}>Pricing</a>
+          <a href="/blog" className="block text-sm font-medium text-gray-700" onClick={() => setMobileOpen(false)}>Blog</a>
+          <a href="/newsletter" className="block text-sm font-medium text-amber-600" onClick={() => setMobileOpen(false)}>Free Guide</a>
           <div className="pt-2 border-t border-gray-100 flex flex-col gap-2">
             <a href={`${CRM_URL}/login`} className="text-sm font-semibold text-gray-700 py-2">Log in</a>
             <a href={`${CRM_URL}/signup`} className="text-sm font-semibold bg-[#0F172A] text-white px-4 py-2.5 rounded-lg text-center">Start free →</a>

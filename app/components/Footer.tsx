@@ -27,16 +27,16 @@ export function Footer() {
             <div>
               <div className="text-slate-500 font-semibold uppercase tracking-wider text-xs mb-3">Company</div>
               <div className="space-y-2">
-                <a href="#" className="block text-slate-400 hover:text-white transition-colors">About</a>
-                <a href="#" className="block text-slate-400 hover:text-white transition-colors">Blog</a>
-                <a href="#" className="block text-slate-400 hover:text-white transition-colors">Contact</a>
+                <a href="/about" className="block text-slate-400 hover:text-white transition-colors">About</a>
+                <a href="/blog" className="block text-slate-400 hover:text-white transition-colors">Blog</a>
+                <a href="/contact" className="block text-slate-400 hover:text-white transition-colors">Contact</a>
               </div>
             </div>
             <div>
               <div className="text-slate-500 font-semibold uppercase tracking-wider text-xs mb-3">Legal</div>
               <div className="space-y-2">
-                <a href="#" className="block text-slate-400 hover:text-white transition-colors">Privacy</a>
-                <a href="#" className="block text-slate-400 hover:text-white transition-colors">Terms</a>
+                <a href="/privacy" className="block text-slate-400 hover:text-white transition-colors">Privacy</a>
+                <a href="/terms" className="block text-slate-400 hover:text-white transition-colors">Terms</a>
               </div>
             </div>
           </div>
