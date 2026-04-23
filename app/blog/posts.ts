@@ -12,6 +12,500 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'follow-up-boss-alternatives-2026',
+    title: 'Follow Up Boss Alternatives: 6 Real Estate CRMs That Actually Fit Solo Agents in 2026',
+    excerpt:
+      'Follow Up Boss starts at $69/user/month and is built for teams running high lead volume. If you are a solo agent whose business is 60-80% referrals, you are paying enterprise prices for features you never touch. Here are six honest alternatives — with pricing, pros and cons, and which one fits which kind of agent.',
+    date: '2026-04-21',
+    author: 'Steve Gracco',
+    readTime: '12 min read',
+    category: 'CRM Reviews',
+    segment: 'realestate',
+    content: `
+      <p class="text-lg text-gray-600 leading-relaxed mb-8">
+        Follow Up Boss is a genuinely good CRM. It is also genuinely expensive, and genuinely built for the wrong kind of agent if most of your business comes from repeat clients and referrals. This is an honest list of what to look at instead — with pricing, pros and cons, and a short decision tree at the end so you can stop shopping and just pick one.
+      </p>
+      <p class="mb-6">
+        Short answer up top: if you run real lead volume with a team of 5+, stay on Follow Up Boss — it is the best tool in the category at what it does. If you are a solo agent or 2-person team whose business is 60-80% repeat and referral, any of <strong>Clientaro</strong> (our own product, $29/mo Solo), <strong>Wise Agent</strong> ($49/mo flat), or <strong>Realvolve</strong> ($94/mo) will fit your work better at a lower cost.
+      </p>
+  
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Why agents shop "Follow Up Boss alternatives" in the first place</h2>
+      <p class="mb-6">
+        When we interview agents who have switched off Follow Up Boss, five reasons come up repeatedly:
+      </p>
+      <ol class="list-decimal pl-6 mb-6 space-y-2">
+        <li><strong>The price.</strong> $69/user/month Grow tier. A solo agent on a $90k GCI year is paying $828/year for a CRM they use at maybe 30% of capacity.</li>
+        <li><strong>Pipeline-first data model.</strong> Every view in Follow Up Boss is a lead or a stage. If your business is repeat and referral, the people who matter to you are not leads — they are past clients and sphere. Those get buried.</li>
+        <li><strong>Action plan complexity.</strong> Action plans are powerful but require setup. Most solo agents set up two or three and then abandon them.</li>
+        <li><strong>The "team" framing.</strong> FUB's UI assumes you have a lead router, a showing agent, a transaction coordinator. Most of the interface is noise if you are one person.</li>
+        <li><strong>Support focus.</strong> Support and onboarding skew toward teams and brokerages. Solo agents get the same tool but less hand-holding.</li>
+      </ol>
+      <p class="mb-6">
+        None of this is an indictment of Follow Up Boss. It is the honest mismatch between a product built for a specific buyer and agents who are not that buyer.
+      </p>
+  
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">What to look for in a Follow Up Boss alternative</h2>
+      <p class="mb-6">
+        Before the list, the four things that actually matter for solo and small-team agents switching off FUB:
+      </p>
+      <ul class="list-disc pl-6 mb-6 space-y-2">
+        <li><strong>Under $60/month for one user.</strong> Anything higher is just a rebadged FUB price problem.</li>
+        <li><strong>Contact-first, not pipeline-first.</strong> Your past clients should be the star of the UI, not an afterthought inside a "won leads" folder.</li>
+        <li><strong>Built-in SMS and email.</strong> Do not bounce to your phone or to a third-party email tool — the record gets lost.</li>
+        <li><strong>Setup in under 30 minutes.</strong> If you need a 2-hour onboarding call to get value, the tool is too heavy for solo work.</li>
+      </ul>
+  
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">The 6 Follow Up Boss alternatives, ranked</h2>
+      <p class="mb-6">
+        Ranked by fit for solo and small-team agents, not by feature count. We are Clientaro — we are #1 on the list — but the other five are good fits for specific situations and we will tell you when.
+      </p>
+  
+      <h3 class="text-xl font-semibold text-[#0F172A] mt-8 mb-3">1. Clientaro — $29/mo (Solo) · $79/mo (Pro) · $179/mo (Team)</h3>
+      <p class="mb-4">
+        <strong>Best for:</strong> solo agents and 2-5 person teams whose business is 60-80% repeat and referral. Agents who do not need lead routing, drip campaigns at volume, or IDX.
+      </p>
+      <p class="mb-4">
+        <strong>What Clientaro does differently:</strong> we flipped the model. Instead of a pipeline, you get a <strong>Daily Five</strong> — every morning Clientaro surfaces five past clients to call today, ranked by referral probability, time since last contact, and life events. Contact data is organized as <strong>households</strong> (spouses, kids, anniversaries, pets) so you walk into every call remembering the person, not the deal. <strong>Referral Radar</strong> tells you which 20 people in your database are most likely to send you business this quarter.
+      </p>
+      <p class="mb-4">
+        <strong>Where Clientaro beats Follow Up Boss for solo work:</strong> $29/mo vs $69/mo. Zero setup — import your contacts, answer three questions, the Daily Five starts tomorrow morning. Mobile-first UI that loads in under 2 seconds. Purpose-built for the retention and referral motion instead of the lead-conversion motion.
+      </p>
+      <p class="mb-6">
+        <strong>Where Follow Up Boss beats Clientaro:</strong> if you pipe in 30+ Zillow leads a week and need a lead router, FUB wins. If you run a team of 10 with assignment rules, FUB wins. Clientaro is not the tool for you in those cases — and we will tell you so on the sales call.
+      </p>
+      <p class="mb-8">
+        <strong>Try it:</strong> <a href="/realestate" class="text-[#2563EB] underline">Clientaro for real estate agents</a> · 14-day free trial, no credit card, Follow Up Boss CSV imports in 15 minutes.
+      </p>
+  
+      <h3 class="text-xl font-semibold text-[#0F172A] mt-8 mb-3">2. Wise Agent — $49/mo flat</h3>
+      <p class="mb-4">
+        <strong>Best for:</strong> price-sensitive agents who want a true all-in-one with transaction management, drip email, and landing pages in one tool.
+      </p>
+      <p class="mb-4">
+        <strong>Pros:</strong> flat $49/mo, unlimited contacts, no tier-chasing. Built-in transaction management, email marketing, texting, landing pages. 20+ years in real estate. Strong community.
+      </p>
+      <p class="mb-4">
+        <strong>Cons:</strong> UI is dated. Mobile is a compromise. Automation is powerful but clunky to set up. It is the spiritual successor to LionDesk — same era, same audience.
+      </p>
+      <p class="mb-6">
+        <strong>When it is right:</strong> you want one tool that does everything and you are willing to trade modernity for breadth. If the phrase "Swiss Army knife" appeals to you, Wise Agent is built for that instinct.
+      </p>
+  
+      <h3 class="text-xl font-semibold text-[#0F172A] mt-8 mb-3">3. Realvolve — $94/mo (Pro)</h3>
+      <p class="mb-4">
+        <strong>Best for:</strong> power users. Agents who want deep workflow automation and are willing to spend 4-8 hours setting it up.
+      </p>
+      <p class="mb-4">
+        <strong>Pros:</strong> the most powerful workflow engine in the category. Conditional multi-branch automations. Contact-first philosophy (same family as Clientaro). Excellent transaction tracking.
+      </p>
+      <p class="mb-4">
+        <strong>Cons:</strong> $94/mo is steep. Learning curve is real — plan on a weekend to set it up properly. Mobile app trails the web experience.
+      </p>
+      <p class="mb-6">
+        <strong>When it is right:</strong> you loved building systems, you view CRM setup as a fun project, and you want the tool that lets you automate every touchpoint in your business. If that is not you, Realvolve will sit unused and you will resent the monthly charge.
+      </p>
+  
+      <h3 class="text-xl font-semibold text-[#0F172A] mt-8 mb-3">4. LionDesk is gone — do not pick it</h3>
+      <p class="mb-6">
+        If you are shopping in 2026 and you see LionDesk mentioned anywhere, skip it. LionDesk shut down September 30, 2025 and will not return. We wrote a separate article on <a href="/blog/best-liondesk-alternatives-2026" class="text-[#2563EB] underline">LionDesk alternatives specifically</a> if that was your previous CRM.
+      </p>
+  
+      <h3 class="text-xl font-semibold text-[#0F172A] mt-8 mb-3">5. Top Producer X — $60/mo</h3>
+      <p class="mb-4">
+        <strong>Best for:</strong> agents already inside the Lone Wolf / Constellation1 / RPR ecosystem, or agents at a brokerage that has a Top Producer partnership.
+      </p>
+      <p class="mb-4">
+        <strong>Pros:</strong> 40 years in the industry, deep MLS data via RPR, mature transaction and commission tracking. "Smart Targeting" uses home-value changes to surface likely future sellers — genuinely useful.
+      </p>
+      <p class="mb-4">
+        <strong>Cons:</strong> some UI feels dated. Onboarding takes longer than the sticker price suggests. Same parent company (Lone Wolf) that retired LionDesk, which some agents view as a risk signal.
+      </p>
+      <p class="mb-6">
+        <strong>When it is right:</strong> your broker or team already uses other Lone Wolf products and integration matters, or you are heavy on MLS data for valuation work.
+      </p>
+  
+      <h3 class="text-xl font-semibold text-[#0F172A] mt-8 mb-3">6. IXACT Contact — $38/mo</h3>
+      <p class="mb-4">
+        <strong>Best for:</strong> Canadian agents especially, and relationship-focused agents who want keep-in-touch features without the automation depth of Realvolve.
+      </p>
+      <p class="mb-4">
+        <strong>Pros:</strong> strong keep-in-touch engine — birthdays, anniversaries, move-in dates. Built-in monthly e-newsletter system, pre-written. CASL-aware, Canadian company. Flat $38/mo pricing.
+      </p>
+      <p class="mb-4">
+        <strong>Cons:</strong> older UI, mobile is serviceable but not great. Less well-known in the US. Smaller community compared to FUB or Wise Agent.
+      </p>
+      <p class="mb-6">
+        <strong>When it is right:</strong> you are a Canadian agent, or you want the simplest "built for staying in touch" tool without worrying about automation depth.
+      </p>
+  
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Follow Up Boss vs the top 3 alternatives at a glance</h2>
+  
+      <div class="overflow-x-auto mb-8">
+        <table class="w-full text-sm border-collapse">
+          <thead class="bg-gray-50">
+            <tr>
+              <th class="text-left p-3 border border-gray-200">Feature</th>
+              <th class="text-left p-3 border border-gray-200">Follow Up Boss</th>
+              <th class="text-left p-3 border border-gray-200">Clientaro</th>
+              <th class="text-left p-3 border border-gray-200">Wise Agent</th>
+              <th class="text-left p-3 border border-gray-200">Realvolve</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="p-3 border border-gray-200"><strong>Entry price (1 user)</strong></td>
+              <td class="p-3 border border-gray-200">$69/mo</td>
+              <td class="p-3 border border-gray-200"><strong>$29/mo</strong></td>
+              <td class="p-3 border border-gray-200">$49/mo flat</td>
+              <td class="p-3 border border-gray-200">$94/mo</td>
+            </tr>
+            <tr>
+              <td class="p-3 border border-gray-200"><strong>Data model</strong></td>
+              <td class="p-3 border border-gray-200">Lead-pipeline first</td>
+              <td class="p-3 border border-gray-200">Household + contact first</td>
+              <td class="p-3 border border-gray-200">Contact first</td>
+              <td class="p-3 border border-gray-200">Contact first</td>
+            </tr>
+            <tr>
+              <td class="p-3 border border-gray-200"><strong>"Who to call today" workflow</strong></td>
+              <td class="p-3 border border-gray-200">Via smart lists (self-configure)</td>
+              <td class="p-3 border border-gray-200"><strong>Daily Five, zero setup</strong></td>
+              <td class="p-3 border border-gray-200">Via task queue</td>
+              <td class="p-3 border border-gray-200">Via workflow automations</td>
+            </tr>
+            <tr>
+              <td class="p-3 border border-gray-200"><strong>Referral tracking</strong></td>
+              <td class="p-3 border border-gray-200">Tag-based</td>
+              <td class="p-3 border border-gray-200"><strong>Referral Radar (ranked)</strong></td>
+              <td class="p-3 border border-gray-200">Tag-based</td>
+              <td class="p-3 border border-gray-200">Via custom fields</td>
+            </tr>
+            <tr>
+              <td class="p-3 border border-gray-200"><strong>Setup time</strong></td>
+              <td class="p-3 border border-gray-200">2-4 hours</td>
+              <td class="p-3 border border-gray-200">15-30 minutes</td>
+              <td class="p-3 border border-gray-200">1-2 hours</td>
+              <td class="p-3 border border-gray-200">4-8 hours</td>
+            </tr>
+            <tr>
+              <td class="p-3 border border-gray-200"><strong>Best for</strong></td>
+              <td class="p-3 border border-gray-200">Lead-heavy teams 5+</td>
+              <td class="p-3 border border-gray-200">Solo / small team, referral-driven</td>
+              <td class="p-3 border border-gray-200">All-in-one price-conscious</td>
+              <td class="p-3 border border-gray-200">Power users, workflow fans</td>
+            </tr>
+            <tr>
+              <td class="p-3 border border-gray-200"><strong>FUB CSV import</strong></td>
+              <td class="p-3 border border-gray-200">—</td>
+              <td class="p-3 border border-gray-200">Yes (direct mapper)</td>
+              <td class="p-3 border border-gray-200">Yes (generic CSV)</td>
+              <td class="p-3 border border-gray-200">Yes (paid white-glove)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">The 30-second decision tree</h2>
+      <ol class="list-decimal pl-6 mb-6 space-y-2">
+        <li><strong>Do you bring in 20+ new leads per month from paid sources (Zillow, Realtor.com, Facebook ads)?</strong> If yes — stay on Follow Up Boss. It is the right tool for that job. The rest of this article is not for you.</li>
+        <li><strong>Do 60%+ of your deals come from past clients and referrals?</strong> Look at Clientaro first. The Daily Five workflow assumes exactly that business mix.</li>
+        <li><strong>Is your budget firmly under $50/month?</strong> Clientaro Solo ($29), IXACT ($38), or Wise Agent ($49). All three do the job.</li>
+        <li><strong>Do you love building systems and want deep workflow automation?</strong> Realvolve. Budget the weekend to set it up.</li>
+        <li><strong>Do you want the closest thing to an all-in-one that still feels mainstream?</strong> Wise Agent.</li>
+      </ol>
+  
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">How to actually switch from Follow Up Boss</h2>
+      <p class="mb-4">The migration steps, in order, so nothing falls through the cracks:</p>
+      <ol class="list-decimal pl-6 mb-6 space-y-2">
+        <li><strong>Export your FUB contacts.</strong> Settings → Import/Export → Export all people. You get a CSV with contacts, notes, and basic pipeline state.</li>
+        <li><strong>Export your call logs and notes separately if you want history.</strong> FUB export is thin on notes — the activity feed does not export cleanly. If the history matters, screenshot or copy the top 20 relationships' timelines first.</li>
+        <li><strong>Clean the CSV.</strong> Merge duplicate emails. Standardize phone numbers. Archive stale leads (any 2+ year old unresponsive contact). An hour here saves a month later.</li>
+        <li><strong>Import into the new CRM.</strong> Clientaro and Wise Agent have direct CSV importers. Realvolve has a paid white-glove service.</li>
+        <li><strong>Do not cancel FUB for the first 7 days.</strong> Run both in parallel. Log activity in the new tool only. By day 7 you will know whether the switch sticks.</li>
+        <li><strong>Cancel on day 8-10.</strong> Download your FUB data one more time before the account closes.</li>
+      </ol>
+  
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">FAQ</h2>
+  
+      <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">Is Follow Up Boss worth $69/month for a solo agent?</h3>
+      <p class="mb-6">
+        Rarely. FUB is genuinely best-in-class at lead distribution, action-plan automation, and team dashboards. If you are not using those three, you are paying for other people's features. A solo referral-driven agent using FUB at 30% capacity is the exact buyer this article is written for.
+      </p>
+  
+      <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">Will my Follow Up Boss data import cleanly into Clientaro?</h3>
+      <p class="mb-6">
+        Yes. Clientaro has a direct FUB CSV mapper that preserves contact details, tags, pipeline state (mapped to Clientaro's household model), and notes. Activity-feed history from FUB does not export cleanly — that is an FUB limitation, not a Clientaro one. Plan on 15 minutes for the import itself.
+      </p>
+  
+      <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">I am on a team of 5+ — should I still consider alternatives?</h3>
+      <p class="mb-6">
+        Probably not. Follow Up Boss at $499/mo for 10 users is roughly $50/user, which is competitive once you have that many seats. The lead-distribution and team-dashboard features earn their cost at that scale. If your team is under 5 and mostly solo work with shared lead sources, look at Clientaro Team ($179/mo, up to 5 users) — it is materially cheaper.
+      </p>
+  
+      <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">What about Chime, BoomTown, CINC, BoldTrail?</h3>
+      <p class="mb-6">
+        Those are primarily team and brokerage platforms, typically $250+/month, often bundled via brokerage licensing. If you are a solo agent paying out of pocket, they are the wrong shape. If you are a team lead considering one, they deserve their own comparison — not a footnote here.
+      </p>
+  
+      <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">Is there a free alternative to Follow Up Boss?</h3>
+      <p class="mb-6">
+        HubSpot Free is usable for up to 1,000 contacts but is not real-estate-specific — you rebuild transaction, commission, and anniversary tracking as custom properties. Clientaro's 14-day trial is a closer apples-to-apples comparison since it is a real real-estate CRM; after the trial, Solo is $29/mo.
+      </p>
+  
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">The bottom line</h2>
+      <p class="mb-6">
+        Follow Up Boss is not the wrong CRM. It is the wrong CRM for you if most of your business comes from people who already know you, and you are paying $69/mo to ignore the parts of FUB built for lead-heavy teams.
+      </p>
+      <p class="mb-6">
+        For that agent, Clientaro is built from the ground up. $29/mo Solo, 14-day free trial, no credit card, FUB CSV imports in 15 minutes. The Daily Five tells you who to call this morning. Referral Radar tells you who is most likely to send you business this quarter. That is the entire product.
+      </p>
+      <p class="mb-6">
+        <a href="/realestate" class="text-[#2563EB] underline"><strong>Try Clientaro free for 14 days →</strong></a>
+      </p>
+      <p class="text-sm text-gray-500 italic mb-6">
+        Last updated 2026-04-21. Pricing verified against each vendor's public pricing page as of this date. We update this post quarterly.
+      </p>
+    `,
+  },
+  {
+    slug: 'best-liondesk-alternatives-2026',
+    title: 'Best LionDesk Alternatives in 2026 (After the Shutdown)',
+    excerpt:
+      'LionDesk shut down in September 2025. If you\'re a real estate agent looking for the best replacement CRM in 2026, here\'s an honest comparison of every serious alternative — plus which one fits your budget and business.',
+    date: '2026-04-18',
+    author: 'Steve Gracco',
+    readTime: '11 min read',
+    category: 'CRM Reviews',
+    segment: 'realestate',
+    content: `
+      <p class="text-lg text-gray-600 leading-relaxed mb-8">
+        If you're here, you probably loved LionDesk — or at least tolerated it — and now you're stuck. LionDesk shut down in September 2025 after nearly a decade of serving solo real estate agents. The shutdown left tens of thousands of agents scrambling to export contacts and pick a new CRM before the next lead slips through the cracks.
+      </p>
+      <p class="mb-6">
+        This isn't a listicle. It's what we'd tell a friend who called and said "LionDesk is gone — where do I go?" We compared every real alternative agents actually use in 2026, with honest pros and cons, pricing, and which one fits which kind of agent. No sponsored placements. No artificial rankings.
+      </p>
+  
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Why LionDesk Shut Down (And Why It Matters for Your Replacement)</h2>
+      <p class="mb-6">
+        LionDesk was acquired by Lone Wolf Technologies in 2021. Over the next four years, development slowed, customer support complaints piled up, and agents reported sync failures, vanishing texts, and a clunkier interface with every release. In September 2025, Lone Wolf officially sunset the product and gave customers a short export window.
+      </p>
+      <p class="mb-6">
+        The lesson: <strong>pick a CRM from a company that's actually focused on CRM.</strong> Lone Wolf has a transaction-management business to run; LionDesk was a side bet they eventually walked away from. When you evaluate replacements, favor tools where the CRM is the <em>main product</em> — not a bolt-on to something else.
+      </p>
+  
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">What to Look for in a LionDesk Replacement</h2>
+      <p class="mb-6">
+        LionDesk's core strengths were its price point and its focus on solo agents. If you're replacing it, you probably want:
+      </p>
+      <ul class="list-disc pl-6 mb-6 space-y-2">
+        <li><strong>Price under $50/month</strong> — LionDesk started at $39/mo. If your new CRM is 3x that, the math doesn't work.</li>
+        <li><strong>Contact + pipeline management that actually loads fast</strong> — LionDesk's big 2024 complaint was latency. Don't jump into another slow tool.</li>
+        <li><strong>Reliable text and email</strong> — SMS failures cost LionDesk users real deals. Test deliverability before you commit.</li>
+        <li><strong>Referral and repeat-client tracking</strong> — most solo agents get 60-80% of their business from repeat and referral. A CRM that doesn't emphasize this is built for cold leads, not for you.</li>
+        <li><strong>Clean contact import</strong> — you're bringing a CSV of thousands of LionDesk contacts. The import has to be painless.</li>
+        <li><strong>Stability</strong> — run by a team focused on CRM as their main business, not as a side product.</li>
+      </ul>
+  
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">The 7 Best LionDesk Alternatives in 2026</h2>
+      <p class="mb-6">
+        Here's every serious alternative, ranked by how well it replaces what LionDesk actually did for solo and small-team agents.
+      </p>
+  
+      <h3 class="text-xl font-bold text-[#0F172A] mt-8 mb-3">1. Clientaro — Best for solo agents who win on referrals</h3>
+      <p class="mb-4">
+        Full disclosure: Clientaro is our product. We're listing it first because for the specific LionDesk refugee — a solo agent who wants a CRM that <em>doesn't get in the way</em> — it's the closest match, priced below every alternative on this list.
+      </p>
+      <p class="mb-4"><strong>Price:</strong> Solo $29/mo · Pro $79/mo · Team $179/mo flat</p>
+      <p class="mb-4"><strong>Pros:</strong></p>
+      <ul class="list-disc pl-6 mb-4 space-y-1">
+        <li>Cheapest dedicated real estate CRM on the market ($29 vs LionDesk's $39)</li>
+        <li>Built around the Daily 5 — the 5 relationships to touch today, ranked by recency and opportunity</li>
+        <li>Flat-rate team pricing (team of 5 pays $179, not $145/user)</li>
+        <li>Clean, fast interface — no IDX or lead-gen bloat</li>
+        <li>Direct CSV import from LionDesk export with field mapping</li>
+      </ul>
+      <p class="mb-4"><strong>Cons:</strong></p>
+      <ul class="list-disc pl-6 mb-6 space-y-1">
+        <li>No IDX or lead-gen integration (by design — different buyer)</li>
+        <li>Newer company; smaller support team than FUB or Top Producer</li>
+      </ul>
+      <p class="mb-6"><strong>Best for:</strong> Solo agents and small teams (1-10 agents) who grow through relationships, not cold leads. If you sold 10-40 homes last year and most came from referrals or past clients, this is your fit. <a href="/realestate" class="text-amber-600 hover:text-amber-700 underline">See how Clientaro works for real estate</a> →</p>
+  
+      <h3 class="text-xl font-bold text-[#0F172A] mt-8 mb-3">2. Follow Up Boss — Best if you run high-volume inbound leads</h3>
+      <p class="mb-4"><strong>Price:</strong> Grow $69/mo/user · Pro $499/mo for 10 users · Platform $1,000/mo+</p>
+      <p class="mb-4"><strong>Pros:</strong></p>
+      <ul class="list-disc pl-6 mb-4 space-y-1">
+        <li>Best-in-class lead routing and speed-to-lead for teams</li>
+        <li>Integrates with Zillow, Realtor.com, and 250+ lead sources</li>
+        <li>Strong team collaboration features (shared inbox, action plans)</li>
+      </ul>
+      <p class="mb-4"><strong>Cons:</strong></p>
+      <ul class="list-disc pl-6 mb-6 space-y-1">
+        <li>$69/user is a jump from LionDesk's $39 flat — 2.3x the cost for a solo agent on its entry plan</li>
+        <li>Built for teams churning through inbound leads; overkill if you're a referral-driven solo agent</li>
+        <li>Learning curve is real — power users love it, casual users bounce</li>
+      </ul>
+      <p class="mb-6"><strong>Best for:</strong> Teams of 3+ agents running paid lead campaigns with 500+ new leads per month. If that's not you, keep reading.</p>
+  
+      <h3 class="text-xl font-bold text-[#0F172A] mt-8 mb-3">3. Wise Agent — Closest feature-for-feature to LionDesk</h3>
+      <p class="mb-4"><strong>Price:</strong> $49/mo flat (no per-user pricing)</p>
+      <p class="mb-4"><strong>Pros:</strong></p>
+      <ul class="list-disc pl-6 mb-4 space-y-1">
+        <li>Flat-rate pricing like LionDesk had — no user seats to buy</li>
+        <li>Long-established (founded 2001) and still independently run</li>
+        <li>Includes transaction management, marketing templates, lead capture forms</li>
+      </ul>
+      <p class="mb-4"><strong>Cons:</strong></p>
+      <ul class="list-disc pl-6 mb-6 space-y-1">
+        <li>Interface feels dated — it's a 2000s-era design with iterative updates</li>
+        <li>Many agents describe it as "everything in there, nothing polished"</li>
+        <li>$49/mo is $10 more than LionDesk's entry price</li>
+      </ul>
+      <p class="mb-6"><strong>Best for:</strong> Agents who were fine with LionDesk's interface and just want the same thing from a different vendor. If LionDesk's UX annoyed you, Wise Agent probably will too.</p>
+  
+      <h3 class="text-xl font-bold text-[#0F172A] mt-8 mb-3">4. Top Producer — Long history, CRM + marketing combined</h3>
+      <p class="mb-4"><strong>Price:</strong> Starter $40/mo · Pro $129-179/mo (varies by contract length)</p>
+      <p class="mb-4"><strong>Pros:</strong></p>
+      <ul class="list-disc pl-6 mb-4 space-y-1">
+        <li>40+ years in real estate — not going anywhere</li>
+        <li>Bundles marketing automation (drip campaigns, farming) into the CRM</li>
+        <li>Starter tier is price-competitive with LionDesk</li>
+      </ul>
+      <p class="mb-4"><strong>Cons:</strong></p>
+      <ul class="list-disc pl-6 mb-6 space-y-1">
+        <li>Pro tier prices jump quickly; Starter is feature-limited</li>
+        <li>Contract lock-in on some plans</li>
+        <li>Interface is less polished than newer competitors</li>
+      </ul>
+      <p class="mb-6"><strong>Best for:</strong> Agents who want bundled CRM + farming + direct mail from one established vendor and don't mind the legacy-software feel.</p>
+  
+      <h3 class="text-xl font-bold text-[#0F172A] mt-8 mb-3">5. Realvolve — Relationship-first, workflow-heavy</h3>
+      <p class="mb-4"><strong>Price:</strong> Basic $94/mo · Pro $99/mo</p>
+      <p class="mb-4"><strong>Pros:</strong></p>
+      <ul class="list-disc pl-6 mb-4 space-y-1">
+        <li>Explicit focus on long-term relationships, not just transactions</li>
+        <li>Deep workflow automation for follow-ups</li>
+        <li>Great contact record detail (family, events, history)</li>
+      </ul>
+      <p class="mb-4"><strong>Cons:</strong></p>
+      <ul class="list-disc pl-6 mb-6 space-y-1">
+        <li>$94/mo entry point is 2.4x LionDesk's</li>
+        <li>Learning curve on the workflow builder is steep</li>
+        <li>Small team — support response times can stretch</li>
+      </ul>
+      <p class="mb-6"><strong>Best for:</strong> Agents who want the most powerful relationship CRM and are willing to pay for it and learn it. If you're a spreadsheet person switching to a CRM, this is too much tool.</p>
+  
+      <h3 class="text-xl font-bold text-[#0F172A] mt-8 mb-3">6. kvCORE — Only if you're a broker or large team</h3>
+      <p class="mb-4"><strong>Price:</strong> $499/mo+ brokerage tier with per-agent seats on top</p>
+      <p class="mb-4">
+        kvCORE is not a like-for-like LionDesk replacement — it's an all-in-one brokerage platform with IDX, lead gen, CRM, and marketing. If you're a solo agent, skip this entirely; the price alone makes it a non-starter. If you run a brokerage of 10+ agents and you <em>also</em> need IDX and lead gen, it's worth a demo.
+      </p>
+      <p class="mb-6"><strong>Best for:</strong> Brokerages, not solo agents. Moving here from LionDesk is like trading your Honda Civic for a school bus.</p>
+  
+      <h3 class="text-xl font-bold text-[#0F172A] mt-8 mb-3">7. HubSpot (free tier) — Only if you're scrappy and technical</h3>
+      <p class="mb-4"><strong>Price:</strong> Free tier (limited), paid from $15/user/mo</p>
+      <p class="mb-4">
+        HubSpot's free CRM is tempting — it's genuinely free and surprisingly capable. But it isn't built for real estate. There are no referral chains, no transaction pipelines, no "this client's kid just graduated" fields. You can force-fit it with custom properties and workflows, but you'll spend 20+ hours configuring what Clientaro or Wise Agent give you out of the box.
+      </p>
+      <p class="mb-6"><strong>Best for:</strong> Technically-inclined agents on a zero budget who enjoy building things. For everyone else, skip it.</p>
+  
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Quick Comparison Table</h2>
+      <div class="overflow-x-auto mb-8">
+      <table class="min-w-full text-sm border border-gray-200">
+        <thead class="bg-gray-50">
+          <tr>
+            <th class="border border-gray-200 px-4 py-2 text-left">CRM</th>
+            <th class="border border-gray-200 px-4 py-2 text-left">Entry Price</th>
+            <th class="border border-gray-200 px-4 py-2 text-left">Best For</th>
+            <th class="border border-gray-200 px-4 py-2 text-left">Closest to LionDesk?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="border border-gray-200 px-4 py-2"><strong>Clientaro</strong></td><td class="border border-gray-200 px-4 py-2">$29/mo</td><td class="border border-gray-200 px-4 py-2">Solo agents on referrals</td><td class="border border-gray-200 px-4 py-2">✅ Yes (modern, cheaper)</td></tr>
+          <tr><td class="border border-gray-200 px-4 py-2">Follow Up Boss</td><td class="border border-gray-200 px-4 py-2">$69/user/mo</td><td class="border border-gray-200 px-4 py-2">High-volume teams</td><td class="border border-gray-200 px-4 py-2">❌ Different buyer</td></tr>
+          <tr><td class="border border-gray-200 px-4 py-2">Wise Agent</td><td class="border border-gray-200 px-4 py-2">$49/mo flat</td><td class="border border-gray-200 px-4 py-2">Feature-for-feature match</td><td class="border border-gray-200 px-4 py-2">✅ Yes (similar era UX)</td></tr>
+          <tr><td class="border border-gray-200 px-4 py-2">Top Producer</td><td class="border border-gray-200 px-4 py-2">$40/mo</td><td class="border border-gray-200 px-4 py-2">CRM + marketing bundle</td><td class="border border-gray-200 px-4 py-2">⚠️ Partially</td></tr>
+          <tr><td class="border border-gray-200 px-4 py-2">Realvolve</td><td class="border border-gray-200 px-4 py-2">$94/mo</td><td class="border border-gray-200 px-4 py-2">Workflow power users</td><td class="border border-gray-200 px-4 py-2">⚠️ Pricier, more complex</td></tr>
+          <tr><td class="border border-gray-200 px-4 py-2">kvCORE</td><td class="border border-gray-200 px-4 py-2">$499/mo+</td><td class="border border-gray-200 px-4 py-2">Brokerages</td><td class="border border-gray-200 px-4 py-2">❌ Completely different</td></tr>
+          <tr><td class="border border-gray-200 px-4 py-2">HubSpot Free</td><td class="border border-gray-200 px-4 py-2">$0</td><td class="border border-gray-200 px-4 py-2">Tech-savvy, zero budget</td><td class="border border-gray-200 px-4 py-2">❌ Not real estate specific</td></tr>
+        </tbody>
+      </table>
+      </div>
+  
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">How to Migrate Your LionDesk Data</h2>
+      <p class="mb-6">
+        Every tool on this list accepts a CSV import, but the quality of the import varies. Here's the cleanest migration path:
+      </p>
+      <ol class="list-decimal pl-6 mb-6 space-y-2">
+        <li><strong>Export from LionDesk's sunset archive.</strong> Log in to the LionDesk post-shutdown portal, go to Settings → Export, and download everything as CSV (contacts, activities, notes, pipelines).</li>
+        <li><strong>Clean the CSV first.</strong> Open in Google Sheets, remove duplicates, fix broken phone numbers, and add a column flagging your top 50 past clients — these are the first ones you'll manually verify in the new CRM.</li>
+        <li><strong>Map fields during import.</strong> Every CRM's importer lets you map CSV columns to its contact fields. Do this carefully on the first try; redoing it is painful.</li>
+        <li><strong>Spot-check 20 random contacts after import.</strong> Verify the data loaded correctly. If anything's missing, you catch it before you've built a month of workflows on top.</li>
+        <li><strong>Re-upload any attached documents manually.</strong> CSV imports rarely carry PDFs, images, or file attachments. Those need to be re-uploaded contact by contact for the ones that matter.</li>
+      </ol>
+  
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Our Recommendation</h2>
+      <p class="mb-6">
+        If you're a solo agent or small team that loved LionDesk's simplicity and price, we think <strong>Clientaro is your cleanest move</strong> — it's cheaper, faster, and built specifically for the agent who wins on relationships (which is who LionDesk served best).
+      </p>
+      <p class="mb-6">
+        If you run a high-volume inbound team, <strong>Follow Up Boss</strong> is the right spend even though it's 2-3x the price. If you want the closest feature clone regardless of UX, <strong>Wise Agent</strong> will feel familiar.
+      </p>
+      <p class="mb-6">
+        If you're running a brokerage with 10+ agents and IDX needs, <strong>kvCORE</strong> is a different class of tool worth evaluating.
+      </p>
+      <p class="mb-10">
+        Whatever you pick — pick fast. Every week your contacts sit in a CSV on your desktop is a week of missed follow-ups. Import, pick your top 50, and schedule this week's calls. You'll feel back in control within 48 hours.
+      </p>
+  
+      <div class="bg-gradient-to-br from-amber-50 to-amber-100 border border-amber-200 rounded-2xl p-8 text-center my-12">
+        <h3 class="text-2xl font-bold text-[#0F172A] mb-3">Ready to move from LionDesk?</h3>
+        <p class="text-gray-700 mb-6 max-w-xl mx-auto">Clientaro imports your LionDesk CSV in under 5 minutes, maps every field automatically, and gets you back to calling clients today. Start your 14-day free trial — no credit card required.</p>
+        <a href="https://app.clientaro.com/signup" class="inline-block bg-amber-500 hover:bg-amber-600 text-white font-semibold px-8 py-3 rounded-lg transition-colors">Try Clientaro Free</a>
+      </div>
+  
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Frequently Asked Questions</h2>
+  
+      <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">Can I still access my LionDesk data?</h3>
+      <p class="mb-6">
+        As of early 2026, Lone Wolf is still providing a limited export portal for former LionDesk customers. Log in to your old credentials and look for the "Export archive" option. This portal will not stay open forever — grab your data now even if you haven't picked a new CRM yet.
+      </p>
+  
+      <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">What was the cheapest LionDesk plan, and what's the cheapest replacement?</h3>
+      <p class="mb-6">
+        LionDesk's entry plan was $39/mo. The cheapest dedicated real estate CRM replacement in 2026 is Clientaro Solo at $29/mo — $10/mo less than LionDesk. Top Producer Starter is $40. Wise Agent is $49. Everything else starts at $69 or above.
+      </p>
+  
+      <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">Do these CRMs work on mobile?</h3>
+      <p class="mb-6">
+        Most have native iOS and Android apps. LionDesk's app was a frequent complaint point — agents reported crashes and sync issues. Any replacement should have a usable mobile experience; Follow Up Boss, Clientaro, and Top Producer all have active mobile apps in 2026. Test the app in your first trial day; if it's bad, pick differently.
+      </p>
+  
+      <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">Is there a free LionDesk alternative?</h3>
+      <p class="mb-6">
+        Genuinely free real estate CRMs are rare because real estate workflows are specific enough that most vendors charge. HubSpot's free tier is the closest, but you'll need 20+ hours to customize it for real estate use. For $29/mo, Clientaro Solo saves you that configuration time.
+      </p>
+  
+      <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">How long does it take to migrate from LionDesk?</h3>
+      <p class="mb-6">
+        Contact + pipeline import is usually under an hour. Rebuilding your drip campaigns, email templates, and workflow automations can take a day or two depending on how many you used. Budget a weekend for a clean switchover, then tweak over the next month.
+      </p>
+  
+      <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">Which LionDesk alternative is best for a solo agent in 2026?</h3>
+      <p class="mb-6">
+        For a solo agent replacing LionDesk in 2026, Clientaro Solo at $29/mo is the cheapest dedicated real estate CRM with a modern interface. Wise Agent at $49/mo flat is the closest feature-for-feature match to LionDesk. Top Producer Starter at $40/mo is a strong middle option with bundled marketing tools. Which one wins for you depends on whether you prioritize price (Clientaro), familiarity (Wise Agent), or bundled marketing (Top Producer).
+      </p>
+  
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Final Thought</h2>
+      <p class="mb-6">
+        LionDesk shutting down was painful for agents who'd been using it for years. The silver lining: the CRM market has better, faster, cheaper options in 2026 than LionDesk ever offered. Whichever tool you pick, pick this week. Your pipeline doesn't pause while you decide.
+      </p>
+      <p class="mb-10">
+        If you want the simplest, cheapest, fastest move — <a href="https://app.clientaro.com/signup" class="text-amber-600 hover:text-amber-700 underline">try Clientaro free for 14 days</a>. Import your LionDesk export, and you're back to running your business by dinner.
+      </p>
+    `,
+  },
+  {
     slug: 'best-crm-for-real-estate-agents-2026',
     title: 'Best CRM for Real Estate Agents in 2026: An Honest Comparison',
     excerpt:
