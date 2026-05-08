@@ -10,18 +10,28 @@ export const metadata = {
   },
 }
 
+const CRM_URL = process.env.NEXT_PUBLIC_CRM_URL || 'https://app.clientaro.com'
+
 export default function SegmentPage() {
   return (
     <main className="min-h-screen bg-[#0F172A] flex flex-col">
       {/* Nav */}
       <header className="px-8 py-6 flex items-center justify-between">
         <LogoWordmark dark />
-        <a
-          href="https://app.clientaro.com/login"
-          className="text-sm font-semibold text-slate-400 hover:text-white transition-colors"
-        >
-          Log in →
-        </a>
+        <div className="flex items-center gap-5">
+          <a
+            href={`${CRM_URL}/login`}
+            className="text-sm font-semibold text-slate-400 hover:text-white transition-colors"
+          >
+            Log in
+          </a>
+          <a
+            href={`${CRM_URL}/signup`}
+            className="text-sm font-semibold bg-amber-500 hover:bg-amber-400 text-slate-900 px-4 py-2 rounded-lg transition-colors"
+          >
+            Start free →
+          </a>
+        </div>
       </header>
 
       {/* Content */}
@@ -39,12 +49,29 @@ export default function SegmentPage() {
               relationships.
             </span>
           </h1>
-          <p className="text-slate-400 text-lg mb-14 max-w-xl mx-auto">
-            Tell us about your business and we&apos;ll show you how Clientaro fits.
+          <p className="text-slate-400 text-lg mb-10 max-w-xl mx-auto">
+            Built for solo real-estate agents and service businesses that live on
+            repeat and referral.
           </p>
 
+          {/* Primary CTAs */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-16">
+            <a
+              href={`${CRM_URL}/signup`}
+              className="inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-slate-900 font-semibold px-6 py-3 rounded-lg transition-colors text-base"
+            >
+              Start free — no credit card →
+            </a>
+            <a
+              href="#paths"
+              className="inline-flex items-center gap-2 text-slate-300 hover:text-white font-semibold px-6 py-3 transition-colors text-base"
+            >
+              See the demo ↓
+            </a>
+          </div>
+
           {/* Two path cards */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-2xl mx-auto">
+          <div id="paths" className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-2xl mx-auto scroll-mt-24">
             <Link
               href="/realestate"
               className="group relative bg-white/5 border border-white/10 rounded-2xl p-8 text-left hover:bg-white/10 hover:border-amber-400/50 transition-all duration-200"
