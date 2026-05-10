@@ -22,12 +22,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${post.title} | Clientaro Blog`,
     description: post.excerpt,
+    alternates: {
+      canonical: `/blog/${post.slug}`,
+    },
     openGraph: {
       title: post.title,
       description: post.excerpt,
       type: 'article',
       publishedTime: post.date,
       authors: [post.author],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.excerpt,
     },
   }
 }
@@ -39,6 +47,42 @@ export default async function BlogPostPage({ params }: Props) {
   const post = getPostBySlug(slug)
   if (!post) notFound()
 
+
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.title,
+    description: post.excerpt,
+    datePublished: post.date,
+    dateModified: post.date,
+    author: { '@type': 'Person', name: post.author },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Clientaro',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.clientaro.com/logo.svg',
+      },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://www.clientaro.com/blog/${post.slug}`,
+    },
+  }
+
+  const faqSchema =
+    post.faqs && post.faqs.length > 0
+      ? {
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: post.faqs.map((f) => ({
+            '@type': 'Question',
+            name: f.q,
+            acceptedAnswer: { '@type': 'Answer', text: f.a },
+          })),
+        }
+      : null
+
   // Find prev/next posts for navigation
   const currentIndex = posts.findIndex((p) => p.slug === slug)
   const prevPost = currentIndex > 0 ? posts[currentIndex - 1] : null
@@ -46,6 +90,16 @@ export default async function BlogPostPage({ params }: Props) {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
       <Nav />
       <main className="min-h-screen bg-white pt-16">
         {/* Article header */}

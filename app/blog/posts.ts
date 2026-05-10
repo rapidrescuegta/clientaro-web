@@ -8,6 +8,7 @@ export interface BlogPost {
   category: string
   segment: 'realestate' | 'b2b' | 'both'
   content: string
+  faqs?: Array<{ q: string; a: string }>
 }
 
 export const posts: BlogPost[] = [
@@ -266,7 +267,29 @@ export const posts: BlogPost[] = [
         Last updated 2026-04-21. Pricing verified against each vendor's public pricing page as of this date. We update this post quarterly.
       </p>
     `,
+    faqs: [
+  {
+    q: 'Why do real estate agents leave Follow Up Boss?',
+    a: 'The five recurring reasons are: $69/user/month is high for solo work; the pipeline-first data model buries past clients behind active leads; action plans require setup most solo agents abandon; the team-oriented UI is noise for one-person businesses; and onboarding skews toward brokerages, not solo operators.',
   },
+  {
+    q: 'What is the cheapest alternative to Follow Up Boss?',
+    a: 'Clientaro Solo at $29/month is the cheapest active-development alternative with built-in SMS, email, and a daily call surface. Wise Agent at $49/month flat is the next-cheapest if you need built-in transaction management. Anything under $20/month is usually an inactive product or a glorified spreadsheet.',
+  },
+  {
+    q: 'Can I import my Follow Up Boss contacts into another CRM?',
+    a: 'Yes. Follow Up Boss exports a clean CSV with contacts, tags, notes, and stage data. Clientaro, Wise Agent, and Realvolve all import that CSV directly — typical migration time is 15-30 minutes for under 2,000 contacts. Conversation history (SMS/email threads) does not migrate; only the structured contact data does.',
+  },
+  {
+    q: 'Is Follow Up Boss worth it for a solo agent?',
+    a: 'Usually not. Follow Up Boss earns its $69/user/month price when you have 30+ inbound leads per week and need automated routing or assignment rules. A solo agent doing 12-25 transactions a year on referrals uses maybe 30% of FUB capacity, paying enterprise pricing for features that sit dormant.',
+  },
+  {
+    q: 'What CRM is most similar to Follow Up Boss but cheaper?',
+    a: 'Realvolve at $94/month is the closest feature-for-feature alternative — same pipeline model, same automation depth, same focus on lead conversion. If you want the FUB workflow without the FUB price, that is the swap. If you want a fundamentally different model (contact-first, referral-driven), Clientaro is the answer.',
+  },
+],
+    },
   {
     slug: 'best-liondesk-alternatives-2026',
     title: 'Best LionDesk Alternatives in 2026 (After the Shutdown)',
@@ -504,7 +527,29 @@ export const posts: BlogPost[] = [
         If you want the simplest, cheapest, fastest move — <a href="https://app.clientaro.com/signup" class="text-amber-600 hover:text-amber-700 underline">try Clientaro free for 14 days</a>. Import your LionDesk export, and you're back to running your business by dinner.
       </p>
     `,
+    faqs: [
+  {
+    q: 'Is LionDesk still available in 2026?',
+    a: 'LionDesk was acquired by Lone Wolf in 2024 and the standalone product was sunset in 2025. Existing accounts were migrated to Lone Wolf Foundation, but new sign-ups closed. Agents searching for "LionDesk alternatives" today are typically migrating off a Lone Wolf account or looking for a similar low-cost CRM.',
   },
+  {
+    q: 'What CRM is most like LionDesk?',
+    a: 'LionDesk was loved for video email, SMS automation, and a sub-$40/month price point. The closest modern equivalents are Clientaro at $29/month (better contact-first model, video email on roadmap), Wise Agent at $49/month (full feature parity including video email), and BoomTown for teams that need IDX bundled in.',
+  },
+  {
+    q: 'How do I migrate from LionDesk to a new CRM?',
+    a: 'Export your LionDesk or Lone Wolf Foundation contacts to CSV from the Settings → Export panel. Import that CSV into the new CRM (Clientaro, Wise Agent, and Realvolve all accept it directly). Plan 30-60 minutes for the move. Drip campaigns and SMS threads do not migrate; rebuild those from scratch in the new tool.',
+  },
+  {
+    q: 'What is the best free alternative to LionDesk?',
+    a: 'There is no genuinely free real-estate CRM with active development as of 2026. HubSpot Free is the closest, but it is not real-estate-shaped — no transaction stages, no sphere-of-influence views. Clientaro at $29/month and a 14-day free trial is the lowest-friction paid option for an agent moving off LionDesk.',
+  },
+  {
+    q: 'Can I use LionDesk with Lone Wolf Foundation in 2026?',
+    a: 'No — LionDesk is the legacy brand and Foundation is the rebadged successor. They are the same data inside Lone Wolf, not two separate products. Agents who liked LionDesk for its lightness usually find Foundation heavier and more enterprise-flavored, which is what drives the migration searches.',
+  },
+],
+    },
   {
     slug: 'best-crm-for-real-estate-agents-2026',
     title: 'Best CRM for Real Estate Agents in 2026: An Honest Comparison',
@@ -662,7 +707,29 @@ export const posts: BlogPost[] = [
         We built Clientaro because we believe the best agents aren't the ones with the most leads. They're the ones who never let a relationship go cold. If that sounds like you, <a href="https://app.clientaro.com/signup" class="text-amber-600 hover:text-amber-700 font-semibold underline">give it a try — it's free to start</a>.
       </p>
     `,
+    faqs: [
+  {
+    q: 'What is the best CRM for solo real estate agents in 2026?',
+    a: 'For solo agents whose business is 60-80% repeat and referral, Clientaro at $29/month is the closest fit because it is contact-first instead of pipeline-first and surfaces a Daily Five list of past clients to call each morning. Follow Up Boss and kvCORE are stronger fits for high-volume lead-gen teams of 5+.',
   },
+  {
+    q: 'How much should a real estate agent pay for a CRM?',
+    a: 'A solo agent earning under $150k GCI should budget $29-49 per month. Teams of 2-5 agents usually land at $79-149/month total. Above $200/month per user is typically only justified at 30+ leads per week or with team-routing requirements that solo and small-team CRMs do not handle.',
+  },
+  {
+    q: 'Is a real estate CRM worth it for a part-time agent?',
+    a: 'Yes — but only the lightweight, contact-first kind. A part-time agent does 6-12 transactions a year and lives or dies on referrals from past clients. A $29/month CRM that reminds you who to call adds 1-2 referral deals per year, which pays for itself 50-100x. Heavier $69+/month team CRMs are over-tooled for part-time work.',
+  },
+  {
+    q: 'Do I need a real estate CRM if I already use Google Contacts?',
+    a: 'Google Contacts stores names; it does not remind you to call them. The job of a real estate CRM is to surface the right past client at the right time based on transaction anniversary, last contact date, and life events. If you have more than 100 past clients, Google Contacts becomes a search-only graveyard within 18 months.',
+  },
+  {
+    q: 'What is the easiest real estate CRM to learn?',
+    a: 'Easiest to learn means under 30 minutes from sign-up to first useful action. By that bar, Clientaro and Wise Agent are the clear leaders — both ask three onboarding questions, import your existing contacts, and produce a usable daily call list the same day. Pipeline-first CRMs like Follow Up Boss and Salesforce typically need 2-4 hours of setup.',
+  },
+],
+    },
   {
     slug: '5-follow-up-systems-top-agents-use',
     title: '5 Follow-Up Systems That Top Real Estate Agents Swear By',
@@ -738,6 +805,9 @@ export const posts: BlogPost[] = [
       </ul>
       <p class="mb-6">
         This system works because it's not salesy — it's genuinely caring. And it works even better when your CRM automatically reminds you of each milestone. Clientaro's automation engine can trigger tasks based on close dates, so your post-close drip runs on autopilot.
+      </p>
+      <p class="mb-6">
+        For a deeper look at turning your sphere into a referral engine on top of this drip, see our guide on <a href="/blog/stop-losing-referrals-client-management" class="text-amber-600 hover:text-amber-700 font-semibold underline">how to stop losing referrals you've already earned</a>.
       </p>
 
       <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">4. The "Daily Five" Prospecting Block</h2>
@@ -1057,6 +1127,9 @@ export const posts: BlogPost[] = [
       <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Your Business Deserves Better Than a Spreadsheet</h2>
       <p class="mb-6">
         Spreadsheets are a great starting point. They're not a great ending point. If your business is growing — and you want it to keep growing — you need a tool that grows with you. One that reminds you to follow up, tracks your referrals, gives you business insights, and frees up your time to do what you do best: build relationships.
+      </p>
+      <p class="mb-6">
+        Not sure which CRM fits your work? Start with our side-by-side comparison of the <a href="/blog/best-crm-for-real-estate-agents-2026" class="text-amber-600 hover:text-amber-700 font-semibold underline">best CRMs for real estate agents in 2026</a> — six tools, honest pros and cons, and which one fits which kind of agent.
       </p>
       <p class="mb-6">
         Ready to make the switch? <a href="https://app.clientaro.com/signup" class="text-amber-600 hover:text-amber-700 font-semibold underline">Try Clientaro free</a> — no credit card, no commitment. Import your spreadsheet, set up your pipeline, and see what a real CRM can do for your business.
