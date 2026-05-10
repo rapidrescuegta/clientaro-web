@@ -34,3 +34,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Backup files from growth-engine ship-kit apply.sh scripts
+*.bak.[0-9]*
+Dockerfile.pre-build-args
