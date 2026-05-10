@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!post) return { title: 'Post Not Found' }
 
   return {
-    title: `${post.title} | Clientaro Blog`,
+    title: post.title,
     description: post.excerpt,
     alternates: {
       canonical: `/blog/${post.slug}`,
