@@ -10,6 +10,11 @@ FROM base AS builder
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
+# Receive NEXT_PUBLIC_* from Railway build args so Next.js bakes
+# them into the client bundle. Service env vars are runtime-only;
+# they do NOT propagate into Docker build stages without ARG.
+ARG NEXT_PUBLIC_GA_ID
+ENV NEXT_PUBLIC_GA_ID=$NEXT_PUBLIC_GA_ID
 RUN npm run build
 
 FROM base AS runner
