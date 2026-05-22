@@ -18,8 +18,8 @@ export function Footer() {
             <div>
               <div className="text-slate-500 font-semibold uppercase tracking-wider text-xs mb-3">Product</div>
               <div className="space-y-2">
-                <a href="#features" className="block text-slate-400 hover:text-white transition-colors">Features</a>
-                <a href="#pricing" className="block text-slate-400 hover:text-white transition-colors">Pricing</a>
+                <a href="/#features" className="block text-slate-400 hover:text-white transition-colors">Features</a>
+                <a href="/#pricing" className="block text-slate-400 hover:text-white transition-colors">Pricing</a>
                 <a href={`${CRM_URL}/login`} className="block text-slate-400 hover:text-white transition-colors">Log in</a>
                 <a href={`${CRM_URL}/signup`} className="block text-slate-400 hover:text-white transition-colors">Sign up free</a>
               </div>
