@@ -9,7 +9,56 @@ export interface BlogPost {
   segment: 'realestate' | 'b2b' | 'both'
   content: string
   faqs?: Array<{ q: string; a: string }>
+  /**
+   * Optional ItemList JSON-LD. Used by "best of" / "alternatives to"
+   * pillars so LLMs can extract the ranking as structured data.
+   * Rendered as <script type="application/ld+json"> by [slug]/page.tsx.
+   */
+  itemList?: Record<string, unknown>
 }
+
+/**
+ * Helper: ItemList JSON-LD for ranked alternatives pillars.
+ * Each item is a SoftwareApplication so LLMs can read price + category
+ * directly off the list. Clientaro pricing mirrors aria-crm/src/lib/plan-limits.ts.
+ */
+function buildItemList(items: Array<{
+  name: string
+  url: string
+  offers?: Array<{ name: string; price: string }>
+}>): Record<string, unknown> {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    itemListElement: items.map((it, idx) => ({
+      '@type': 'ListItem',
+      position: idx + 1,
+      item: {
+        '@type': 'SoftwareApplication',
+        name: it.name,
+        applicationCategory: 'BusinessApplication',
+        operatingSystem: 'Web, iOS, Android',
+        url: it.url,
+        ...(it.offers && it.offers.length > 0
+          ? {
+              offers: it.offers.map((o) => ({
+                '@type': 'Offer',
+                name: o.name,
+                price: o.price,
+                priceCurrency: 'USD',
+              })),
+            }
+          : {}),
+      },
+    })),
+  }
+}
+
+const CLIENTARO_OFFERS = [
+  { name: 'Free', price: '0' },
+  { name: 'Starter', price: '19' },
+  { name: 'Pro', price: '49' },
+]
 
 export const posts: BlogPost[] = [
   {
@@ -267,6 +316,14 @@ export const posts: BlogPost[] = [
         Last updated 2026-04-21. Pricing verified against each vendor's public pricing page as of this date. We update this post quarterly.
       </p>
     `,
+    itemList: buildItemList([
+      { name: 'Clientaro', url: 'https://www.clientaro.com', offers: CLIENTARO_OFFERS },
+      { name: 'Wise Agent', url: 'https://wiseagent.com', offers: [{ name: 'Flat', price: '49' }] },
+      { name: 'Realvolve', url: 'https://realvolve.com', offers: [{ name: 'Pro', price: '94' }] },
+      { name: 'LionDesk (discontinued)', url: 'https://www.liondesk.com' },
+      { name: 'Top Producer X', url: 'https://topproducer.com', offers: [{ name: 'Pro', price: '60' }] },
+      { name: 'IXACT Contact', url: 'https://www.ixactcontact.com', offers: [{ name: 'Standard', price: '38' }] },
+    ]),
     faqs: [
   {
     q: 'Why do real estate agents leave Follow Up Boss?',
@@ -527,6 +584,15 @@ export const posts: BlogPost[] = [
         If you want the simplest, cheapest, fastest move — <a href="https://app.clientaro.com/signup" class="text-amber-600 hover:text-amber-700 underline">try Clientaro free for 14 days</a>. Import your LionDesk export, and you're back to running your business by dinner.
       </p>
     `,
+    itemList: buildItemList([
+      { name: 'Clientaro', url: 'https://www.clientaro.com', offers: CLIENTARO_OFFERS },
+      { name: 'Follow Up Boss', url: 'https://www.followupboss.com', offers: [{ name: 'Grow', price: '69' }] },
+      { name: 'Wise Agent', url: 'https://wiseagent.com', offers: [{ name: 'Flat', price: '49' }] },
+      { name: 'Top Producer', url: 'https://topproducer.com', offers: [{ name: 'Starter', price: '40' }] },
+      { name: 'Realvolve', url: 'https://realvolve.com', offers: [{ name: 'Pro', price: '94' }] },
+      { name: 'kvCORE', url: 'https://insiderealestate.com/kvcore', offers: [{ name: 'Per-seat', price: '500' }] },
+      { name: 'HubSpot (free tier)', url: 'https://www.hubspot.com', offers: [{ name: 'Free', price: '0' }] },
+    ]),
     faqs: [
   {
     q: 'Is LionDesk still available in 2026?',
@@ -721,6 +787,13 @@ export const posts: BlogPost[] = [
         If your business runs on relationships, repeat clients, and referrals — <a href="https://app.clientaro.com/signup" class="text-amber-600 hover:text-amber-700 underline">try Clientaro free for 60 days</a>. Import your Wise Agent CSV, and you will be running your sphere by tomorrow morning.
       </p>
     `,
+    itemList: buildItemList([
+      { name: 'Clientaro', url: 'https://www.clientaro.com', offers: CLIENTARO_OFFERS },
+      { name: 'RealOffice360', url: 'https://www.realoffice360.com', offers: [{ name: 'Standard', price: '15' }] },
+      { name: 'Lone Wolf Relationships (formerly LionDesk)', url: 'https://www.lwolf.com', offers: [{ name: 'Standalone', price: '39' }] },
+      { name: 'Top Producer', url: 'https://topproducer.com', offers: [{ name: 'Starter', price: '40' }] },
+      { name: 'Follow Up Boss', url: 'https://www.followupboss.com', offers: [{ name: 'Grow', price: '69' }] },
+    ]),
     faqs: [
       {
         q: 'Is Wise Agent still a good CRM in 2026?',

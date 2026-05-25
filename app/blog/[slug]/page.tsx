@@ -100,6 +100,12 @@ export default async function BlogPostPage({ params }: Props) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       )}
+      {post.itemList && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(post.itemList) }}
+        />
+      )}
       <Nav />
       <main className="min-h-screen bg-white pt-16">
         {/* Article header */}
