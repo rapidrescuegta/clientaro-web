@@ -551,6 +551,200 @@ export const posts: BlogPost[] = [
 ],
     },
   {
+    slug: 'wise-agent-alternatives-2026',
+    title: 'Wise Agent Alternatives: 5 Real Estate CRMs Worth a Side-by-Side Look in 2026',
+    excerpt:
+      'Wise Agent is one of the most respected solo-agent CRMs on the market — Forbes named it Best Real Estate CRM three years running. But at $49/mo flat with a feature set built for "all-in-one" agents, it is not the right fit for everyone. Here are five honest alternatives, with pricing, pros and cons, and who each one fits.',
+    date: '2026-05-25',
+    author: 'Steve Gracco',
+    readTime: '11 min read',
+    category: 'CRM Reviews',
+    segment: 'realestate',
+    content: `
+      <p class="text-lg text-gray-600 leading-relaxed mb-8">
+        Wise Agent is a good CRM. It is also priced at the high end of the solo-agent market ($49/month flat), packs in a lot of features many solo agents never use, and has a learning curve that surprises people who picked it because of the Forbes Advisor recommendation. This is an honest comparison of what to look at instead — with pricing, pros and cons, and a decision tree at the end.
+      </p>
+      <p class="mb-6">
+        Short answer up top: if you want all-in-one and you will use the transaction-management features, Wise Agent earns its $49/month. If you are a solo agent whose business is 60–80% sphere and referrals, <strong>Clientaro</strong> ($29/mo Solo) covers the parts you actually use at a lower price. If you need the cheapest credible option, <strong>RealOffice360</strong> ($15/mo) is the floor. If you want enterprise polish, <strong>Lone Wolf Relationships</strong> (formerly LionDesk) is the closest one-to-one swap.
+      </p>
+
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Why agents shop "Wise Agent alternatives" in the first place</h2>
+      <p class="mb-6">
+        From conversations with agents who have switched off Wise Agent, four reasons come up over and over:
+      </p>
+      <ol class="list-decimal pl-6 mb-6 space-y-2">
+        <li><strong>The price-to-use ratio.</strong> $49/month is flat-rate, which is good — but most solo agents use 30–40% of the features. Paying $588/year for tools you do not open is the most common switching reason.</li>
+        <li><strong>The "everything page."</strong> Wise Agent crams contacts, calendar, transactions, and marketing into one dense interface. Agents love this on day 30. On day 1 it is overwhelming.</li>
+        <li><strong>Outdated UX in places.</strong> Wise Agent has been around since 2001 and parts of the interface still feel like 2010. Functional, not delightful.</li>
+        <li><strong>Drip and SMS limits.</strong> SMS is an add-on, not bundled. For agents who text more than email, that adds $20–40/month.</li>
+      </ol>
+      <p class="mb-6">
+        None of this is an indictment of Wise Agent — it is a genuinely good tool for the agent who will use the full surface area. It is the wrong tool for an agent whose actual workflow is "remember who to call, remember their kids' names, remember what we talked about last time."
+      </p>
+
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">What to look for in a Wise Agent alternative</h2>
+      <p class="mb-6">
+        Before the list, the four things that actually matter for a solo agent switching off Wise Agent:
+      </p>
+      <ul class="list-disc pl-6 mb-6 space-y-2">
+        <li><strong>Honest pricing under $50/month.</strong> If the alternative costs the same, you are just switching for a UI change. Cheaper or genuinely better.</li>
+        <li><strong>A contact card that surfaces the human, not the pipeline.</strong> Birthdays, anniversaries, family members, hobbies — the stuff that actually generates referral conversation.</li>
+        <li><strong>Bundled SMS and email in the base price.</strong> Add-on SMS is how you accidentally end up at $80/month.</li>
+        <li><strong>Setup in a single sitting.</strong> If you need a one-hour onboarding video before the tool is usable, it is too heavy.</li>
+      </ul>
+
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">The 5 Wise Agent alternatives, ranked</h2>
+      <p class="mb-6">
+        Ranked by best fit for a solo agent whose business is repeat and referral-driven. Different ranking applies if you run team workflows — see the decision tree at the end.
+      </p>
+
+      <h3 class="text-xl font-bold text-[#0F172A] mt-8 mb-3">1. Clientaro — $29/mo Solo, $49/mo Pro</h3>
+      <p class="mb-6">
+        <strong>Best for:</strong> Solo agents who want the relationship-tracking parts of Wise Agent without the all-in-one weight. Built around a contact card that surfaces family, kids' names, life events, and referral graph — not a pipeline of leads.
+      </p>
+      <p class="mb-6">
+        <strong>What you give up versus Wise Agent:</strong> Transaction management is lighter. No native landing pages. Drip-campaign builder is simpler (drag-and-drop, fewer branching rules).
+      </p>
+      <p class="mb-6">
+        <strong>What you gain:</strong> Built-in SMS and email at the Solo tier. 60-day free trial. Cleaner mobile interface for between-showing logging. Contact card design that makes the "Brad's daughter's volleyball tournament is this weekend" reminder surface naturally.
+      </p>
+      <p class="mb-6">
+        <strong>Pricing honesty:</strong> $29/mo Solo (1 user, 1000 contacts) → $49/mo Pro (unlimited contacts + automation). 60-day free trial, no credit card.
+      </p>
+
+      <h3 class="text-xl font-bold text-[#0F172A] mt-8 mb-3">2. RealOffice360 — from $15/mo</h3>
+      <p class="mb-6">
+        <strong>Best for:</strong> Agents who want the absolute cheapest credible option and are happy with a focused, no-frills toolset. Capterra 4.6/5 (140 reviews), Google 4.9/5 (116 reviews) — well-loved by its user base.
+      </p>
+      <p class="mb-6">
+        <strong>What you give up versus Wise Agent:</strong> No bundled SMS. Drip campaigns are simpler. Less third-party integration depth.
+      </p>
+      <p class="mb-6">
+        <strong>What you gain:</strong> Lowest price in the category. Tagline "zero fluff" is accurate — onboarding is 15 minutes. Solid mobile.
+      </p>
+      <p class="mb-6">
+        <strong>Pricing honesty:</strong> From $15/mo (annual). 14-day free trial.
+      </p>
+
+      <h3 class="text-xl font-bold text-[#0F172A] mt-8 mb-3">3. Lone Wolf Relationships (formerly LionDesk) — ~$39/mo</h3>
+      <p class="mb-6">
+        <strong>Best for:</strong> Agents who liked LionDesk and want the closest one-to-one workflow swap. Lone Wolf acquired LionDesk in 2024 and migrated existing accounts to the Foundation suite.
+      </p>
+      <p class="mb-6">
+        <strong>What you give up versus Wise Agent:</strong> Slightly less polished email-template builder. UX is mid-cycle through Lone Wolf's redesign — some pages feel old, some feel new.
+      </p>
+      <p class="mb-6">
+        <strong>What you gain:</strong> Familiar feel for ex-LionDesk users. Strong drip + video messaging. AI-powered follow-up suggestions.
+      </p>
+      <p class="mb-6">
+        <strong>Pricing honesty:</strong> Pricing varies by Lone Wolf bundle — standalone CRM tier is roughly $39/mo at time of writing. Confirm on the Lone Wolf site since they reshuffle tiers often.
+      </p>
+
+      <h3 class="text-xl font-bold text-[#0F172A] mt-8 mb-3">4. Top Producer — $40/mo Starter</h3>
+      <p class="mb-6">
+        <strong>Best for:</strong> Agents who want bundled marketing tools (landing pages, smart farming) without jumping to enterprise pricing. Top Producer has been in market since 1982 and the bones show — but the recent rebuild is genuinely modern.
+      </p>
+      <p class="mb-6">
+        <strong>What you give up versus Wise Agent:</strong> Slightly less mature transaction management. Mobile is improving but not the strength.
+      </p>
+      <p class="mb-6">
+        <strong>What you gain:</strong> "Smart Targeting" feature that scores your sphere for likelihood-to-list — unique in the category. Solid template library.
+      </p>
+      <p class="mb-6">
+        <strong>Pricing honesty:</strong> $40/mo Starter, $60/mo Pro, $80+/mo Pro+ for marketing automation.
+      </p>
+
+      <h3 class="text-xl font-bold text-[#0F172A] mt-8 mb-3">5. Follow Up Boss — $69/mo Grow</h3>
+      <p class="mb-6">
+        <strong>Best for:</strong> Agents who are actually running team workflows or high lead volume. If you are not, FUB is overkill — but if you are, nothing else in this list competes.
+      </p>
+      <p class="mb-6">
+        <strong>What you give up versus Wise Agent:</strong> Higher price. Pipeline-first data model that buries past clients.
+      </p>
+      <p class="mb-6">
+        <strong>What you gain:</strong> Best-in-class lead routing, 250+ integrations, used by 100k+ agents including most of the RealTrends top-50 teams.
+      </p>
+      <p class="mb-6">
+        <strong>Pricing honesty:</strong> $69/mo Grow (1 user), $279/mo Pro (10 users). 14-day free trial.
+      </p>
+
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Quick decision tree</h2>
+      <ul class="list-disc pl-6 mb-6 space-y-2">
+        <li><strong>Your business is 60%+ referrals and repeat clients</strong> → Clientaro Solo ($29/mo).</li>
+        <li><strong>You want the absolute cheapest credible option</strong> → RealOffice360 ($15/mo).</li>
+        <li><strong>You loved LionDesk and want the closest swap</strong> → Lone Wolf Relationships (~$39/mo).</li>
+        <li><strong>You want bundled marketing automation</strong> → Top Producer ($40–80/mo).</li>
+        <li><strong>You run real team volume or 100+ leads/month</strong> → Follow Up Boss ($69+/mo).</li>
+        <li><strong>You will actually use every Wise Agent feature</strong> → stay on Wise Agent. It earns its price for the right user.</li>
+      </ul>
+
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Migration notes (if you decide to switch)</h2>
+      <p class="mb-6">
+        Wise Agent exports contacts to CSV cleanly. All five alternatives above accept CSV import. Budget 30–60 minutes for the contact import itself, then a weekend to rebuild your most-used drip campaigns and email templates. Things that do NOT transfer cleanly: tagging schemes (rebuild manually), drip sequences (rebuild manually), and any custom fields beyond the standard set (rebuild manually).
+      </p>
+      <p class="mb-6">
+        One practical tip: do not cancel Wise Agent until the new CRM has been your daily driver for 30 days. Run both side-by-side. The cost of one extra month of overlap is far less than the cost of losing your contact history mid-deal.
+      </p>
+
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Frequently asked questions</h2>
+
+      <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">Is Wise Agent still a good CRM in 2026?</h3>
+      <p class="mb-6">
+        Yes — Forbes Advisor has named Wise Agent "Best Real Estate CRM" three years running (2022–2024). It is a genuinely solid tool. The question is not "is it good" but "is it the right fit for how you actually work." For agents who use the full transaction-management and marketing surface, it is excellent. For agents who mainly want a clean contact list with relationship context, it is more tool than you need at $49/month.
+      </p>
+
+      <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">What is the cheapest Wise Agent alternative?</h3>
+      <p class="mb-6">
+        RealOffice360 starts at $15/month (annual), making it the cheapest dedicated real estate CRM with real customer ratings (Capterra 4.6, Google 4.9). Clientaro Solo at $29/month is the next step up if you want bundled SMS and a relationship-first contact card.
+      </p>
+
+      <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">Does Wise Agent have a free tier?</h3>
+      <p class="mb-6">
+        No — Wise Agent does not offer a free-forever tier. They offer a 14-day free trial, after which the $49/month plan begins. If you specifically need a truly free option, HubSpot's free tier is the closest, but you will need to customize it heavily for real estate use.
+      </p>
+
+      <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">How long does it take to migrate from Wise Agent?</h3>
+      <p class="mb-6">
+        Contact and pipeline import is usually under an hour via CSV. Rebuilding drip campaigns, email templates, and tagging schemes typically takes a weekend. Budget 30 days of running both tools in parallel before fully cancelling Wise Agent.
+      </p>
+
+      <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">Which Wise Agent alternative is best for a solo agent in 2026?</h3>
+      <p class="mb-6">
+        For a solo agent whose business is sphere and referral driven, Clientaro Solo at $29/month is the best balance of price, modern interface, and relationship-first contact design. For agents prioritizing absolute lowest price, RealOffice360 at $15/month is the floor. For agents who specifically want bundled marketing tools, Top Producer at $40/month is the right pick.
+      </p>
+
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Final thought</h2>
+      <p class="mb-6">
+        The right CRM is the one you will actually open every morning. Wise Agent is a real contender for that title — but so are four other tools on this list, and at least three of them are cheaper. Pick the one whose contact card matches how you actually think about your clients, not the one with the longest feature list.
+      </p>
+      <p class="mb-10">
+        If your business runs on relationships, repeat clients, and referrals — <a href="https://app.clientaro.com/signup" class="text-amber-600 hover:text-amber-700 underline">try Clientaro free for 60 days</a>. Import your Wise Agent CSV, and you will be running your sphere by tomorrow morning.
+      </p>
+    `,
+    faqs: [
+      {
+        q: 'Is Wise Agent still a good CRM in 2026?',
+        a: 'Yes — Forbes Advisor has named Wise Agent "Best Real Estate CRM" three years running (2022–2024). It is a genuinely solid tool. The question is whether the full feature set matches how you actually work. For agents who use the full transaction-management and marketing surface, it earns the $49/month. For agents who mainly want a clean contact list with relationship context, lighter alternatives like Clientaro ($29/mo) or RealOffice360 ($15/mo) cover the parts you actually use at lower price.',
+      },
+      {
+        q: 'What is the cheapest Wise Agent alternative?',
+        a: 'RealOffice360 starts at $15/month (annual), making it the cheapest dedicated real estate CRM with real customer ratings (Capterra 4.6, Google 4.9). Clientaro Solo at $29/month is the next step up if you want bundled SMS and a relationship-first contact card.',
+      },
+      {
+        q: 'Does Wise Agent have a free tier?',
+        a: 'No — Wise Agent does not offer a free-forever tier. They offer a 14-day free trial, after which the $49/month plan begins. If you need a truly free option, HubSpot is the closest, though you will need to customize it heavily for real estate use.',
+      },
+      {
+        q: 'How long does it take to migrate from Wise Agent to another CRM?',
+        a: 'Contact and pipeline import is usually under an hour via CSV. Rebuilding drip campaigns, email templates, and tagging schemes typically takes a weekend. Budget 30 days of running both tools in parallel before fully cancelling Wise Agent.',
+      },
+      {
+        q: 'Which Wise Agent alternative is best for a solo agent in 2026?',
+        a: 'For a solo agent whose business is sphere and referral driven, Clientaro Solo at $29/month is the best balance of price, modern interface, and relationship-first contact design. For absolute lowest price, RealOffice360 at $15/month is the floor. For bundled marketing tools, Top Producer at $40/month fits best.',
+      },
+    ],
+  },
+  {
     slug: 'best-crm-for-real-estate-agents-2026',
     title: 'Best CRM for Real Estate Agents in 2026: An Honest Comparison',
     excerpt:
