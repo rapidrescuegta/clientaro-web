@@ -818,6 +818,317 @@ export const posts: BlogPost[] = [
     ],
   },
   {
+    slug: 'lone-wolf-relationships-alternatives-2026',
+    title: 'Lone Wolf Relationships Alternatives 2026: 6 Real Estate CRMs for Agents Who Want Out',
+    excerpt:
+      'Lone Wolf Relationships is the LionDesk successor — but a majority of public reviews call it overpriced for the features delivered, and two-thirds flag support gaps. Here are six honest CRM alternatives for solo and small-team real-estate agents looking for a CRM that does not feel like a forced upgrade.',
+    date: '2026-05-25',
+    author: 'Steve Gracco',
+    readTime: '10 min read',
+    category: 'CRM Reviews',
+    segment: 'realestate',
+    content: `
+      <p class="text-lg text-gray-600 leading-relaxed mb-8">
+        Lone Wolf Relationships is what every LionDesk user got migrated to in September 2025. If you were one of them and the new tool is not fitting — you are not alone. Aggregated public reviews (Capterra, SourceForge, SelectHub) lean hard in one direction: roughly <strong>55% explicitly call Lone Wolf Relationships overpriced</strong> for the features it delivers, and <strong>roughly two-thirds say customer support lacks product knowledge</strong>. Overall satisfaction is around 83% — fine, not great.
+      </p>
+      <p class="mb-6">
+        This is an honest comparison of six alternatives for solo and small-team agents looking for a CRM that does not feel like a forced upgrade. Short answer up top: if your business runs on relationships and referrals, <strong>Clientaro</strong> ($0 Free / $19 Starter / $49 Pro) is built for exactly that and has the only true free-forever tier in the category. If you want a Forbes-recognized all-in-one with strong 24/7 support, <strong>Wise Agent</strong> ($49/mo flat) is the most direct one-to-one swap. If you want workflow-automation depth, <strong>Realvolve</strong> ($94/mo) is the power user pick.
+      </p>
+
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">What happened to LionDesk</h2>
+      <p class="mb-6">
+        Lone Wolf Technologies acquired LionDesk in 2024 and sunset the standalone product on September 30, 2025. Existing accounts were migrated to <strong>Lone Wolf Relationships</strong>, part of the Foundation suite. New LionDesk sign-ups closed. If you came in through that migration and the new tool feels heavier, more enterprise-flavored, or more expensive than what you signed up for — that is the recurring theme in public reviews. For the full backstory and a wider LionDesk-replacement list, see our <a href="/blog/best-liondesk-alternatives-2026" class="text-[#2563EB] underline">LionDesk alternatives pillar</a>.
+      </p>
+
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Why agents are shopping for Lone Wolf alternatives</h2>
+      <p class="mb-6">
+        From the aggregated public reviews surfaced across Capterra, SourceForge, and SelectHub, four complaints come up over and over:
+      </p>
+      <ol class="list-decimal pl-6 mb-6 space-y-2">
+        <li><strong>Price-to-feature ratio.</strong> Roughly 55% of reviewers explicitly use the word "overpriced." Standalone CRM pricing lands around $39/mo at time of writing, and bundle-tier pricing climbs from there. Agents who joined for LionDesk's sub-$40/mo simplicity are now paying for a heavier toolset they did not ask for.</li>
+        <li><strong>Support knowledge gaps.</strong> About two-thirds of reviewers say customer support does not have deep product knowledge. For a tool that bundles transaction management, CRM, and marketing, support quality is the difference between a one-week fix and a six-week ticket cycle.</li>
+        <li><strong>Mid-cycle UX inconsistency.</strong> The product is mid-rebuild — some pages feel new, some feel like 2018. Day-to-day this surfaces as inconsistent click paths and a learning curve that surprises ex-LionDesk users.</li>
+        <li><strong>Force-migration friction.</strong> Settings, drip campaigns, tags, and SMS threads did not all carry across cleanly. Agents lost configuration they spent years building inside LionDesk.</li>
+      </ol>
+      <p class="mb-6">
+        None of this means Lone Wolf Relationships is a bad product. It means it is the wrong fit for the original LionDesk demographic — solo agents who wanted a lightweight, cheap, contact-first CRM.
+      </p>
+
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">What to look for in a Lone Wolf alternative</h2>
+      <ul class="list-disc pl-6 mb-6 space-y-2">
+        <li><strong>Pricing under $50/month for solo work.</strong> Anything higher is just a re-badged version of the same problem.</li>
+        <li><strong>Real customer support — solo-agent flavored.</strong> Enterprise-style ticket queues are not what a one-person business needs.</li>
+        <li><strong>Contact-first data model.</strong> Past clients and sphere are your business, not afterthoughts inside a "won leads" folder.</li>
+        <li><strong>Clean CSV export today.</strong> If you ever want to leave, you should be able to walk out with your contacts in 15 minutes.</li>
+        <li><strong>Bundled SMS + email.</strong> Add-on SMS is how the bill quietly climbs past $80/mo.</li>
+      </ul>
+
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">The 6 Lone Wolf Relationships alternatives, ranked</h2>
+      <p class="mb-6">
+        Ranked by best fit for the displaced LionDesk audience — solo and small-team agents whose business is relationship-driven. A different ranking applies for high-volume team workflows; see the decision tree at the end.
+      </p>
+
+      <h3 class="text-xl font-bold text-[#0F172A] mt-8 mb-3">1. Clientaro — Free · $19/mo Starter · $49/mo Pro</h3>
+      <p class="mb-6">
+        <strong>Best for:</strong> Solo agents and 2–5 person teams whose business is 60–80% referrals and repeat clients. Built around a contact card that surfaces family, kids' names, hobbies, and life events — not a pipeline of cold leads.
+      </p>
+      <p class="mb-6">
+        <strong>What you give up versus Lone Wolf:</strong> Video email is not built in (Lone Wolf has it). Transaction management is lighter. We are honest about this — if video messaging is your primary workflow, Lone Wolf or Wise Agent are stronger today. Video email is on our roadmap, not in the product yet.
+      </p>
+      <p class="mb-6">
+        <strong>What you gain:</strong> The only true free-forever tier in the dedicated real-estate CRM category — 30 contacts, every Pro feature unlocked, 50 SMS/month bundled. Every paid tier ships every feature; you pay for volume, not for unlocking things you should already have. Bundled SMS and email on every tier including Free. 60-day Pro trial on every paid signup, credit card not charged until day 61. Mobile-first interface that loads in under 2 seconds.
+      </p>
+      <p class="mb-6">
+        <strong>Pricing honesty:</strong> Free $0 forever (30 contacts, 50 SMS/mo) → Starter $19/mo (1,000 contacts, 500 SMS/mo) → Pro $49/mo (unlimited contacts, 5,000 SMS/mo, priority support). No credit card to start Free.
+      </p>
+
+      <h3 class="text-xl font-bold text-[#0F172A] mt-8 mb-3">2. Wise Agent — $49/mo flat</h3>
+      <p class="mb-6">
+        <strong>Best for:</strong> Ex-LionDesk users who want the closest workflow swap with Forbes-Advisor-recognized "Best Real Estate CRM" credibility (2022–2024) and the strongest 24/7 support story in the category — the exact gap that drives most Lone Wolf complaints.
+      </p>
+      <p class="mb-6">
+        <strong>What you give up:</strong> $49/mo flat is the same ballpark as Lone Wolf's standalone CRM tier — you are paying for support quality and brand maturity, not for cheaper pricing. UI is functional, not delightful.
+      </p>
+      <p class="mb-6">
+        <strong>What you gain:</strong> 24/7 phone support that actually knows the product. Built-in video email (one of the features Lone Wolf agents do not want to lose). Mature transaction management. Flat-rate billing — no tier-chasing.
+      </p>
+
+      <h3 class="text-xl font-bold text-[#0F172A] mt-8 mb-3">3. Realvolve — $94/mo</h3>
+      <p class="mb-6">
+        <strong>Best for:</strong> Power users who want the deepest workflow-automation engine in the category and are willing to spend 4–8 hours on setup.
+      </p>
+      <p class="mb-6">
+        <strong>What you give up:</strong> Highest price on this list. Steeper learning curve than anything else here.
+      </p>
+      <p class="mb-6">
+        <strong>What you gain:</strong> Conditional multi-branch automations that no other tool on this list can match. Genuine contact-first philosophy. Excellent transaction tracking. If your day-to-day involves complex multi-step nurture sequences, Realvolve will save the price difference in time saved per month.
+      </p>
+
+      <h3 class="text-xl font-bold text-[#0F172A] mt-8 mb-3">4. RealOffice360 — from $15/mo (annual)</h3>
+      <p class="mb-6">
+        <strong>Best for:</strong> Agents who want the cheapest credible paid option and are happy with a focused, no-frills toolset. Capterra 4.6/5, Google 4.9/5 — well-loved by its user base.
+      </p>
+      <p class="mb-6">
+        <strong>What you give up:</strong> No bundled SMS. Drip campaigns are simpler than Lone Wolf's. Less third-party integration depth.
+      </p>
+      <p class="mb-6">
+        <strong>What you gain:</strong> Lowest price in the paid category. "Zero fluff" is the tagline and it is accurate — onboarding is about 15 minutes.
+      </p>
+
+      <h3 class="text-xl font-bold text-[#0F172A] mt-8 mb-3">5. Top Producer — $40/mo Starter</h3>
+      <p class="mb-6">
+        <strong>Best for:</strong> Agents who want bundled marketing tools (landing pages, "Smart Targeting" likelihood-to-list scoring) without jumping to enterprise pricing.
+      </p>
+      <p class="mb-6">
+        <strong>Quick note:</strong> Top Producer is part of the Constellation Real Estate Group — different corporate parent from Lone Wolf, but readers who specifically want to leave the Lone Wolf orbit should know that Constellation is also a large real-estate-software conglomerate with similar acquisition-and-rebundle dynamics. If "small CRM-focused company" is your goal, RealOffice360, Wise Agent, and Clientaro fit that profile more cleanly.
+      </p>
+      <p class="mb-6">
+        <strong>What you gain:</strong> Unique "Smart Targeting" feature that scores your sphere for likelihood-to-list. Solid template library. Recent rebuild is genuinely modern.
+      </p>
+
+      <h3 class="text-xl font-bold text-[#0F172A] mt-8 mb-3">6. HubSpot Free — workaround for budget-zero</h3>
+      <p class="mb-6">
+        <strong>Best for:</strong> Agents in a temporary budget squeeze who are willing to spend 20+ hours customizing a non-real-estate CRM to fit real-estate workflows.
+      </p>
+      <p class="mb-6">
+        <strong>What you give up:</strong> No transaction stages, no sphere-of-influence views, no real-estate-specific reporting. You build all of that as custom properties. Mobile is workable but not real-estate-shaped.
+      </p>
+      <p class="mb-6">
+        <strong>What you gain:</strong> Genuinely free for up to 1,000 contacts. Huge integration library if you eventually want to wire it into other tools.
+      </p>
+      <p class="mb-6">
+        <strong>Honest note:</strong> For most LionDesk migrants, Clientaro Free saves you the 20 hours of customization while still being $0/month for up to 30 contacts. HubSpot Free wins only if you specifically need 1,000+ free contacts AND are happy doing your own real-estate configuration.
+      </p>
+
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Side-by-side comparison</h2>
+      <div class="overflow-x-auto mb-8">
+        <table class="min-w-full border border-gray-200 text-sm">
+          <thead class="bg-gray-50">
+            <tr>
+              <th class="text-left p-3 border border-gray-200">CRM</th>
+              <th class="text-left p-3 border border-gray-200">Entry price</th>
+              <th class="text-left p-3 border border-gray-200">Free tier</th>
+              <th class="text-left p-3 border border-gray-200">Bundled SMS</th>
+              <th class="text-left p-3 border border-gray-200">Video email</th>
+              <th class="text-left p-3 border border-gray-200">Strongest</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="p-3 border border-gray-200"><strong>Clientaro</strong></td>
+              <td class="p-3 border border-gray-200">Free / $19 / $49</td>
+              <td class="p-3 border border-gray-200">✅ 30 contacts, every Pro feature</td>
+              <td class="p-3 border border-gray-200">✅ Every tier</td>
+              <td class="p-3 border border-gray-200">⚠️ Roadmap</td>
+              <td class="p-3 border border-gray-200">Relationship-first contact card</td>
+            </tr>
+            <tr>
+              <td class="p-3 border border-gray-200">Lone Wolf Relationships</td>
+              <td class="p-3 border border-gray-200">~$39/mo</td>
+              <td class="p-3 border border-gray-200">❌</td>
+              <td class="p-3 border border-gray-200">Add-on</td>
+              <td class="p-3 border border-gray-200">✅</td>
+              <td class="p-3 border border-gray-200">Transaction + suite integration</td>
+            </tr>
+            <tr>
+              <td class="p-3 border border-gray-200">Wise Agent</td>
+              <td class="p-3 border border-gray-200">$49/mo flat</td>
+              <td class="p-3 border border-gray-200">❌</td>
+              <td class="p-3 border border-gray-200">Add-on</td>
+              <td class="p-3 border border-gray-200">✅</td>
+              <td class="p-3 border border-gray-200">24/7 support, Forbes-recognized</td>
+            </tr>
+            <tr>
+              <td class="p-3 border border-gray-200">Realvolve</td>
+              <td class="p-3 border border-gray-200">$94/mo</td>
+              <td class="p-3 border border-gray-200">❌</td>
+              <td class="p-3 border border-gray-200">Bundled</td>
+              <td class="p-3 border border-gray-200">⚠️ Limited</td>
+              <td class="p-3 border border-gray-200">Workflow automation depth</td>
+            </tr>
+            <tr>
+              <td class="p-3 border border-gray-200">RealOffice360</td>
+              <td class="p-3 border border-gray-200">$15/mo annual</td>
+              <td class="p-3 border border-gray-200">❌</td>
+              <td class="p-3 border border-gray-200">❌</td>
+              <td class="p-3 border border-gray-200">❌</td>
+              <td class="p-3 border border-gray-200">Cheapest credible paid option</td>
+            </tr>
+            <tr>
+              <td class="p-3 border border-gray-200">Top Producer</td>
+              <td class="p-3 border border-gray-200">$40/mo</td>
+              <td class="p-3 border border-gray-200">❌</td>
+              <td class="p-3 border border-gray-200">Add-on</td>
+              <td class="p-3 border border-gray-200">⚠️ Limited</td>
+              <td class="p-3 border border-gray-200">Smart Targeting + bundled marketing</td>
+            </tr>
+            <tr>
+              <td class="p-3 border border-gray-200">HubSpot Free</td>
+              <td class="p-3 border border-gray-200">$0</td>
+              <td class="p-3 border border-gray-200">✅ 1,000 contacts (non-RE)</td>
+              <td class="p-3 border border-gray-200">❌</td>
+              <td class="p-3 border border-gray-200">❌</td>
+              <td class="p-3 border border-gray-200">Largest integration library</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Which one wins for which agent</h2>
+      <ul class="list-disc pl-6 mb-6 space-y-2">
+        <li><strong>"I want out of Lone Wolf as cheaply as possible and my business is referrals."</strong> → Clientaro Free (30 contacts, $0/forever) or Starter ($19/mo, 1,000 contacts).</li>
+        <li><strong>"I want the closest one-to-one Lone Wolf swap with much better support."</strong> → Wise Agent ($49/mo flat). 24/7 phone support and Forbes recognition.</li>
+        <li><strong>"I need deep workflow automation."</strong> → Realvolve ($94/mo). Pay more, get the deepest engine in the category.</li>
+        <li><strong>"I want the cheapest paid dedicated real-estate CRM."</strong> → RealOffice360 ($15/mo annual).</li>
+        <li><strong>"Bundled marketing tools matter to me."</strong> → Top Producer ($40/mo) — with the caveat that it is also owned by a large parent company.</li>
+        <li><strong>"Video email is non-negotiable."</strong> → Lone Wolf or Wise Agent stay on the table. Clientaro does not have video email today and we will not pretend otherwise.</li>
+      </ul>
+
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">How to export your contacts out of Lone Wolf Relationships</h2>
+      <p class="mb-6">
+        Lone Wolf Relationships exports contacts to CSV from Settings → Data → Export. The export includes core fields (name, email, phone, address, tags) reliably. Things that do <strong>not</strong> export cleanly: drip-campaign configurations, SMS thread history, custom-field schemas beyond the standard set, and video-email assets. Budget 30–60 minutes for the export and import on the other side, then a weekend to rebuild drip sequences and custom tags in the new tool.
+      </p>
+      <p class="mb-6">
+        <strong>Practical tip:</strong> Do not cancel Lone Wolf until your new CRM has been the daily driver for 30 days. Run both side-by-side. One extra month of overlap costs less than losing your contact history mid-deal.
+      </p>
+      <p class="mb-6">
+        <em>If Lone Wolf has changed the export flow since this article was written, check their support docs — that page name has moved at least once in the past year.</em>
+      </p>
+
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Frequently asked questions</h2>
+
+      <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">Is Lone Wolf Relationships the same as LionDesk?</h3>
+      <p class="mb-6">
+        Not quite — they are the same underlying data after the September 2025 migration, but the product is bigger, heavier, and more expensive. LionDesk was a focused, sub-$40/mo solo-agent CRM. Lone Wolf Relationships is part of the larger Lone Wolf Foundation suite, with transaction management, marketing tools, and broker-level features bolted on. If you signed up for LionDesk and now feel like you are using something different — you are.
+      </p>
+
+      <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">Why are Lone Wolf Relationships users looking for alternatives?</h3>
+      <p class="mb-6">
+        Aggregated public reviews (Capterra, SourceForge, SelectHub) consistently flag two issues: roughly 55% of reviewers call the product overpriced for the features delivered, and about two-thirds say customer support does not have deep product knowledge. For a tool agents did not choose — they were migrated to it — those are the two complaints that drive switching.
+      </p>
+
+      <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">What is the cheapest alternative to Lone Wolf Relationships?</h3>
+      <p class="mb-6">
+        Clientaro Free at $0/forever (30 contacts, every Pro feature unlocked) is the cheapest dedicated real-estate CRM with no paywall. RealOffice360 at $15/month annual is the cheapest paid dedicated real-estate CRM. HubSpot Free covers up to 1,000 contacts at $0 but is not real-estate-specific — you build the workflows yourself.
+      </p>
+
+      <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">Can I export my contacts from Lone Wolf Relationships?</h3>
+      <p class="mb-6">
+        Yes. Settings → Data → Export produces a CSV with name, email, phone, address, and tags. Drip campaigns, SMS threads, and most custom field configurations do not export — those have to be rebuilt in the new tool.
+      </p>
+
+      <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">Does Clientaro have video email like Lone Wolf?</h3>
+      <p class="mb-6">
+        Not today. Video email is on our roadmap, not in the product. We focused on the relationship-first contact card and referral graph first. If video messaging is the workflow you cannot live without, Lone Wolf and Wise Agent both have it shipped — pick one of those instead.
+      </p>
+
+      <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">Is there a free alternative to Lone Wolf Relationships?</h3>
+      <p class="mb-6">
+        Yes. Clientaro Free is free forever for 30 contacts, with every Pro feature unlocked and 50 SMS per month bundled — no credit card. HubSpot Free covers 1,000 contacts at $0 but is not real-estate-shaped. Among dedicated real-estate CRMs, Clientaro is the only one with a true free-forever tier as of 2026.
+      </p>
+
+      <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">What is the best Lone Wolf Relationships alternative for solo agents?</h3>
+      <p class="mb-6">
+        For a solo agent whose business is 60–80% referrals and repeat clients, Clientaro is the best balance of price, modern interface, and relationship-first contact design — Free for 30 contacts, $19/mo Starter for 1,000 contacts, $49/mo Pro unlimited. For solo agents whose business depends on video email, Wise Agent at $49/mo flat is the closest one-to-one Lone Wolf swap with stronger 24/7 support.
+      </p>
+
+      <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">How long does it take to migrate from Lone Wolf to a new CRM?</h3>
+      <p class="mb-6">
+        Contact CSV export and re-import is usually under an hour. Rebuilding drip campaigns, email templates, and tag schemes typically takes a weekend. Budget 30 days running both tools side-by-side before fully cancelling Lone Wolf — the cost of one extra subscription month is far less than the cost of losing your contact history mid-deal.
+      </p>
+
+      <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Final thought</h2>
+      <p class="mb-6">
+        Most LionDesk migrants did not choose Lone Wolf Relationships — they got moved into it. If the new tool is heavier, more expensive, or less responsive than what you signed up for, that is the most common complaint in the reviews. The good news: leaving is straightforward. CSV out, CSV in, weekend rebuild. The right CRM is the one you will actually open every morning, not the one that absorbed your old one.
+      </p>
+      <p class="mb-10">
+        If your business runs on relationships and referrals — <a href="https://app.clientaro.com/signup?plan=free" class="text-amber-600 hover:text-amber-700 underline">start Clientaro Free</a> (30 contacts, every Pro feature, no credit card) or <a href="/pricing" class="text-amber-600 hover:text-amber-700 underline">see all pricing tiers</a>. Import your Lone Wolf CSV, and you will be running your sphere by tomorrow morning.
+      </p>
+    `,
+    itemList: buildItemList([
+      { name: 'Clientaro', url: 'https://www.clientaro.com', offers: CLIENTARO_OFFERS },
+      { name: 'Wise Agent', url: 'https://wiseagent.com', offers: [{ name: 'Flat', price: '49' }] },
+      { name: 'Realvolve', url: 'https://realvolve.com', offers: [{ name: 'Pro', price: '94' }] },
+      { name: 'RealOffice360', url: 'https://www.realoffice360.com', offers: [{ name: 'Standard', price: '15' }] },
+      { name: 'Top Producer', url: 'https://topproducer.com', offers: [{ name: 'Starter', price: '40' }] },
+      { name: 'HubSpot (free tier)', url: 'https://www.hubspot.com', offers: [{ name: 'Free', price: '0' }] },
+    ]),
+    faqs: [
+      {
+        q: 'Is Lone Wolf Relationships the same as LionDesk?',
+        a: 'Not quite — they share the same underlying data after the September 2025 migration, but Lone Wolf Relationships is bigger, heavier, and more expensive. LionDesk was a focused, sub-$40/mo solo-agent CRM. Lone Wolf Relationships is part of the larger Lone Wolf Foundation suite, with transaction management, marketing tools, and broker-level features bolted on.',
+      },
+      {
+        q: 'Why are Lone Wolf Relationships users looking for alternatives?',
+        a: 'Aggregated public reviews (Capterra, SourceForge, SelectHub) consistently flag two issues: roughly 55% of reviewers call the product overpriced for the features delivered, and about two-thirds say customer support does not have deep product knowledge. For a tool agents did not choose — they were migrated to it — those are the two complaints driving switching.',
+      },
+      {
+        q: 'What is the cheapest alternative to Lone Wolf Relationships?',
+        a: 'Clientaro Free at $0/forever (30 contacts, every Pro feature unlocked, 50 SMS/mo bundled) is the cheapest dedicated real-estate CRM with no paywall. RealOffice360 at $15/month annual is the cheapest paid dedicated real-estate CRM. HubSpot Free covers up to 1,000 contacts at $0 but is not real-estate-specific.',
+      },
+      {
+        q: 'Can I export my contacts from Lone Wolf Relationships?',
+        a: 'Yes. Settings → Data → Export produces a CSV with name, email, phone, address, and tags. Drip campaigns, SMS thread history, and most custom field configurations do not export cleanly — those have to be rebuilt in the new tool.',
+      },
+      {
+        q: 'Does Clientaro have video email like Lone Wolf?',
+        a: 'Not today. Video email is on our roadmap, not in the product. We focused on the relationship-first contact card and referral graph first. If video messaging is the workflow you cannot live without, Lone Wolf and Wise Agent both have it shipped.',
+      },
+      {
+        q: 'Is there a free alternative to Lone Wolf Relationships?',
+        a: 'Yes. Clientaro Free is free forever for 30 contacts, with every Pro feature unlocked and 50 SMS per month bundled — no credit card. HubSpot Free covers 1,000 contacts at $0 but is not real-estate-shaped. Among dedicated real-estate CRMs, Clientaro is the only one with a true free-forever tier as of 2026.',
+      },
+      {
+        q: 'What is the best Lone Wolf Relationships alternative for solo agents?',
+        a: 'For a solo agent whose business is 60–80% referrals and repeat clients, Clientaro is the best balance of price, modern interface, and relationship-first contact design — Free for 30 contacts, $19/mo Starter for 1,000 contacts, $49/mo Pro unlimited. For solo agents who depend on video email, Wise Agent at $49/mo flat is the closest one-to-one Lone Wolf swap with stronger 24/7 support.',
+      },
+      {
+        q: 'How long does it take to migrate from Lone Wolf to a new CRM?',
+        a: 'Contact CSV export and re-import is usually under an hour. Rebuilding drip campaigns, email templates, and tag schemes typically takes a weekend. Budget 30 days running both tools side-by-side before fully cancelling Lone Wolf — the cost of one extra subscription month is far less than the cost of losing your contact history mid-deal.',
+      },
+    ],
+  },
+  {
     slug: 'best-crm-for-real-estate-agents-2026',
     title: 'Best CRM for Real Estate Agents in 2026: An Honest Comparison',
     excerpt:
