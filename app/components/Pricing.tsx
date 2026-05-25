@@ -1,93 +1,78 @@
 'use client'
-import { useState } from 'react'
 
 const CRM_URL = process.env.NEXT_PUBLIC_CRM_URL || 'https://app.clientaro.com'
 
-const plans = [
+type Plan = {
+  name: 'Free' | 'Starter' | 'Pro'
+  monthly: number
+  desc: string
+  features: string[]
+  cta: string
+  ctaPlan: 'free' | 'starter' | 'pro'
+  featured: boolean
+}
+
+const plans: Plan[] = [
   {
-    name: 'Solo',
-    monthly: 29,
-    desc: 'For the agent who lives by their Daily Five.',
+    name: 'Free',
+    monthly: 0,
+    desc: 'For agents trying us out with their A-list sphere.',
     features: [
-      'Up to 500 contacts (more than most agents need)',
-      'Daily Five — your morning hit list, every day',
-      'Pipeline + tasks + reminders',
-      'Email and SMS reminders',
-      'Mobile-friendly — works in the car between showings',
+      '30 contacts',
+      'Every Pro feature unlocked',
+      '50 SMS / month bundled',
+      'Email automation + AI follow-ups',
+      'Referral graph view',
+      'iOS + Android mobile',
     ],
     cta: 'Start free',
+    ctaPlan: 'free',
+    featured: false,
+  },
+  {
+    name: 'Starter',
+    monthly: 19,
+    desc: 'For working solo agents managing a real book.',
+    features: [
+      'Everything in Free',
+      '1,000 contacts',
+      '500 SMS / month bundled',
+      'Same full feature set as Pro',
+    ],
+    cta: 'Start 60-day Pro trial',
+    ctaPlan: 'starter',
     featured: false,
   },
   {
     name: 'Pro',
-    monthly: 79,
-    desc: 'For the producer who wants every relational edge.',
+    monthly: 49,
+    desc: 'For top producers running on relationships at scale.',
     features: [
-      'Everything in Solo, plus:',
-      'AI Memory Cards — never forget a detail about a client',
-      'Referral Radar — surfaces who is most likely to refer next',
-      'Smart Automations — drip without sounding like a robot',
-      'Households + property tracking',
-      'Advanced GCI + production reports',
-      'Priority support (real human, same business day)',
+      'Everything in Starter',
+      'Unlimited contacts',
+      '5,000 SMS / month bundled',
+      'Priority support',
     ],
-    cta: 'Start free trial',
+    cta: 'Start 60-day Pro trial',
+    ctaPlan: 'pro',
     featured: true,
-  },
-  {
-    name: 'Team',
-    monthly: 179,
-    desc: 'For brokerages where everyone shares a pipeline.',
-    features: [
-      'Everything in Pro, plus:',
-      'Up to 10 team members at one flat rate',
-      'Shared Daily Five — coach the team from one screen',
-      'Role-based permissions (admin / agent / assistant)',
-      'Team performance dashboard + leaderboard',
-      'Shared pipeline views across the brokerage',
-      'Dedicated onboarding + migration help',
-    ],
-    cta: 'Contact sales',
-    featured: false,
   },
 ]
 
 export function Pricing() {
-  const [annual, setAnnual] = useState(false)
-
   return (
     <section id="pricing" className="py-12 bg-gray-50">
       <div className="max-w-6xl mx-auto px-6">
 
         {/* Header */}
-        <div className="text-center mb-6">
+        <div className="text-center mb-8">
           <p className="text-amber-600 font-semibold text-xs uppercase tracking-widest mb-2">Pricing</p>
           <h2 className="text-3xl md:text-4xl font-extrabold text-[#0F172A] tracking-tight mb-2">
-            Simple, transparent pricing.
+            Honest pricing. Free forever option.
           </h2>
-          <p className="text-gray-500 text-sm mb-5">Start free. No credit card required. Cancel anytime.</p>
-
-          {/* Monthly / Annual toggle */}
-          <div className="inline-flex items-center bg-white border border-gray-200 rounded-xl p-1 gap-1">
-            <button
-              onClick={() => setAnnual(false)}
-              className={`px-4 py-1.5 rounded-lg text-sm font-semibold transition-all ${!annual ? 'bg-[#0F172A] text-white shadow-sm' : 'text-gray-500 hover:text-gray-800'}`}
-            >
-              Monthly
-            </button>
-            <button
-              onClick={() => setAnnual(true)}
-              className={`px-4 py-1.5 rounded-lg text-sm font-semibold transition-all flex items-center gap-2 ${annual ? 'bg-[#0F172A] text-white shadow-sm' : 'text-gray-500 hover:text-gray-800'}`}
-            >
-              Annual
-              <span className="bg-green-100 text-green-700 text-[10px] font-bold px-1.5 py-0.5 rounded-full">1 month free</span>
-            </button>
-          </div>
-          {annual && (
-            <p className="text-xs text-green-600 font-medium mt-2">
-              Billed annually — 11 months for the price of 10.
-            </p>
-          )}
+          <p className="text-gray-500 text-sm max-w-2xl mx-auto">
+            Every tier gets every feature. You pay for the volume you actually use — never for unlocking features you should already have.
+          </p>
         </div>
 
         {/* Plan cards */}
@@ -115,14 +100,9 @@ export function Pricing() {
                   ${plan.monthly}
                 </span>
                 <span className={`text-xs mb-1.5 ${plan.featured ? 'text-slate-400' : 'text-gray-400'}`}>
-                  /mo
+                  {plan.monthly === 0 ? '/forever' : '/mo'}
                 </span>
               </div>
-              {annual && (
-                <p className={`text-[10px] mb-0.5 ${plan.featured ? 'text-green-400' : 'text-green-600'}`}>
-                  ${plan.monthly * 11}/yr — 1 month free
-                </p>
-              )}
               <p className={`text-xs mb-4 mt-1 ${plan.featured ? 'text-slate-400' : 'text-gray-500'}`}>
                 {plan.desc}
               </p>
@@ -137,7 +117,7 @@ export function Pricing() {
               </ul>
 
               <a
-                href={`${CRM_URL}/signup`}
+                href={`${CRM_URL}/signup?plan=${plan.ctaPlan}`}
                 className={`block text-center text-xs font-bold py-2.5 rounded-xl transition-all ${
                   plan.featured
                     ? 'bg-gradient-to-r from-amber-400 to-amber-500 text-[#0F172A] hover:from-amber-300 hover:to-amber-400'
@@ -150,44 +130,9 @@ export function Pricing() {
           ))}
         </div>
 
-        {/* Special rates banner */}
-        <div className="mt-6 bg-[#0F172A] border border-amber-400/30 rounded-2xl overflow-hidden">
-          <div className="flex flex-col md:flex-row">
-            <div className="flex-1 px-6 py-5">
-              <div className="inline-flex items-center gap-1.5 bg-amber-500/20 text-amber-400 text-[10px] font-bold px-2.5 py-0.5 rounded-full uppercase tracking-widest mb-2">
-                <span className="w-1 h-1 bg-amber-400 rounded-full" />
-                First 100 people only
-              </div>
-              <h3 className="text-white font-extrabold text-lg mb-1">Help us spread the word.</h3>
-              <p className="text-slate-400 text-xs leading-relaxed max-w-sm">
-                Share Clientaro with your network, leave an honest review, or refer a colleague.
-                In return, we&apos;ll lock in 50% off for your entire first year.
-              </p>
-              <a
-                href={`${CRM_URL}/signup`}
-                className="mt-4 inline-flex items-center gap-2 bg-gradient-to-r from-amber-400 to-amber-500 text-[#0F172A] font-bold text-xs px-5 py-2.5 rounded-xl hover:from-amber-300 hover:to-amber-400 transition-all"
-              >
-                Claim your spot →
-              </a>
-            </div>
-            <div className="md:w-56 bg-amber-500/10 border-t md:border-t-0 md:border-l border-amber-400/20 px-6 py-5 flex flex-col justify-center">
-              <div className="text-amber-400 text-5xl font-extrabold leading-none tracking-tighter">50%</div>
-              <div className="text-amber-300 font-semibold text-xs mt-0.5 mb-3">off for your first year</div>
-              <div className="space-y-1.5">
-                {plans.map(p => (
-                  <div key={p.name} className="flex items-center justify-between text-xs">
-                    <span className="text-slate-400">{p.name}</span>
-                    <span className="flex items-center gap-1.5">
-                      <span className="text-slate-600 line-through">${p.monthly}/mo</span>
-                      <span className="text-white font-bold">${Math.round(p.monthly / 2)}/mo</span>
-                    </span>
-                  </div>
-                ))}
-              </div>
-              <p className="text-slate-600 text-[10px] mt-2">After year one, regular pricing applies.</p>
-            </div>
-          </div>
-        </div>
+        <p className="text-center text-gray-400 text-xs mt-6">
+          60-day free trial of Pro on every paid signup. No credit card required to start free. Cancel anytime.
+        </p>
 
       </div>
     </section>

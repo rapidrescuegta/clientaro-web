@@ -59,7 +59,7 @@ export function WhyClientaro({ segment }: { segment: 'realestate' | 'b2b' }) {
           <h3 className="text-white text-2xl font-extrabold mb-2">Be among the first.</h3>
           <p className="text-slate-400 text-sm max-w-md mx-auto">
             Clientaro is new. That means you&apos;ll get direct access to the team, influence the roadmap,
-            and lock in founding-member pricing.
+            and the Free plan is genuinely free forever for your first 30 contacts.
           </p>
         </div>
       </div>
