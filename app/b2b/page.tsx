@@ -4,6 +4,7 @@ import { Pricing } from '../components/Pricing'
 import { CtaBanner } from '../components/CtaBanner'
 import { WhyClientaro } from '../components/WhyClientaro'
 import { ProductShowcase } from '../components/ProductShowcase'
+import { SoftwareApplicationSchema } from '../components/SoftwareApplicationSchema'
 import { B2BHero } from './B2BHero'
 import { B2BFeatures } from './B2BFeatures'
 
@@ -15,6 +16,7 @@ export const metadata = {
 export default function B2BPage() {
   return (
     <main className="bg-white text-gray-900">
+      <SoftwareApplicationSchema />
       <Nav segment="b2b" />
       <B2BHero />
       <B2BFeatures />

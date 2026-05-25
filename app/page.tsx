@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { LogoWordmark } from './components/Logo'
+import { SoftwareApplicationSchema } from './components/SoftwareApplicationSchema'
 
 export const metadata = {
   title: 'Clientaro — The CRM Built for Relationships',
@@ -15,6 +16,7 @@ const CRM_URL = process.env.NEXT_PUBLIC_CRM_URL || 'https://app.clientaro.com'
 export default function SegmentPage() {
   return (
     <main className="min-h-screen bg-[#0F172A] flex flex-col">
+      <SoftwareApplicationSchema />
       {/* Nav */}
       <header className="px-8 py-6 flex items-center justify-between">
         <LogoWordmark dark />

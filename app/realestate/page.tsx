@@ -4,6 +4,7 @@ import { Pricing } from '../components/Pricing'
 import { CtaBanner } from '../components/CtaBanner'
 import { WhyClientaro } from '../components/WhyClientaro'
 import { ProductShowcase } from '../components/ProductShowcase'
+import { SoftwareApplicationSchema } from '../components/SoftwareApplicationSchema'
 import { REHero } from './REHero'
 import { REFeatures } from './REFeatures'
 
@@ -15,6 +16,7 @@ export const metadata = {
 export default function RealEstatePage() {
   return (
     <main className="bg-white text-gray-900">
+      <SoftwareApplicationSchema />
       <Nav segment="realestate" />
       <REHero />
       <REFeatures />
