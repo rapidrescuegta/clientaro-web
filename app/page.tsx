@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { LogoWordmark } from './components/Logo'
 import { SoftwareApplicationSchema } from './components/SoftwareApplicationSchema'
+import { Footer } from './components/Footer'
 
 export const metadata = {
   title: 'Clientaro — The CRM Built for Relationships',
@@ -105,11 +106,28 @@ export default function SegmentPage() {
             </Link>
           </div>
 
-          <p className="text-slate-600 text-sm mt-10">
+          <p className="text-slate-400 text-sm mt-10">
+            Already know what you need?{' '}
+            <a
+              href={`${CRM_URL}/signup?utm_source=clientaro-web&utm_medium=router-skip&utm_campaign=homepage-cta`}
+              className="font-semibold text-amber-400 hover:text-amber-300 underline-offset-2 hover:underline"
+            >
+              Skip the tour and start free
+            </a>
+            {' · '}
+            <Link
+              href="/pricing"
+              className="font-semibold text-amber-400 hover:text-amber-300 underline-offset-2 hover:underline"
+            >
+              See pricing
+            </Link>
+          </p>
+          <p className="text-slate-600 text-xs mt-3">
             One platform. Two versions. Same relationship-first philosophy.
           </p>
         </div>
       </div>
+      <Footer />
     </main>
   )
 }
