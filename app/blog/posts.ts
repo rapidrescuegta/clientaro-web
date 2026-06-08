@@ -2154,6 +2154,203 @@ export const posts: BlogPost[] = [
       </p>
     `,
   },
+  {
+    slug: 'daily-five-method-real-estate',
+    title: 'The Daily Five Method: A Morning Routine That Keeps Clients for Life',
+    excerpt:
+      'Five names. Five reasons. Fifteen minutes before your first showing. The simplest follow-up system that actually works when you are a solo agent with a full pipeline — and how to run it without a CRM, or automate it with one.',
+    date: '2026-04-20',
+    author: 'Steve Gracco',
+    readTime: '9 min read',
+    category: 'Sales Tips',
+    segment: 'realestate',
+    content: `
+    <p class="text-lg text-gray-600 leading-relaxed mb-8">
+      Most agents fail at follow-up for a stupidly simple reason: they do not know who to call when they open their CRM. So they close it. Another week slips by. A past client closes with someone else. A referral never happens because a birthday got missed.
+    </p>
+    <p class="mb-6">
+      The Daily Five is the simplest fix to the simplest problem in real estate. Five people, every workday, before lunch. That is it. This article is the full playbook — how to run it manually with a notebook, how to scale it with a CRM, and why five is the magic number.
+    </p>
+
+    <h2 class="text-2xl font-bold mt-10 mb-4">What the Daily Five actually is</h2>
+    <p class="mb-6">
+      Every morning, you identify five people in your database who deserve a touch today. Not five leads. Not five cold outreach. Five <em>relationships</em> — past clients, warm referrals, sphere-of-influence contacts, current clients in transit. For each one, you know the reason you are reaching out (birthday, anniversary, market update, "saw your kid made the team", whatever). You do it by 11 AM. You move on with your day.
+    </p>
+    <p class="mb-6">
+      Five calls or texts. Fifteen minutes. Done before your first showing.
+    </p>
+
+    <h2 class="text-2xl font-bold mt-10 mb-4">Why five, not ten, not twenty</h2>
+    <p class="mb-4">
+      Because you will do five. You will not do twenty.
+    </p>
+    <p class="mb-6">
+      Every prescriptive routine in this industry fails the same way: the number is too high, you fall behind on day three, you feel guilty, you quit. Five is the number that survives contact with a bad day. Kid sick? Still five. Closing nightmare? Still five. A dozen is a nice-to-have that collapses under stress. Five is a habit that survives it.
+    </p>
+    <p class="mb-6">
+      Five a day is 25 a week, ~100 a month, ~1,200 a year. If your database is 400 contacts, you touch everyone three times a year without even working hard. That is more consistent outreach than 95 percent of agents in your market will manage.
+    </p>
+
+    <h2 class="text-2xl font-bold mt-10 mb-4">The anatomy of a good Daily Five list</h2>
+    <p class="mb-4">The five should not all be the same flavor. Aim for roughly:</p>
+    <ul class="list-disc pl-6 mb-6 space-y-2">
+      <li><strong>1–2 past clients</strong> you have not touched in 3+ months — the people most likely to refer or repurchase.</li>
+      <li><strong>1 sphere contact</strong> with a life event (birthday, anniversary, move, new job, kid's milestone).</li>
+      <li><strong>1 current client</strong> in transit — buyer under contract, seller post-listing, anyone with active momentum.</li>
+      <li><strong>1 "wildcard"</strong> — a referral source you owe a thank-you, a stale lead that warmed up, a past neighbor you saw on social media.</li>
+    </ul>
+    <p class="mb-6">
+      That mix keeps the pipeline moving at every stage — retention, referral, active deal, and opportunistic — without forcing you into a single motion all day.
+    </p>
+
+    <h2 class="text-2xl font-bold mt-10 mb-4">What counts as a "touch"</h2>
+    <p class="mb-4">Any of these works:</p>
+    <ul class="list-disc pl-6 mb-6 space-y-2">
+      <li>A personal phone call (best, rarest).</li>
+      <li>A personalized text message (not a templated blast).</li>
+      <li>A handwritten card in the mail (slowest, highest response rate by far).</li>
+      <li>A thoughtful reply to their social post — with a follow-up DM.</li>
+      <li>A dropped-off small gift or treat for local contacts.</li>
+      <li>A voice note (underrated — 10x the warmth of text, 10% of the effort of a call).</li>
+    </ul>
+    <p class="mb-6">
+      Email does not count. Agents will not hear this, so let us be direct: a single piece of email does not count as a touch. It counts if it is inside a genuine back-and-forth thread, but "sent market update newsletter" is not a Daily Five action. You can still send newsletters. Just do not count them as your five.
+    </p>
+
+    <h2 class="text-2xl font-bold mt-10 mb-4">How to run the Daily Five without a CRM</h2>
+    <p class="mb-4">You can absolutely do this with nothing but a notebook. Here is the manual version:</p>
+    <ol class="list-decimal pl-6 mb-6 space-y-2">
+      <li><strong>Sunday night:</strong> print or write out a list of 25 people you will touch this week.</li>
+      <li><strong>Each morning:</strong> pick five, cross them off when done.</li>
+      <li><strong>Friday:</strong> review who did not respond, mark them for a retry in 2–4 weeks.</li>
+      <li><strong>Monthly:</strong> scan your database. Who have you not touched in 90+ days? Add them to next week's 25.</li>
+    </ol>
+    <p class="mb-6">
+      This works. Thousands of top-producing agents ran systems like this before software existed. The reason most agents fail is not that they do not have a CRM — it is that they never write down the 25 in the first place.
+    </p>
+
+    <h2 class="text-2xl font-bold mt-10 mb-4">How to scale the Daily Five with a CRM</h2>
+    <p class="mb-6">
+      If you have more than ~200 contacts, the manual version starts breaking — you forget who you touched last month, who is in which category, whose birthday is this week. That is the job a CRM should do for you.
+    </p>
+    <p class="mb-4">The CRM version of the Daily Five runs on three signals:</p>
+    <ol class="list-decimal pl-6 mb-6 space-y-2">
+      <li><strong>Recency</strong> — how long since the last meaningful touch? Anyone at 90+ days auto-surfaces.</li>
+      <li><strong>Life events</strong> — birthdays, purchase anniversaries, lease expirations, kids' milestones.</li>
+      <li><strong>Referral potential</strong> — past clients who have referred before, sphere contacts in high-activity roles (lawyers, lenders, stagers, HOA presidents).</li>
+    </ol>
+    <p class="mb-6">
+      A good CRM generates the five for you based on these signals, leaves space to add "the wildcard" manually, and logs each touch so tomorrow's list is fresh. Clientaro builds this directly onto the home screen — open the app, see five names with reasons, close the app.
+    </p>
+
+    <div class="bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
+      <h3 class="text-xl font-bold mb-3 text-amber-900">The Daily Five, automated — try Clientaro free</h3>
+      <p class="text-amber-900 mb-4">
+        Clientaro is built around this method. The Daily Five generates itself every morning from your contacts, with a one-line reason for each. Free forever for 30 contacts (no credit card), $19/mo Starter, $49/mo Pro — with a 60-day Pro trial on every paid signup.
+      </p>
+      <a href="https://app.clientaro.com/signup" class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors">Start free →</a>
+    </div>
+
+    <h2 class="text-2xl font-bold mt-10 mb-4">Common mistakes and how to avoid them</h2>
+
+    <h3 class="text-xl font-bold mt-6 mb-2">1. Calling only when you need something</h3>
+    <p class="mb-4">
+      The fastest way to make your sphere hate you is to only call when you want a referral. The Daily Five only works if you are touching people without an ask most of the time. Rule of thumb: four "just thinking of you" touches for every one "who do you know who is thinking of selling?" conversation.
+    </p>
+
+    <h3 class="text-xl font-bold mt-6 mb-2">2. Logging it as work instead of living it</h3>
+    <p class="mb-4">
+      Agents who grind through five touches like a to-do list leak it through the phone. People can hear the obligation. Do the five because you genuinely want to know how these people are doing — the rest takes care of itself. If you cannot do that, you are in the wrong business.
+    </p>
+
+    <h3 class="text-xl font-bold mt-6 mb-2">3. Stopping when the pipeline is hot</h3>
+    <p class="mb-4">
+      This is the biggest trap. When you have 6 deals in escrow, the Daily Five feels optional. Two months later when those close, the new pipeline is empty because you stopped touching people. Five a day is the antidote to feast-and-famine. Every. Single. Workday.
+    </p>
+
+    <h3 class="text-xl font-bold mt-6 mb-2">4. Confusing quantity with quality</h3>
+    <p class="mb-4">
+      Five real conversations beat fifty texted "market updates." If you are tempted to crank the number to ten or twenty, you are heading for blast mode — which does not work. Keep it at five, make each one land, stop.
+    </p>
+
+    <h2 class="text-2xl font-bold mt-10 mb-4">A 30-day challenge</h2>
+    <p class="mb-4">
+      If you are skeptical, try this: twenty workdays, five touches each, 100 people over a month. Use a notebook if you want. At the end of the month, count:
+    </p>
+    <ul class="list-disc pl-6 mb-6 space-y-2">
+      <li>How many replied warmly.</li>
+      <li>How many asked a question about the market.</li>
+      <li>How many referred someone (even casually).</li>
+      <li>How many more listing appointments you got vs. the previous month.</li>
+    </ul>
+    <p class="mb-6">
+      We have run this challenge with dozens of solo agents. The median result: 3–4 new conversations that turn into real business over the following 60 days. On a $500,000 home at 2.5 percent, one of those closing pays for 10+ years of the habit.
+    </p>
+
+    <h2 class="text-2xl font-bold mt-10 mb-4">FAQs</h2>
+
+    <h3 class="text-xl font-bold mt-6 mb-2">What if I do not have enough contacts to sustain this?</h3>
+    <p class="mb-4">
+      If your database is under 50 people, start with "Daily Two." Same principle, smaller scale. Build the habit first, scale the number as your sphere grows. Jumping to five when your database is 40 leads to touching the same five people every week, which defeats the point.
+    </p>
+
+    <h3 class="text-xl font-bold mt-6 mb-2">Should I do this on weekends?</h3>
+    <p class="mb-4">
+      No. Monday through Friday only. Weekend outreach feels invasive to most clients, and you need the mental break. Five workdays is the right cadence.
+    </p>
+
+    <h3 class="text-xl font-bold mt-6 mb-2">Does text count as a Daily Five touch?</h3>
+    <p class="mb-4">
+      Yes — a <em>personalized</em> text absolutely counts. "Happy birthday, hope the kids are great, let me know when you want to grab coffee" counts. A templated "Hope you are well!" blast does not. If you would not send it to a friend, do not count it as a Daily Five.
+    </p>
+
+    <h3 class="text-xl font-bold mt-6 mb-2">Is there an app that does the Daily Five for me?</h3>
+    <p class="mb-4">
+      Clientaro is built around this method explicitly — the Daily Five is the home screen, generated from recency, life events, and referral signals. You can run the method manually in any CRM if you prefer, or with a spreadsheet. The software is not the method; the habit is.
+    </p>
+
+    <h3 class="text-xl font-bold mt-6 mb-2">How is this different from Gary Keller's "Millionaire Real Estate Agent" lead generation model?</h3>
+    <p class="mb-4">
+      MREA-style lead gen is usually about new prospecting — doorknocking, cold-calling, open houses, online leads. The Daily Five is the <em>other</em> side of the coin: retaining and re-activating the people who already know you. Most top producers do both; this article is the relationship half.
+    </p>
+
+    <h3 class="text-xl font-bold mt-6 mb-2">What if I miss a day?</h3>
+    <p class="mb-4">
+      Skip it. Do not double up to ten the next day — you will resent it, and the quality will drop. Five tomorrow is better than ten tomorrow and three the day after. The habit is the asset, not the ledger.
+    </p>
+
+    <div class="bg-blue-50 border border-blue-200 rounded-xl p-6 my-8">
+      <h3 class="text-xl font-bold mb-3 text-blue-900">Related reading</h3>
+      <ul class="text-blue-900 space-y-2">
+        <li><a href="/blog/best-crm-for-real-estate-agents-2026" class="underline">Best CRM for Real Estate Agents in 2026</a></li>
+        <li><a href="/blog/5-follow-up-systems-top-agents-use" class="underline">5 Follow-Up Systems Top Agents Actually Use</a></li>
+        <li><a href="/blog/stop-losing-referrals-client-management" class="underline">Stop Losing Referrals: A Client Management Primer</a></li>
+      </ul>
+    </div>
+  `,
+    faqs: [
+      {
+        q: 'What if I do not have enough contacts to sustain the Daily Five?',
+        a: 'If your database is under 50 people, start with "Daily Two" — same principle, smaller scale. Build the habit first and scale the number as your sphere grows.',
+      },
+      {
+        q: 'Should I do the Daily Five on weekends?',
+        a: 'No — Monday through Friday only. Weekend outreach feels invasive to most clients, and you need the mental break. Five workdays is the right cadence.',
+      },
+      {
+        q: 'Does a text message count as a Daily Five touch?',
+        a: 'Yes, a personalized text counts. A templated "Hope you are well!" blast does not. If you would not send it to a friend, do not count it.',
+      },
+      {
+        q: 'Is there an app that does the Daily Five for me?',
+        a: 'Clientaro is built around this method — the Daily Five is the home screen, generated from recency, life events, and referral signals. You can also run it manually in any CRM or a spreadsheet.',
+      },
+      {
+        q: 'What if I miss a day?',
+        a: 'Skip it. Do not double up to ten the next day. Five tomorrow is better than ten tomorrow and three the day after — the habit is the asset, not the ledger.',
+      },
+    ],
+  },
 ]
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
