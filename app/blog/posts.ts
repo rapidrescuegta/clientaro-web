@@ -62,6 +62,169 @@ const CLIENTARO_OFFERS = [
 
 export const posts: BlogPost[] = [
   {
+    slug: 'top-producer-alternatives-2026',
+    title: 'Top Producer Alternatives 2026: 6 Real-Estate CRMs Worth Switching To',
+    excerpt:
+      'Top Producer has been in the real-estate CRM business since 1982. If you are reading this, you have probably been on it for 3-10 years and the inertia of your 2,000-person contact database is keeping you there. This is an honest look at six alternatives in 2026 — including who Top Producer still beats, and who clearly beats it at this point.',
+    date: '2026-06-23',
+    author: 'Steve Gracco',
+    readTime: '10 min read',
+    category: 'CRM Reviews',
+    segment: 'realestate',
+    content: `
+    <p class="text-lg text-gray-600 leading-relaxed mb-8">
+      Top Producer is the dean of real-estate CRMs. It shipped its first version in 1982 — before the internet, before cell phones were normal, before email was a client-facing channel. It has been updated many times since, but the core UX is still built around assumptions from an era when you used a CRM to print letters.
+    </p>
+    <p class="mb-6">
+      Short answer first: if you are on Top Producer and it is mostly working, do not switch just for the sake of switching — the data migration cost is real. But if any of the below is true for you, this article will save you the 5 hours of shopping we put into it on your behalf.
+    </p>
+    <ul class="list-disc pl-6 mb-6 space-y-1">
+      <li>Your annual renewal just went up again</li>
+      <li>You have 3,000 contacts in it but you only touch 200 of them ever</li>
+      <li>The mobile app feels like a 2015 port</li>
+      <li>Your broker is pushing you to move to a team CRM and you want your own record</li>
+    </ul>
+
+    <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Why agents shop for Top Producer alternatives in 2026</h2>
+    <p class="mb-6">Five patterns we hear repeatedly:</p>
+    <ol class="list-decimal pl-6 mb-6 space-y-2">
+      <li><strong>Interface aging.</strong> Top Producer's web UI has been modernized but still has a 3-click-deep feel vs a Linear-era UX you get from Clientaro or Follow Up Boss.</li>
+      <li><strong>Mobile gaps.</strong> The iOS/Android apps work but are not the primary design target. Your day is mobile; your CRM should match.</li>
+      <li><strong>Pricing creep.</strong> Started at ~$40/month a decade ago, now commonly $85-$125/month after "add-on" packaging — and that's before the marketing suite upgrades the sales rep recommends at renewal.</li>
+      <li><strong>Buried automations.</strong> The drip-campaign and action-plan tools are powerful but buried behind a learning curve most agents never climb. They become shelfware.</li>
+      <li><strong>Data ownership anxiety.</strong> Migrating 10,000 contacts and 5 years of transaction history sounds terrifying. That fear keeps more agents on Top Producer than the product quality does.</li>
+    </ol>
+
+    <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">The 6 best Top Producer alternatives in 2026</h2>
+
+    <h3 class="text-xl font-semibold text-[#0F172A] mt-8 mb-3">1. Clientaro — Free · $19/mo Starter · $49/mo Pro</h3>
+    <p class="mb-4"><em>Disclosure: this is our product. We built it specifically for the "too much CRM, too little rhythm" problem Top Producer leaves its users with. Read this entry accordingly.</em></p>
+    <p class="mb-4"><strong>Who it's for:</strong> the agent whose business is 60-80% repeat and referral, who wants the CRM to push five past-client touches a day instead of showing a thousand leads in a pipeline. This is the <a href="/blog/daily-five-method-real-estate" class="text-[#2563EB] underline">Daily Five method</a> in product form.</p>
+    <p class="mb-4"><strong>Beats Top Producer on:</strong> modern interface, mobile-first design, transparent pricing, Daily Five rhythm. Migration tool imports the full Top Producer CSV in ~15 minutes including action plans. Free for 30 contacts (no credit card), then $19/mo Starter for 1,000 contacts or $49/mo Pro unlimited — with a 60-day Pro trial on every paid signup.</p>
+    <p class="mb-6"><strong>Loses to Top Producer on:</strong> transaction-management depth (Top Producer has 40 years of compliance fields baked in — Clientaro is simpler). If your state/province requires specific compliance fields in CRM, verify before migrating. If you came from a workflow-heavy tool, see also our <a href="/blog/realvolve-alternatives-2026" class="text-[#2563EB] underline">Realvolve alternatives guide</a>.</p>
+
+    <h3 class="text-xl font-semibold text-[#0F172A] mt-8 mb-3">2. Follow Up Boss — $69/user/month Grow, $99/user/month Pro</h3>
+    <p class="mb-4"><strong>Who it's for:</strong> teams of 5+ running real lead volume from portals (Zillow, Realtor.com, IDX). The gold standard for team lead distribution.</p>
+    <p class="mb-4"><strong>Beats Top Producer on:</strong> lead routing, SMS, team workflow, integrations library.</p>
+    <p class="mb-4"><strong>Loses to Top Producer on:</strong> individual-agent workflow (FUB assumes team dynamics), Canadian market support (Top Producer is very Canada-friendly; FUB is US-first).</p>
+    <p class="mb-6"><em>See our dedicated <a href="/blog/follow-up-boss-alternatives-2026" class="text-[#2563EB] underline">Follow Up Boss Alternatives 2026</a> piece if FUB was your likely next stop.</em></p>
+
+    <h3 class="text-xl font-semibold text-[#0F172A] mt-8 mb-3">3. Wise Agent — $49/month flat (unlimited users)</h3>
+    <p class="mb-4"><strong>Who it's for:</strong> 2-5 person teams who want team functionality without per-seat pricing. A quiet favorite among indie brokers.</p>
+    <p class="mb-4"><strong>Beats Top Producer on:</strong> price (especially at 3+ users), transaction checklists, landing-page builder included.</p>
+    <p class="mb-6"><strong>Loses to Top Producer on:</strong> reporting polish. Wise Agent's reports feel built by a developer; Top Producer's feel built by a brokerage manager.</p>
+
+    <h3 class="text-xl font-semibold text-[#0F172A] mt-8 mb-3">4. Realvolve — $94/month Pro, $119 Teams</h3>
+    <p class="mb-4"><strong>Who it's for:</strong> agents who love workflows and want every transaction to run on a checklist. Think "Asana for real estate transactions."</p>
+    <p class="mb-4"><strong>Beats Top Producer on:</strong> workflow design, contact timeline views, pure visual polish.</p>
+    <p class="mb-6"><strong>Loses to Top Producer on:</strong> market depth (Top Producer has more third-party brokerage integrations; Realvolve is newer).</p>
+
+    <h3 class="text-xl font-semibold text-[#0F172A] mt-8 mb-3">5. IXACT Contact — $49/month</h3>
+    <p class="mb-4"><strong>Who it's for:</strong> agents who want a "Top Producer but updated" experience. IXACT is owned by the same parent (Constellation Real Estate Group) and some features migrate between them.</p>
+    <p class="mb-4"><strong>Beats Top Producer on:</strong> Canadian-market feature parity at a lower price, simpler onboarding.</p>
+    <p class="mb-6"><strong>Loses to Top Producer on:</strong> some US broker-specific integrations, scale features for 10+ person operations.</p>
+
+    <h3 class="text-xl font-semibold text-[#0F172A] mt-8 mb-3">6. kvCORE (or BoldTrail CRM as it's now packaged) — custom pricing, usually $300+/month for a brokerage seat</h3>
+    <p class="mb-4"><strong>Who it's for:</strong> brokerage owners who want an all-in-one website + IDX + CRM + marketing automation stack for their entire office.</p>
+    <p class="mb-4"><strong>Beats Top Producer on:</strong> website + lead-gen integration, broker-level reporting.</p>
+    <p class="mb-6"><strong>Loses to Top Producer on:</strong> individual-agent friendliness. kvCORE is a broker tool you use because the broker pays for it — not a tool you would pick as a solo.</p>
+
+    <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Quick comparison</h2>
+    <div class="overflow-x-auto mb-6">
+      <table class="min-w-full border-collapse border border-slate-300">
+        <thead>
+          <tr class="bg-slate-100">
+            <th class="border border-slate-300 px-3 py-2 text-left">Tool</th>
+            <th class="border border-slate-300 px-3 py-2 text-left">Starting price</th>
+            <th class="border border-slate-300 px-3 py-2 text-left">Best for</th>
+            <th class="border border-slate-300 px-3 py-2 text-left">Top Producer import?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="border border-slate-300 px-3 py-2">Clientaro</td><td class="border border-slate-300 px-3 py-2">Free, then $19/mo</td><td class="border border-slate-300 px-3 py-2">Solo, repeat-and-referral</td><td class="border border-slate-300 px-3 py-2">Yes (CSV, ~15 min)</td></tr>
+          <tr><td class="border border-slate-300 px-3 py-2">Follow Up Boss</td><td class="border border-slate-300 px-3 py-2">$69/user/mo</td><td class="border border-slate-300 px-3 py-2">Teams of 5+, high lead volume</td><td class="border border-slate-300 px-3 py-2">Yes (CSV)</td></tr>
+          <tr><td class="border border-slate-300 px-3 py-2">Wise Agent</td><td class="border border-slate-300 px-3 py-2">$49/mo flat</td><td class="border border-slate-300 px-3 py-2">2-5 person teams, budget-conscious</td><td class="border border-slate-300 px-3 py-2">Yes (CSV)</td></tr>
+          <tr><td class="border border-slate-300 px-3 py-2">Realvolve</td><td class="border border-slate-300 px-3 py-2">$94/mo</td><td class="border border-slate-300 px-3 py-2">Workflow-obsessed solos + small teams</td><td class="border border-slate-300 px-3 py-2">Yes (CSV, field mapping required)</td></tr>
+          <tr><td class="border border-slate-300 px-3 py-2">IXACT Contact</td><td class="border border-slate-300 px-3 py-2">$49/mo</td><td class="border border-slate-300 px-3 py-2">Canadian solos wanting a Top Producer upgrade path</td><td class="border border-slate-300 px-3 py-2">Yes (same parent company; white-glove migration)</td></tr>
+          <tr><td class="border border-slate-300 px-3 py-2">kvCORE / BoldTrail</td><td class="border border-slate-300 px-3 py-2">$300+/mo</td><td class="border border-slate-300 px-3 py-2">Brokerage seats, full-stack web+CRM</td><td class="border border-slate-300 px-3 py-2">Yes (vendor-assisted)</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">A 2-minute decision tree</h2>
+    <ul class="list-disc pl-6 mb-6 space-y-2">
+      <li><strong>Solo agent, 60%+ repeat/referral, want a CRM that pushes 5 past-client touches a day</strong> → Clientaro</li>
+      <li><strong>Team of 5+ running portal-heavy lead volume</strong> → Follow Up Boss</li>
+      <li><strong>2-5 person team that hates per-seat pricing</strong> → Wise Agent</li>
+      <li><strong>Process-oriented agent who wants every transaction on a checklist</strong> → Realvolve</li>
+      <li><strong>Canadian agent who wants "Top Producer but lighter"</strong> → IXACT Contact</li>
+      <li><strong>Brokerage owner buying for an entire office</strong> → kvCORE / BoldTrail</li>
+    </ul>
+
+    <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Migration playbook</h2>
+    <ol class="list-decimal pl-6 mb-6 space-y-2">
+      <li><strong>Export everything from Top Producer.</strong> Contacts + notes + transactions + action plans + email templates. Multiple CSV exports. Save the raw files — they are your parachute if migration goes sideways.</li>
+      <li><strong>Segment before importing.</strong> Most agents have 60-80% dormant contacts. Clean the list; import only the 20-40% that are active sphere + leads. Your CRM should not carry dead weight into its new home.</li>
+      <li><strong>Run both in parallel for 30 days.</strong> Do not cancel Top Producer until you have processed a full pay period in the new CRM. Usually around day 14 you realize something was buried in Top Producer you need. Do not be stuck.</li>
+      <li><strong>Cancel in writing; get confirmation.</strong> Top Producer renewals are annual in many configurations. Cancel with enough runway that auto-renewal does not hit.</li>
+    </ol>
+
+    <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Frequently asked questions</h2>
+    <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">Is Top Producer actually bad?</h3>
+    <p class="mb-6">
+      No. It is genuinely good at what it was designed for and has 40 years of industry-specific features. "Bad" is too strong. "Not the best 2026-era choice for most solo agents" is fair.
+    </p>
+    <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">What about MoxiEngage and Chime?</h3>
+    <p class="mb-6">
+      MoxiEngage is a brokerage-level tool (like kvCORE). Chime is a solid US-focused choice if you are in the US and running a team. Neither has cleanly beat what is above for a solo agent migrating off Top Producer.
+    </p>
+    <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">What is the biggest mistake when switching from Top Producer?</h3>
+    <p class="mb-6">
+      Importing all 10,000 contacts including the 6,000 dormant ones. New CRM, same clutter. Segment first.
+    </p>
+    <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">What if I am already using Top Producer X (the premium tier)?</h3>
+    <p class="mb-6">
+      Then your use case is more complex than this article's default assumption. Talk to us directly before migrating — some Top Producer X features do not have 1:1 replacements yet (deep brokerage integrations, specific transaction-escrow workflows).
+    </p>
+    <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">Does Top Producer still have a future?</h3>
+    <p class="mb-6">
+      Yes. Constellation Real Estate Group is not shutting it down like Fidelity shut down LionDesk. But "has a future" and "is the best fit for your 2026 business" are different questions.
+    </p>
+
+    <div class="my-12 p-8 rounded-2xl bg-gradient-to-br from-blue-600 to-violet-700 text-white text-center">
+      <h3 class="text-2xl font-bold mb-3">Want to try Clientaro for free?</h3>
+      <p class="mb-6 text-blue-100 max-w-xl mx-auto">CSV import for Top Producer, LionDesk, Follow Up Boss, Wise Agent, Realvolve. Free forever for 30 contacts, no credit card — or start a 60-day Pro trial on any paid signup ($19/mo Starter, $49/mo Pro).</p>
+      <a href="https://app.clientaro.com/signup" class="inline-block px-8 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition">Start free →</a>
+    </div>
+  `,
+    itemList: buildItemList([
+      { name: 'Clientaro', url: 'https://www.clientaro.com/realestate', offers: CLIENTARO_OFFERS },
+      { name: 'Follow Up Boss', url: 'https://followupboss.com', offers: [{ name: 'Grow', price: '69' }] },
+      { name: 'Wise Agent', url: 'https://wiseagent.com', offers: [{ name: 'Flat', price: '49' }] },
+      { name: 'Realvolve', url: 'https://realvolve.com', offers: [{ name: 'Pro', price: '94' }] },
+      { name: 'IXACT Contact', url: 'https://www.ixactcontact.com', offers: [{ name: 'Monthly', price: '49' }] },
+      { name: 'kvCORE / BoldTrail', url: 'https://www.insiderealestate.com', offers: [{ name: 'Brokerage', price: '300' }] },
+    ]),
+    faqs: [
+      {
+        q: 'What is the best Top Producer alternative for a solo agent?',
+        a: 'Clientaro is the closest fit for a solo agent whose business is 60-80% repeat and referral — a modern, mobile-first interface with a Daily Five that surfaces five past clients to call each morning. It is Free for 30 contacts, then $19/mo Starter or $49/mo Pro, and imports the full Top Producer CSV in about 15 minutes.',
+      },
+      {
+        q: 'Is Top Producer actually a bad CRM?',
+        a: 'No. Top Producer has 40 years of industry-specific features and is genuinely good at what it was designed for, especially transaction-management depth and Canadian-market support. It is simply not the best 2026-era choice for most solo agents who want a fast, mobile-first, relationship-led tool.',
+      },
+      {
+        q: 'What is the biggest mistake when switching from Top Producer?',
+        a: 'Importing all 10,000 contacts, including the 6,000 dormant ones. You end up with a new CRM and the same clutter. Segment first and import only the active 20-40% of your database — your sphere and live leads.',
+      },
+      {
+        q: 'What is the cheapest Top Producer alternative?',
+        a: 'Clientaro has the only true free-forever tier (30 contacts, every Pro feature, no credit card), with paid plans at $19/mo Starter for 1,000 contacts and $49/mo Pro unlimited. Wise Agent and IXACT Contact at $49/mo are the next-cheapest if you need built-in transaction management.',
+      },
+    ],
+  },
+  {
     slug: 'follow-up-boss-alternatives-2026',
     title: 'Follow Up Boss Alternatives: 6 Real Estate CRMs That Actually Fit Solo Agents in 2026',
     excerpt:
