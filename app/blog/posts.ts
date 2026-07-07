@@ -62,6 +62,173 @@ const CLIENTARO_OFFERS = [
 
 export const posts: BlogPost[] = [
   {
+    slug: 'canadian-real-estate-crm-2026',
+    title: 'Best CRM for Canadian Real Estate Agents in 2026: 5 Options Built for CASL, TRREB, and the Way We Actually Sell Up Here',
+    excerpt:
+      "Most 'best real estate CRM' lists are written in Texas. Here's an honest comparison of 5 CRMs through a Canadian agent's lens — CASL-aware messaging, TRREB / RAHB / REBGV data realities, and which tools treat Canada as a first-class market vs. an afterthought.",
+    date: '2026-07-07',
+    author: 'Steve Gracco',
+    readTime: '10 min read',
+    category: 'CRM Reviews',
+    segment: 'realestate',
+    content: `
+    <p class="text-lg text-gray-600 leading-relaxed mb-8">
+      If you Google "best real estate CRM" you will get the same five tools recommended in a different order across forty articles. Follow Up Boss. LionDesk. kvCORE. Top Producer. Realvolve. All of them are built in the United States, marketed at US agents, and treat Canada as a checkbox — "yes, we have Canadian customers" — without ever doing the actual work.
+    </p>
+    <p class="mb-6">
+      The actual work looks like this: CASL-compliant consent capture baked into every contact form. MLS feed compatibility for TRREB, RAHB, KW, OCR, REBGV, CREB, and the eight or nine other boards Canadian agents touch. E-signature workflows that integrate with WEBForms or Authentisign — not just DocuSign. Currency in CAD by default. Phone number formatting that doesn't strip the leading 1 on a 416 number. Tax handling that knows the difference between HST, GST, and PST.
+    </p>
+    <p class="mb-6">
+      We just spent a Sunday going through the five most-recommended CRMs from a Canadian agent's seat. Here is what we found, ranked by how much friction you will hit if you actually buy them.
+    </p>
+
+    <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Why "made in the USA" matters more than the listicles admit</h2>
+    <p class="mb-4">Three categories of friction:</p>
+    <ol class="list-decimal pl-6 mb-6 space-y-2">
+      <li><strong>CASL exposure.</strong> Canada's Anti-Spam Legislation is stricter than CAN-SPAM. Every email blast you send needs documented express or implied consent, an unsubscribe link in every message, and a record of how you got the contact. US-built CRMs treat the unsubscribe link as a marketing-feature toggle, not a legal requirement. If you're audited, "my CRM didn't enforce it" is not a defence.</li>
+      <li><strong>MLS feed mismatch.</strong> US CRMs assume one of about a dozen US MLS systems. None of them natively pull TRREB, RAHB, REBGV, CREB. You end up exporting a CSV daily, importing into the CRM, deduping against your existing contacts. Two hours a week, every week, gone.</li>
+      <li><strong>E-sign + form workflow.</strong> Canadian deals run on WEBForms (CREA) or board-specific Authentisign / DocuSign templates. US CRMs that "integrate with DocuSign" do so for US listing-agreement templates. You still end up sending the Canadian docs out-of-band.</li>
+    </ol>
+    <p class="mb-6">None of this is fatal. All of it is friction. And friction at the CRM layer compounds — you stop using the CRM for the things it is supposed to do, and it becomes another expensive contact list.</p>
+
+    <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">The 5 options, ranked by Canadian fit</h2>
+
+    <h3 class="text-xl font-semibold text-[#0F172A] mt-8 mb-3">1. Clientaro — built in Canada, for Canadians</h3>
+    <p class="mb-4"><strong>Pricing:</strong> Free for 30 contacts · $19/mo Starter (1,000 contacts) · $49/mo Pro unlimited — priced in CAD, with a 60-day Pro trial on every paid signup.</p>
+    <p class="mb-4"><strong>Where it wins:</strong></p>
+    <ul class="list-disc pl-6 mb-4 space-y-1">
+      <li>CASL-aware contact intake forms — express consent capture is baked in, not a paid add-on.</li>
+      <li>Phone formats default to North American 10-digit with country-code awareness for snowbird clients.</li>
+      <li>Pricing in CAD by default. No FX surprise on your annual.</li>
+      <li>Built by a working Sutton Group agent in Ontario. Roadmap reflects what TRREB agents actually need (referral tracking, household relationships, post-closing follow-up that isn't a glorified email blast).</li>
+      <li><a href="/blog/daily-five-method-real-estate" class="text-[#2563EB] underline">The Daily Five method</a> baked into the dashboard — five touches a day, not 50, so the CRM becomes a habit instead of a chore.</li>
+    </ul>
+    <p class="mb-4"><strong>Where it loses:</strong></p>
+    <ul class="list-disc pl-6 mb-6 space-y-1">
+      <li>No native MLS integration with TRREB / RAHB yet (CSV import works; native feed roadmap 2026 H2).</li>
+      <li>Smaller user base than Follow Up Boss — fewer YouTube tutorials, fewer "CRM coach" consultants who specialize in it (yet).</li>
+    </ul>
+    <p class="mb-6"><strong>Honest verdict:</strong> Best fit for the solo or 2-3 agent shop that wants something that respects the Canadian market without paying enterprise prices. <a href="https://app.clientaro.com/signup" class="text-[#2563EB] underline font-semibold">Start free →</a> Free for 30 contacts, no credit card required.</p>
+
+    <h3 class="text-xl font-semibold text-[#0F172A] mt-8 mb-3">2. Follow Up Boss — the heavy hitter that almost gets it</h3>
+    <p class="mb-4"><strong>Pricing:</strong> $69 USD / agent / month (Grow plan). At today's FX, around $95 CAD per agent.</p>
+    <p class="mb-4"><strong>Where it wins:</strong></p>
+    <ul class="list-disc pl-6 mb-4 space-y-1">
+      <li>Industry-best automation logic. Action Plans are the gold standard.</li>
+      <li>Active Canadian user base — Toronto, Vancouver, Calgary brokerages run it.</li>
+      <li>Reliable mobile app. Integrations marketplace is huge.</li>
+    </ul>
+    <p class="mb-4"><strong>Where it loses:</strong></p>
+    <ul class="list-disc pl-6 mb-6 space-y-1">
+      <li>USD pricing — your monthly is a moving target depending on the loonie.</li>
+      <li>Per-seat pricing punishes 3-5 agent indie teams. $285+ CAD/month for a 3-agent shop adds up fast.</li>
+      <li>CASL is on you. The unsubscribe footer toggles are there, but onboarding doesn't walk you through the consent-record requirement.</li>
+      <li>No native TRREB / RAHB feed. CSV import or third-party piping (Zapier).</li>
+    </ul>
+    <p class="mb-6"><strong>Honest verdict:</strong> Powerful but expensive in CAD. Worth it for high-volume teams who want best-in-class automation. <a href="/blog/follow-up-boss-alternatives-2026" class="text-[#2563EB] underline">Full FUB alternatives breakdown here.</a></p>
+
+    <h3 class="text-xl font-semibold text-[#0F172A] mt-8 mb-3">3. LionDesk — the deprecated one (don't)</h3>
+    <p class="mb-4"><strong>Pricing:</strong> Service shut down September 2025.</p>
+    <p class="mb-6">If you are reading this because you are migrating off LionDesk, see our <a href="/blog/best-liondesk-alternatives-2026" class="text-[#2563EB] underline">LionDesk alternatives migration guide</a>. The TL;DR for Canadian agents specifically: of the recommended replacements, Clientaro and Follow Up Boss are the two that handle CASL credibly. Wise Agent's flat-pricing model is appealing if you have 3+ agents but the platform is aging.</p>
+
+    <h3 class="text-xl font-semibold text-[#0F172A] mt-8 mb-3">4. Top Producer — the legacy player</h3>
+    <p class="mb-4"><strong>Pricing:</strong> Starts around $79 USD / month / agent for Top Producer X. Roughly $108 CAD.</p>
+    <p class="mb-4"><strong>Where it wins:</strong></p>
+    <ul class="list-disc pl-6 mb-4 space-y-1">
+      <li>Owned by Constellation Real Estate Group — same ownership as several Canadian board MLS providers. There is real Canadian DNA in the company.</li>
+      <li>Decent contact-management depth, marketing tools bundled.</li>
+    </ul>
+    <p class="mb-4"><strong>Where it loses:</strong></p>
+    <ul class="list-disc pl-6 mb-6 space-y-1">
+      <li>UI is showing its age. Mobile experience is not first-class.</li>
+      <li>USD pricing despite Canadian ownership ties.</li>
+      <li>CASL handling is similar to FUB — present but on you to enforce.</li>
+    </ul>
+    <p class="mb-6"><strong>Honest verdict:</strong> Reasonable middle option. Newer platforms have lapped it on UX. <a href="/blog/top-producer-alternatives-2026" class="text-[#2563EB] underline">See our full Top Producer alternatives review.</a></p>
+
+    <h3 class="text-xl font-semibold text-[#0F172A] mt-8 mb-3">5. kvCORE / Lofty — built for brokerages, not agents</h3>
+    <p class="mb-4"><strong>Pricing:</strong> Quote-only. Real-world Canadian brokerage rollouts: $400-1200 USD / month minimums.</p>
+    <p class="mb-4"><strong>Where it wins:</strong></p>
+    <ul class="list-disc pl-6 mb-4 space-y-1">
+      <li>If you ARE a brokerage standardizing 20+ agents, kvCORE is genuinely powerful. IDX, lead routing, agent websites all in one.</li>
+    </ul>
+    <p class="mb-4"><strong>Where it loses:</strong></p>
+    <ul class="list-disc pl-6 mb-6 space-y-1">
+      <li>If you are a solo or 2-5 agent indie team, you are paying brokerage prices for tools you will not use.</li>
+      <li>USD pricing, contract minimums, implementation fees.</li>
+      <li>CASL handling defaults to US-style CAN-SPAM — the consent flow is not Canadian-native.</li>
+    </ul>
+    <p class="mb-6"><strong>Honest verdict:</strong> Buy it if you are a 20+ agent brokerage. Don't buy it if you are not.</p>
+
+    <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">CASL specifically — what your CRM should do for you</h2>
+    <p class="mb-4">A short checklist you can run any CRM through. If it can't do all four of these out of the box, you are wearing the compliance risk yourself.</p>
+    <ol class="list-decimal pl-6 mb-6 space-y-2">
+      <li><strong>Consent record per contact.</strong> Every contact should have a field for express vs. implied consent, the date consent was captured, and the source (form fill, in-person, business card, referral).</li>
+      <li><strong>Unsubscribe in every commercial email — automatically.</strong> Not a toggle you can forget to flip. Every email out the door should have a one-click unsubscribe.</li>
+      <li><strong>Sender identification.</strong> Your business name, mailing address, phone or email reachable to a real person — appended to every commercial email by default.</li>
+      <li><strong>Implied-consent decay timer.</strong> Implied consent has time limits (6 months for inquiries, 24 months for business relationships). The CRM should warn you when an implied-consent contact is aging out.</li>
+    </ol>
+    <p class="mb-6">Of the five tools above, Clientaro is the only one that ships items 3 and 4 without configuration. The others require manual setup or third-party add-ons.</p>
+
+    <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">TRREB / RAHB / OCR feed reality check</h2>
+    <p class="mb-6">As of mid-2026, none of the five tools above offers a true native MLS feed for any Canadian board. The patterns that work in practice:</p>
+    <ul class="list-disc pl-6 mb-6 space-y-2">
+      <li><strong>Daily CSV export from Matrix → import into CRM.</strong> Two-minute job once you have the workflow. Works with all five tools.</li>
+      <li><strong>Zapier middleware</strong> if you have a tech-comfortable office manager. Brittle but workable.</li>
+      <li><strong>Native feed (roadmap, not shipped):</strong> Clientaro and Follow Up Boss have publicly hinted at native TRREB feed support; nothing is live yet.</li>
+    </ul>
+    <p class="mb-6">For now, plan on the CSV workflow. It's annoying but it's the universal answer.</p>
+
+    <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Decision framework: which one to pick</h2>
+    <ul class="list-disc pl-6 mb-6 space-y-2">
+      <li><strong>Solo agent or 2-3 person team, want CAD pricing + CASL handled:</strong> Clientaro. <a href="https://app.clientaro.com/signup" class="text-[#2563EB] underline font-semibold">Start free →</a></li>
+      <li><strong>4-10 agent team, willing to pay USD for best-in-class automation:</strong> Follow Up Boss.</li>
+      <li><strong>Migrating off LionDesk in 2026:</strong> Clientaro or Follow Up Boss. <a href="/blog/best-liondesk-alternatives-2026" class="text-[#2563EB] underline">Migration guide here.</a></li>
+      <li><strong>Renewing Wise Agent and team grew past 5 people:</strong> <a href="/blog/wise-agent-alternatives-2026" class="text-[#2563EB] underline">See Wise Agent alternatives breakdown.</a></li>
+      <li><strong>20+ agent brokerage standardizing tooling:</strong> kvCORE / Lofty. None of the others scale to that size cleanly.</li>
+    </ul>
+
+    <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Bottom line</h2>
+    <p class="mb-4">"Best CRM" depends on what you actually do with it day to day. For most Canadian solo and small-team agents reading this, the honest answer is: start on Clientaro's free tier (30 contacts, every Pro feature, no credit card), and if it doesn't fit, default to Follow Up Boss with a CASL checklist of your own on top.</p>
+    <p class="mb-6">No shilling, no kickback links. The reason Clientaro exists is that the Canadian-specific gap is real, and US tools weren't going to close it.</p>
+
+    <div class="my-12 p-8 rounded-2xl bg-gradient-to-br from-blue-600 to-violet-700 text-white text-center">
+      <h3 class="text-2xl font-bold mb-3">Try Clientaro free</h3>
+      <p class="mb-6 text-blue-100 max-w-xl mx-auto">CAD pricing, CASL-aware contact intake, Daily Five method built in. Free forever for 30 contacts, no credit card — or a 60-day Pro trial on any paid signup ($19/mo Starter, $49/mo Pro).</p>
+      <a href="https://app.clientaro.com/signup" class="inline-block px-8 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition">Start free →</a>
+    </div>
+  `,
+    itemList: buildItemList([
+      { name: 'Clientaro', url: 'https://www.clientaro.com/realestate', offers: CLIENTARO_OFFERS },
+      { name: 'Follow Up Boss', url: 'https://followupboss.com', offers: [{ name: 'Grow', price: '69' }] },
+      { name: 'LionDesk (discontinued)', url: 'https://www.liondesk.com' },
+      { name: 'Top Producer', url: 'https://www.topproducer.com', offers: [{ name: 'Top Producer X', price: '79' }] },
+      { name: 'kvCORE / Lofty', url: 'https://www.insiderealestate.com', offers: [{ name: 'Brokerage', price: '400' }] },
+    ]),
+    faqs: [
+      {
+        q: 'Is Follow Up Boss CASL compliant?',
+        a: 'Follow Up Boss has the technical building blocks (unsubscribe links, sender footer fields) but does not enforce CASL by default. The compliance work is on the agent — recording consent type and date, ensuring sender info appears on every commercial message, watching for implied-consent expiration. If you use FUB in Canada, build a CASL checklist on top of it.',
+      },
+      {
+        q: 'Does any real estate CRM have a native TRREB feed?',
+        a: 'Not as of mid-2026. All five major real estate CRMs require either a CSV export from Matrix imported into the CRM, or a Zapier middleware setup. Clientaro and Follow Up Boss have publicly mentioned native Canadian MLS support on their roadmap; neither has shipped yet.',
+      },
+      {
+        q: 'What is the cheapest real estate CRM for Canadian agents?',
+        a: "Clientaro's free tier (30 contacts, every Pro feature, no credit card) is the cheapest way to start, and its $19/month Starter plan is the cheapest paid tier among the tools that handle CASL credibly — priced in CAD. Wise Agent's flat $49 USD/month for unlimited users is competitive for 3-5 person teams who don't mind the aging UI.",
+      },
+      {
+        q: "Can I use HubSpot's free CRM for real estate in Canada?",
+        a: "Yes, but with significant friction. HubSpot's free tier is generous on contact storage but lacks real estate-specific fields (transaction stage, MLS number, commission tracking). CASL handling defaults to US-style. Most agents who try HubSpot free spend three months building real estate functionality on top of it before switching to a purpose-built CRM.",
+      },
+      {
+        q: 'Is kvCORE worth it for a solo Canadian agent?',
+        a: "No. kvCORE is built for brokerages standardizing tooling across 20+ agents. The pricing model and feature complexity are wildly mismatched to a solo agent's needs. Buy a CRM your size — Clientaro (free for 30 contacts, then $19/mo Starter), Wise Agent, or Follow Up Boss Single — and revisit kvCORE if and when you build a brokerage.",
+      },
+    ],
+  },
+  {
     slug: 'top-producer-alternatives-2026',
     title: 'Top Producer Alternatives 2026: 6 Real-Estate CRMs Worth Switching To',
     excerpt:
