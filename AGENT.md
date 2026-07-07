@@ -51,3 +51,6 @@ _(empty)_
 ### Tools I wish I had
 
 _(empty — propose new ones under `proposals/`)_
+
+- (2026-07-07) Next-steps API: complete an item via `PATCH http://localhost:3001/api/projects/clientaro-web/next-steps` with body `{"id":"<full-uuid>","done":true}`. There is NO per-item route (`/next-steps/:id` and `/:id/complete` both 404) — don't waste probes.
+- (2026-07-07) Growth Engine drafts routinely carry stale Clientaro pricing ($29/$79/$179, 14/30-day trial). Canonical before pasting: Free $0 (30 contacts) / $19 Starter (1,000) / $49 Pro unlimited, 60-day Pro trial (commit f07927f). Also convert `faq:[{question,answer}]` → `faqs:[{q,a}]`, drop `keywords`, add `itemList: buildItemList(...)` for alternatives pillars.
