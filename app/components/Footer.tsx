@@ -14,7 +14,7 @@ export function Footer() {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-8 text-sm">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-sm">
             <div>
               <div className="text-slate-500 font-semibold uppercase tracking-wider text-xs mb-3">Product</div>
               <div className="space-y-2">
@@ -30,6 +30,14 @@ export function Footer() {
                 <a href="/about" className="block text-slate-400 hover:text-white transition-colors">About</a>
                 <a href="/blog" className="block text-slate-400 hover:text-white transition-colors">Blog</a>
                 <a href="/contact" className="block text-slate-400 hover:text-white transition-colors">Contact</a>
+              </div>
+            </div>
+            <div>
+              <div className="text-slate-500 font-semibold uppercase tracking-wider text-xs mb-3">Contact</div>
+              <div className="space-y-2">
+                <a href="mailto:hello@clientaro.com" className="block text-slate-400 hover:text-white transition-colors">hello@clientaro.com</a>
+                <a href="mailto:support@clientaro.com" className="block text-slate-400 hover:text-white transition-colors">support@clientaro.com</a>
+                <a href="mailto:billing@clientaro.com" className="block text-slate-400 hover:text-white transition-colors">billing@clientaro.com</a>
               </div>
             </div>
             <div>

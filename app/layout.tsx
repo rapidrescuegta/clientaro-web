@@ -37,6 +37,7 @@ const jsonLd = {
   '@type': 'Organization',
   name: 'Clientaro',
   url: 'https://www.clientaro.com',
+  logo: 'https://www.clientaro.com/favicon.svg',
   description:
     'The relationship-driven CRM for real estate and B2B professionals who grow their business through genuine connections.',
   foundingDate: '2025',
@@ -44,6 +45,29 @@ const jsonLd = {
     '@type': 'Person',
     name: 'Steve Gracco',
   },
+  contactPoint: [
+    {
+      '@type': 'ContactPoint',
+      contactType: 'customer support',
+      email: 'support@clientaro.com',
+      availableLanguage: ['English'],
+      areaServed: ['CA', 'US'],
+    },
+    {
+      '@type': 'ContactPoint',
+      contactType: 'billing support',
+      email: 'billing@clientaro.com',
+      availableLanguage: ['English'],
+      areaServed: ['CA', 'US'],
+    },
+    {
+      '@type': 'ContactPoint',
+      contactType: 'sales',
+      email: 'hello@clientaro.com',
+      availableLanguage: ['English'],
+      areaServed: ['CA', 'US'],
+    },
+  ],
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

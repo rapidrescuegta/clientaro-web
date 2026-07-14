@@ -1,7 +1,6 @@
 import { Nav } from '../components/Nav'
 import { Footer } from '../components/Footer'
 import { ContactForm } from './ContactForm'
-import Link from 'next/link'
 
 export const metadata = {
   title: 'Contact Clientaro — Get in Touch',
@@ -47,7 +46,7 @@ export default function ContactPage() {
 
             {/* RIGHT — Contact info cards */}
             <div className="space-y-5">
-              {/* Email */}
+              {/* Sales & general */}
               <div className="bg-gray-50 border border-gray-100 rounded-2xl p-6">
                 <div className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-lg bg-amber-100 flex items-center justify-center flex-shrink-0">
@@ -66,13 +65,76 @@ export default function ContactPage() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-sm font-semibold text-gray-900 mb-1">Email</h3>
+                    <h3 className="text-sm font-semibold text-gray-900 mb-1">Sales &amp; general</h3>
                     <a
                       href="mailto:hello@clientaro.com"
                       className="text-sm text-amber-600 hover:text-amber-700 font-medium transition-colors"
                     >
                       hello@clientaro.com
                     </a>
+                    <p className="text-sm text-gray-500 mt-1">Demos, partnerships, anything else</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Support */}
+              <div className="bg-gray-50 border border-gray-100 rounded-2xl p-6">
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-lg bg-amber-100 flex items-center justify-center flex-shrink-0">
+                    <svg
+                      className="w-5 h-5 text-amber-600"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-sm font-semibold text-gray-900 mb-1">Support</h3>
+                    <a
+                      href="mailto:support@clientaro.com"
+                      className="text-sm text-amber-600 hover:text-amber-700 font-medium transition-colors"
+                    >
+                      support@clientaro.com
+                    </a>
+                    <p className="text-sm text-gray-500 mt-1">Help with your account or how-to questions</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Billing */}
+              <div className="bg-gray-50 border border-gray-100 rounded-2xl p-6">
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-lg bg-amber-100 flex items-center justify-center flex-shrink-0">
+                    <svg
+                      className="w-5 h-5 text-amber-600"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-sm font-semibold text-gray-900 mb-1">Billing</h3>
+                    <a
+                      href="mailto:billing@clientaro.com"
+                      className="text-sm text-amber-600 hover:text-amber-700 font-medium transition-colors"
+                    >
+                      billing@clientaro.com
+                    </a>
+                    <p className="text-sm text-gray-500 mt-1">Invoices, plan changes, refund requests</p>
                   </div>
                 </div>
               </div>
@@ -98,74 +160,6 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-sm font-semibold text-gray-900 mb-1">Response Time</h3>
                     <p className="text-sm text-gray-500">We typically respond within 24 hours</p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Office */}
-              <div className="bg-gray-50 border border-gray-100 rounded-2xl p-6">
-                <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-lg bg-amber-100 flex items-center justify-center flex-shrink-0">
-                    <svg
-                      className="w-5 h-5 text-amber-600"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
-                      />
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
-                      />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="text-sm font-semibold text-gray-900 mb-1">Office</h3>
-                    <p className="text-sm text-gray-500">Toronto, Canada</p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Quick Links */}
-              <div className="bg-gray-50 border border-gray-100 rounded-2xl p-6">
-                <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-lg bg-amber-100 flex items-center justify-center flex-shrink-0">
-                    <svg
-                      className="w-5 h-5 text-amber-600"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
-                      />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="text-sm font-semibold text-gray-900 mb-2">Quick Links</h3>
-                    <div className="space-y-1.5">
-                      <Link
-                        href="/blog"
-                        className="block text-sm text-gray-500 hover:text-amber-600 transition-colors"
-                      >
-                        Read our blog &rarr;
-                      </Link>
-                      <Link
-                        href="/newsletter"
-                        className="block text-sm text-gray-500 hover:text-amber-600 transition-colors"
-                      >
-                        Download the free guide &rarr;
-                      </Link>
-                    </div>
                   </div>
                 </div>
               </div>
