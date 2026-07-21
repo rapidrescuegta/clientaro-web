@@ -4,6 +4,7 @@ import { Footer } from '../components/Footer'
 export const metadata = {
   title: 'Terms of Service — Clientaro',
   description: 'Terms and conditions for using the Clientaro CRM platform.',
+  alternates: { canonical: '/terms' },
 }
 
 export default function TermsPage() {

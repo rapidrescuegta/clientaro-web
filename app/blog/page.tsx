@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: 'Clientaro Blog — Tips for Relationship-Driven Professionals',
   description:
     'Actionable advice on follow-up systems, referral management, CRM strategies, and client relationships for real estate agents and B2B professionals.',
+  alternates: { canonical: '/blog' },
   openGraph: {
     title: 'Clientaro Blog — Tips for Relationship-Driven Professionals',
     description: 'Actionable advice on follow-up systems, referral management, CRM strategies, and client relationships.',

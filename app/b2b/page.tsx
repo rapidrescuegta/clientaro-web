@@ -11,6 +11,7 @@ import { B2BFeatures } from './B2BFeatures'
 export const metadata = {
   title: 'Clientaro for B2B & Services — Your Relationship-Driven CRM',
   description: 'The CRM built for consultants, service businesses, and account managers who win on trust.',
+  alternates: { canonical: '/b2b' },
 }
 
 export default function B2BPage() {

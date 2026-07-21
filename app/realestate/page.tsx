@@ -11,6 +11,7 @@ import { REFeatures } from './REFeatures'
 export const metadata = {
   title: 'Clientaro for Real Estate — Your Relationship-Driven CRM',
   description: 'The CRM built for real estate agents and brokers who win on relationships.',
+  alternates: { canonical: '/realestate' },
 }
 
 export default function RealEstatePage() {

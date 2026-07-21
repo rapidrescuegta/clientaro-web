@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: 'The Daily 5 System — Free Guide for Real Estate Agents | Clientaro',
   description:
     'Download the free Daily 5 System guide. Learn the simple follow-up framework top-producing real estate agents use to close more deals through relationships.',
+  alternates: { canonical: '/newsletter' },
 }
 
 export default function NewsletterPage() {

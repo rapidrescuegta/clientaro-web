@@ -4,6 +4,7 @@ import { Footer } from '../components/Footer'
 export const metadata = {
   title: 'Privacy Policy — Clientaro',
   description: 'How Clientaro collects, uses, and protects your personal information.',
+  alternates: { canonical: '/privacy' },
 }
 
 export default function PrivacyPage() {

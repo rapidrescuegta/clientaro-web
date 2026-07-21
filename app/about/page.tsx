@@ -6,6 +6,7 @@ export const metadata = {
   title: 'About Clientaro — Our Mission & Story',
   description:
     'Clientaro is a relationship-driven CRM built for real estate professionals and B2B teams who believe in growing business through genuine human connections.',
+  alternates: { canonical: '/about' },
   openGraph: {
     title: 'About Clientaro — Our Mission & Story',
     description:

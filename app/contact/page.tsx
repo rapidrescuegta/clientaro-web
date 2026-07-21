@@ -6,6 +6,7 @@ export const metadata = {
   title: 'Contact Clientaro — Get in Touch',
   description:
     'Have questions about Clientaro CRM? Reach out to our team — we typically respond within 24 hours.',
+  alternates: { canonical: '/contact' },
   openGraph: {
     title: 'Contact Clientaro — Get in Touch',
     description:
