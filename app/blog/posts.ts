@@ -2865,6 +2865,241 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: 'best-crm-for-solo-real-estate-agents-2026',
+    title: 'Best CRM for Solo Real Estate Agents in 2026 (Honest Comparison)',
+    excerpt:
+      'Most "best CRM" roundups push team platforms that cost $500+/month and drown a solo agent in features they will never use. Here is what actually works when it is just you, your phone, and a pipeline of 30–200 contacts.',
+    date: '2026-04-19',
+    author: 'Steve Gracco',
+    readTime: '12 min read',
+    category: 'CRM Reviews',
+    segment: 'realestate',
+    content: `
+    <p class="text-lg text-gray-600 leading-relaxed mb-8">
+      If you are a solo real estate agent closing 5 to 50 deals a year, most of the "best CRM" articles online are lying to you. They push Follow Up Boss, kvCORE, or BoomTown — tools designed for 10-person teams with a dedicated admin and a $2,000/month software budget. You are paying for features you will never use, and worse, you are learning software built around workflows that do not match how you actually work.
+    </p>
+    <p class="mb-6">
+      This article is the honest version. We compared every CRM a solo agent realistically uses in 2026, priced them against a real solo budget, and ranked them against what actually moves the needle when you are a one-person operation: contact depth, daily follow-up discipline, and ease of use after the new-tool honeymoon wears off.
+    </p>
+
+    <h2 class="text-2xl font-bold mt-10 mb-4">What "solo agent" actually means here</h2>
+    <p class="mb-6">
+      A solo agent is someone closing their own deals, not running a team. You may have a transaction coordinator or a part-time VA, but the client relationship lives with you. Your database is probably between 100 and 800 contacts — people you actually know, not scraped leads. Referrals and repeat business are 40 to 80 percent of your pipeline. You check your phone more than your desktop.
+    </p>
+    <p class="mb-6">
+      If that sounds like you, stop reading any CRM review that ranks kvCORE or BoomTown at the top. Those are team platforms. Great tools — wrong tools for you.
+    </p>
+
+    <h2 class="text-2xl font-bold mt-10 mb-4">The 6 CRMs actually worth considering for solo agents</h2>
+    <p class="mb-6">
+      We considered 14 CRMs. Six survived the "does it actually fit a solo budget and workflow?" filter. Here they are, in order of how we would recommend them to a friend.
+    </p>
+
+    <h3 class="text-xl font-bold mt-8 mb-3">1. Clientaro — Free forever, or $19/month (Starter)</h3>
+    <p class="mb-4">
+      We are biased — we built it — so read with a grain of salt. But the positioning is specific: Clientaro is built for solo and tiny-team agents who run on relationships and referrals, not lead-gen waterfalls. There is a genuinely free-forever tier for your first 30 contacts, and Starter at $19/month is the cheapest dedicated real estate CRM on the market once you outgrow it. No per-seat pricing, no 10-field custom-property upsell.
+    </p>
+    <p class="mb-4">
+      <strong>What works:</strong> the <a href="/blog/daily-five-method-real-estate" class="text-amber-600 hover:text-amber-700 font-semibold underline">Daily Five method</a> — five people to touch every morning, generated automatically from contact recency, birthday, and referral-potential scoring. Household tracking (spouses, adult kids, parents — the people who actually make referrals to you). A Referral Radar that surfaces who owes you a closing check and who you owe a check-in call. Simple, fast, no training required.
+    </p>
+    <p class="mb-6">
+      <strong>What does not:</strong> no transaction management built in yet (pair with Dotloop or SkySlope). No built-in IDX lead capture — if you buy leads from Zillow or Realtor.com, you will want a separate lead-capture tool, then push qualified contacts into Clientaro. That is deliberate — we do not want to be a lead-gen tool pretending to be a CRM.
+    </p>
+
+    <h3 class="text-xl font-bold mt-8 mb-3">2. Wise Agent — $49/month</h3>
+    <p class="mb-4">
+      Wise Agent has been around since the mid-2000s and it shows — in good and bad ways. It is stable, packed with features (including IDX, transaction management, and marketing automation), and flat-priced so you are not surprised on a renewal.
+    </p>
+    <p class="mb-6">
+      The downside: the interface feels like 2012. Every serious customization requires digging through four layers of menus. If you are under 40 and come from a Gmail/Notion/Slack world, Wise Agent will feel slow to learn and slower to use. If you came up on TopProducer 8i and like a feature-dense desktop interface, you may love it.
+    </p>
+
+    <h3 class="text-xl font-bold mt-8 mb-3">3. Realvolve — $94/month (Pro)</h3>
+    <p class="mb-4">
+      Realvolve is the serious solo-agent option for people who want deep workflow automation. Their signature feature is multi-step workflows tied to contact lifecycle — buyer under contract, seller listed, past client at anniversary. Done well, it runs like a virtual assistant.
+    </p>
+    <p class="mb-6">
+      The catch: $94/month, and the workflow editor has a real learning curve. You will spend a weekend setting it up before it starts paying off. Worth it if you close 30+ deals a year and have workflows worth automating. Overkill if you close 5 to 15 and could get the same lift from a disciplined morning routine.
+    </p>
+
+    <h3 class="text-xl font-bold mt-8 mb-3">4. Top Producer — $60/month (Core)</h3>
+    <p class="mb-4">
+      Top Producer is the grandfather of real estate CRMs. They modernized the interface in 2023 and it now looks respectable. Good IDX integration, solid calendar, built-in drip campaigns.
+    </p>
+    <p class="mb-6">
+      The catch: Top Producer still charges for features that should be included (add-on pricing for website, add-on pricing for advanced marketing). The $60/month is the starting line — expect $100 to $130 once you actually use it. If you are going to pay $100+/month anyway, Realvolve or Follow Up Boss give you more.
+    </p>
+
+    <h3 class="text-xl font-bold mt-8 mb-3">5. Follow Up Boss — $69/month (Solo)</h3>
+    <p class="mb-4">
+      Follow Up Boss is the industry standard for a reason. Fast, clean, well-designed, great mobile app, excellent integrations with lead-gen sources like Zillow Flex and Ylopo. If you buy leads, FUB routes them into an action plan in under 60 seconds.
+    </p>
+    <p class="mb-6">
+      The catch: FUB is built for lead-gen teams. A solo agent who closes mostly from referrals will use about 30 percent of what they are paying for. $69/month is also the Solo tier — most agents end up on Pro at $497/month the moment they hire a second person, and there is no graceful middle tier. If lead-gen-heavy is not your model, you will be paying for infrastructure that does not serve you.
+    </p>
+
+    <h3 class="text-xl font-bold mt-8 mb-3">6. HubSpot Free (with real estate add-ons)</h3>
+    <p class="mb-4">
+      We include HubSpot only because agents keep asking. Yes, HubSpot has a free CRM. No, it is not designed for real estate — you will spend a weekend building custom properties for "closing date" and "commission owed" and "referral source", and another weekend wiring up automation that comes pre-built in any dedicated real estate CRM.
+    </p>
+    <p class="mb-6">
+      If you are technical and love building your own system, HubSpot free can work. If you want to start working leads the day you sign up, pick a dedicated tool.
+    </p>
+
+    <h2 class="text-2xl font-bold mt-10 mb-4">Head-to-head: pricing at a glance</h2>
+    <div class="overflow-x-auto my-6">
+      <table class="w-full border-collapse">
+        <thead class="bg-gray-50">
+          <tr>
+            <th class="border border-gray-200 px-4 py-2 text-left">CRM</th>
+            <th class="border border-gray-200 px-4 py-2 text-left">Solo price</th>
+            <th class="border border-gray-200 px-4 py-2 text-left">Annual cost</th>
+            <th class="border border-gray-200 px-4 py-2 text-left">Best for</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="border border-gray-200 px-4 py-2">Clientaro (Free / Starter)</td>
+            <td class="border border-gray-200 px-4 py-2">$0–$19/mo</td>
+            <td class="border border-gray-200 px-4 py-2">$0–$228</td>
+            <td class="border border-gray-200 px-4 py-2">Referral + relationship agents</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-200 px-4 py-2">Wise Agent</td>
+            <td class="border border-gray-200 px-4 py-2">$49/mo</td>
+            <td class="border border-gray-200 px-4 py-2">$588</td>
+            <td class="border border-gray-200 px-4 py-2">Agents who want feature breadth at any UX cost</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-200 px-4 py-2">Top Producer</td>
+            <td class="border border-gray-200 px-4 py-2">$60/mo</td>
+            <td class="border border-gray-200 px-4 py-2">$720+</td>
+            <td class="border border-gray-200 px-4 py-2">Legacy users upgrading from 8i</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-200 px-4 py-2">Follow Up Boss Solo</td>
+            <td class="border border-gray-200 px-4 py-2">$69/mo</td>
+            <td class="border border-gray-200 px-4 py-2">$828</td>
+            <td class="border border-gray-200 px-4 py-2">Lead-gen-heavy agents buying Zillow/Ylopo leads</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-200 px-4 py-2">Realvolve Pro</td>
+            <td class="border border-gray-200 px-4 py-2">$94/mo</td>
+            <td class="border border-gray-200 px-4 py-2">$1,128</td>
+            <td class="border border-gray-200 px-4 py-2">Workflow-automation enthusiasts closing 30+/yr</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-200 px-4 py-2">HubSpot Free</td>
+            <td class="border border-gray-200 px-4 py-2">$0</td>
+            <td class="border border-gray-200 px-4 py-2">$0 (time cost is real)</td>
+            <td class="border border-gray-200 px-4 py-2">Technical tinkerers who want to build their own</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 class="text-2xl font-bold mt-10 mb-4">The honest recommendation framework</h2>
+    <p class="mb-4">Pick your pattern:</p>
+    <ul class="list-disc pl-6 mb-6 space-y-2">
+      <li><strong>Referral-driven solo, 5–50 deals/yr, $0–$50/mo budget:</strong> Clientaro (Free forever, or Starter $19/mo).</li>
+      <li><strong>Lead-gen-heavy (you buy Zillow/Ylopo leads), 15+ deals/yr:</strong> Follow Up Boss.</li>
+      <li><strong>Feature-first, want everything built-in, UX tolerance high:</strong> Wise Agent.</li>
+      <li><strong>30+ deals/yr, love process automation, will invest a weekend in setup:</strong> Realvolve.</li>
+      <li><strong>Legacy Top Producer user, comfortable with that interface:</strong> Top Producer.</li>
+      <li><strong>Technical, budget-zero, love building:</strong> HubSpot Free with patience.</li>
+    </ul>
+
+    <h2 class="text-2xl font-bold mt-10 mb-4">What almost nobody tells you</h2>
+    <p class="mb-6">
+      The CRM is not the hard part. Any of these tools works if you actually open it every day. The gap between agents who close 10 deals and agents who close 50 is never the software — it is the consistency of reaching out to 3 to 5 people a day, every workday, for years. Whichever CRM you pick, pick the one you will actually open in the morning.
+    </p>
+    <p class="mb-6">
+      That is why Clientaro built the <a href="/blog/daily-five-method-real-estate" class="text-amber-600 hover:text-amber-700 font-semibold underline">Daily Five method</a> into the home screen. Open the app, see five names, three of them with a one-line reason you should call today. Close the app. That is it. We will keep iterating on the rest of the software, but the habit is the product.
+    </p>
+
+    <div class="bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
+      <h3 class="text-xl font-bold mb-3 text-amber-900">Try Clientaro free — forever</h3>
+      <p class="text-amber-900 mb-4">
+        If you are a solo agent who runs on relationships, import your contacts in 5 minutes and see if the Daily Five method feels right. Free forever for your first 30 contacts, no credit card required to start. Starter is $19/month for a full book of 1,000, with a 60-day Pro trial on any paid plan.
+      </p>
+      <a href="/signup" class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors">Start your free account →</a>
+    </div>
+
+    <h2 class="text-2xl font-bold mt-10 mb-4">FAQs</h2>
+
+    <h3 class="text-xl font-bold mt-6 mb-2">Is there a truly free CRM for real estate agents?</h3>
+    <p class="mb-4">
+      Clientaro is genuinely free forever for your first 30 contacts — every Pro feature unlocked, no credit card, no trial timer. HubSpot Free is the other option, but it is not built for real estate, so plan to spend a weekend customizing it. Most other "free forever" real estate CRMs are either lead-gen companies collecting your data or trial tiers that cap usage aggressively. Beyond a free tier, $19 to $50 a month is the typical floor for a dedicated real estate CRM that actually works.
+    </p>
+
+    <h3 class="text-xl font-bold mt-6 mb-2">Can I switch CRMs later without losing my contacts?</h3>
+    <p class="mb-4">
+      Yes. Every CRM in this article exports contacts as CSV. The harder part is re-building your custom fields, tags, and automation workflows. That is why we recommend picking right the first time rather than optimizing for "easy to leave." If you are switching from LionDesk after its 2025 shutdown, there is a separate article for you: <a href="/blog/best-liondesk-alternatives-2026" class="text-amber-700 hover:text-amber-800 underline">Best LionDesk Alternatives in 2026</a>.
+    </p>
+
+    <h3 class="text-xl font-bold mt-6 mb-2">Do I need a CRM if I already use a Google Contacts + calendar system?</h3>
+    <p class="mb-4">
+      Google Contacts + calendar works for the first 100 to 200 contacts, but it breaks down when you need to know "which past clients have a home anniversary this quarter?" or "who referred me business last year that I have not thanked?" A real CRM answers those questions automatically; Google cannot.
+    </p>
+
+    <h3 class="text-xl font-bold mt-6 mb-2">What is the Daily Five method?</h3>
+    <p class="mb-4">
+      Five people to reach out to every workday — a short, doable habit that compounds into consistent pipeline. Clientaro automates the list based on contact recency, upcoming life events, and referral potential, so you are not staring at a blank CRM wondering who to call. We break it down in <a href="/blog/daily-five-method-real-estate" class="text-amber-700 hover:text-amber-800 underline">the Daily Five method for real estate</a>.
+    </p>
+
+    <h3 class="text-xl font-bold mt-6 mb-2">Which CRM integrates with Zillow, Realtor.com, or Ylopo leads?</h3>
+    <p class="mb-4">
+      Follow Up Boss is the clear winner for paid-lead integration. If that is a large part of your pipeline, the $69/month is usually worth it. If leads are a side channel and your main pipeline is referrals and sphere, Clientaro or Wise Agent handle lead capture via Zapier and forms with less overhead.
+    </p>
+
+    <h3 class="text-xl font-bold mt-6 mb-2">What about team CRMs — when should I upgrade?</h3>
+    <p class="mb-4">
+      Hire the second agent first. Do not buy a team CRM in anticipation. The right time to upgrade is when two humans need to collaborate on the same contact and attribution matters. Until then, every dollar you spend on team features is a dollar not spent on closing deals.
+    </p>
+
+    <div class="bg-blue-50 border border-blue-200 rounded-xl p-6 my-8">
+      <h3 class="text-xl font-bold mb-3 text-blue-900">Still not sure which CRM fits?</h3>
+      <p class="text-blue-900 mb-4">
+        Email <a href="mailto:hello@clientaro.com" class="underline">hello@clientaro.com</a> with your rough annual closings and lead mix, and we will tell you honestly — including when another tool is the better fit. Yes, even if the answer is not us.
+      </p>
+    </div>
+  `,
+    itemList: buildItemList([
+      { name: 'Clientaro', url: 'https://www.clientaro.com/realestate', offers: CLIENTARO_OFFERS },
+      { name: 'Wise Agent', url: 'https://wiseagent.com', offers: [{ name: 'Standard', price: '49' }] },
+      { name: 'Realvolve', url: 'https://www.realvolve.com', offers: [{ name: 'Pro', price: '94' }] },
+      { name: 'Top Producer', url: 'https://www.topproducer.com', offers: [{ name: 'Core', price: '60' }] },
+      { name: 'Follow Up Boss', url: 'https://followupboss.com', offers: [{ name: 'Solo', price: '69' }] },
+      { name: 'HubSpot', url: 'https://www.hubspot.com', offers: [{ name: 'Free', price: '0' }] },
+    ]),
+    faqs: [
+      {
+        q: 'Is there a truly free CRM for real estate agents?',
+        a: 'Clientaro is genuinely free forever for your first 30 contacts — every Pro feature unlocked, no credit card, no trial timer. HubSpot Free is the other option, but it is not built for real estate, so plan to spend a weekend customizing it. Beyond a free tier, $19 to $50 a month is the typical floor for a dedicated real estate CRM that actually works.',
+      },
+      {
+        q: 'Can I switch CRMs later without losing my contacts?',
+        a: 'Yes. Every major real estate CRM exports contacts as CSV. The harder part is re-building your custom fields, tags, and automation workflows — which is why it pays to pick right the first time rather than optimizing for "easy to leave."',
+      },
+      {
+        q: 'Do I need a CRM if I already use Google Contacts and a calendar?',
+        a: 'Google Contacts plus a calendar works for your first 100 to 200 contacts, but it breaks down when you need to know which past clients have a home anniversary this quarter, or who referred you business last year that you have not thanked. A real CRM answers those questions automatically; Google cannot.',
+      },
+      {
+        q: 'What is the Daily Five method?',
+        a: 'Five people to reach out to every workday — a short, doable habit that compounds into consistent pipeline. Clientaro automates the list based on contact recency, upcoming life events, and referral potential, so you are not staring at a blank CRM wondering who to call.',
+      },
+      {
+        q: 'Which CRM integrates with Zillow, Realtor.com, or Ylopo leads?',
+        a: 'Follow Up Boss is the clear winner for paid-lead integration; if that is a large part of your pipeline, the $69/month is usually worth it. If leads are a side channel and your main pipeline is referrals and sphere, Clientaro or Wise Agent handle lead capture via Zapier and forms with less overhead.',
+      },
+      {
+        q: 'When should a solo agent upgrade to a team CRM?',
+        a: 'Hire the second agent first — do not buy a team CRM in anticipation. The right time to upgrade is when two humans need to collaborate on the same contact and attribution matters. Until then, every dollar spent on team features is a dollar not spent on closing deals.',
+      },
+    ],
+  },
 ]
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
