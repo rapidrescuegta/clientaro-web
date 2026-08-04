@@ -56,7 +56,7 @@ export function SoftwareApplicationSchema() {
     applicationSubCategory: 'CRM Software',
     operatingSystem: 'Web, iOS, Android',
     url: 'https://www.clientaro.com',
-    image: 'https://www.clientaro.com/og-image.png',
+    image: 'https://www.clientaro.com/opengraph-image',
     softwareVersion: '1.0',
     author: {
       '@type': 'Person',
