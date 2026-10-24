@@ -8,19 +8,19 @@ import { SoftwareApplicationSchema } from '../components/SoftwareApplicationSche
 export const metadata: Metadata = {
   title: 'Pricing — Clientaro',
   description:
-    'Clientaro pricing: Free forever for 30 contacts, Starter $19/mo for 1,000, Pro $49/mo unlimited. Every tier has every feature. 60-day Pro trial on every paid signup.',
+    'Clientaro pricing: Free forever for 30 contacts, Starter $29/mo for 1,000, Pro $59/mo unlimited. Every tier has every feature. 60-day Pro trial on every paid signup.',
   alternates: { canonical: 'https://www.clientaro.com/pricing' },
   openGraph: {
     title: 'Pricing — Clientaro',
     description:
-      'Free forever for 30 contacts. Starter $19/mo. Pro $49/mo unlimited. 60-day Pro trial on every paid signup.',
+      'Free forever for 30 contacts. Starter $29/mo. Pro $59/mo unlimited. 60-day Pro trial on every paid signup.',
     url: 'https://www.clientaro.com/pricing',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Pricing — Clientaro',
     description:
-      'Free forever for 30 contacts. Starter $19/mo. Pro $49/mo unlimited. 60-day Pro trial on every paid signup.',
+      'Free forever for 30 contacts. Starter $29/mo. Pro $59/mo unlimited. 60-day Pro trial on every paid signup.',
   },
 }
 
@@ -31,11 +31,11 @@ const PRICING_FAQS = [
   },
   {
     q: 'What happens when I hit 30 contacts on the Free plan?',
-    a: 'New contact creation pauses (existing contacts still work) and the dashboard shows an upgrade prompt. You can keep using everything else indefinitely. Upgrade to Starter at $19/mo for 1,000 contacts or Pro at $49/mo for unlimited.',
+    a: 'New contact creation pauses (existing contacts still work) and the dashboard shows an upgrade prompt. You can keep using everything else indefinitely. Upgrade to Starter at $29/mo for 1,000 contacts or Pro at $59/mo for unlimited.',
   },
   {
     q: 'Do I need a credit card to sign up?',
-    a: 'No. The Free plan requires only email. Paid plans (Starter $19/mo, Pro $49/mo) start with a 60-day Pro trial — credit card is collected at trial signup but not charged until day 61.',
+    a: 'No. The Free plan requires only email. Paid plans (Starter $29/mo, Pro $59/mo) start with a 60-day Pro trial — credit card is collected at trial signup but not charged until day 61.',
   },
   {
     q: 'What is included in the 60-day Pro trial?',
@@ -43,7 +43,7 @@ const PRICING_FAQS = [
   },
   {
     q: 'How does Clientaro pricing compare to LionDesk, Wise Agent, Follow Up Boss?',
-    a: 'LionDesk shut down in 2025. Wise Agent is $49/mo flat with no free tier. Follow Up Boss starts at $69/user/mo (team-oriented). Clientaro Starter at $19/mo is the cheapest dedicated real-estate CRM with bundled SMS, and Free forever for 30 contacts is the only true free-forever dedicated real-estate CRM as of 2026.',
+    a: 'LionDesk shut down in 2025. Wise Agent is $49/mo flat with no free tier. Follow Up Boss starts at $69/user/mo (team-oriented). Clientaro Starter at $29/mo is the cheapest dedicated real-estate CRM with bundled SMS, and Free forever for 30 contacts is the only true free-forever dedicated real-estate CRM as of 2026.',
   },
   {
     q: 'Are there any hidden fees, setup costs, or add-ons?',

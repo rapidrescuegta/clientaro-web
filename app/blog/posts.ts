@@ -56,8 +56,8 @@ function buildItemList(items: Array<{
 
 const CLIENTARO_OFFERS = [
   { name: 'Free', price: '0' },
-  { name: 'Starter', price: '19' },
-  { name: 'Pro', price: '49' },
+  { name: 'Starter', price: '29' },
+  { name: 'Pro', price: '59' },
 ]
 
 export const posts: BlogPost[] = [
@@ -94,7 +94,7 @@ export const posts: BlogPost[] = [
     <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">The 5 options, ranked by Canadian fit</h2>
 
     <h3 class="text-xl font-semibold text-[#0F172A] mt-8 mb-3">1. Clientaro — built in Canada, for Canadians</h3>
-    <p class="mb-4"><strong>Pricing:</strong> Free for 30 contacts · $19/mo Starter (1,000 contacts) · $49/mo Pro unlimited — priced in CAD, with a 60-day Pro trial on every paid signup.</p>
+    <p class="mb-4"><strong>Pricing:</strong> Free for 30 contacts · $29/mo Starter (1,000 contacts) · $59/mo Pro unlimited — priced in CAD, with a 60-day Pro trial on every paid signup.</p>
     <p class="mb-4"><strong>Where it wins:</strong></p>
     <ul class="list-disc pl-6 mb-4 space-y-1">
       <li>CASL-aware contact intake forms — express consent capture is baked in, not a paid add-on.</li>
@@ -194,7 +194,7 @@ export const posts: BlogPost[] = [
 
     <div class="my-12 p-8 rounded-2xl bg-gradient-to-br from-blue-600 to-violet-700 text-white text-center">
       <h3 class="text-2xl font-bold mb-3">Try Clientaro free</h3>
-      <p class="mb-6 text-blue-100 max-w-xl mx-auto">CAD pricing, CASL-aware contact intake, Daily Five method built in. Free forever for 30 contacts, no credit card — or a 60-day Pro trial on any paid signup ($19/mo Starter, $49/mo Pro).</p>
+      <p class="mb-6 text-blue-100 max-w-xl mx-auto">CAD pricing, CASL-aware contact intake, Daily Five method built in. Free forever for 30 contacts, no credit card — or a 60-day Pro trial on any paid signup ($29/mo Starter, $59/mo Pro).</p>
       <a href="https://app.clientaro.com/signup" class="inline-block px-8 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition">Start free →</a>
     </div>
   `,
@@ -216,7 +216,7 @@ export const posts: BlogPost[] = [
       },
       {
         q: 'What is the cheapest real estate CRM for Canadian agents?',
-        a: "Clientaro's free tier (30 contacts, every Pro feature, no credit card) is the cheapest way to start, and its $19/month Starter plan is the cheapest paid tier among the tools that handle CASL credibly — priced in CAD. Wise Agent's flat $49 USD/month for unlimited users is competitive for 3-5 person teams who don't mind the aging UI.",
+        a: "Clientaro's free tier (30 contacts, every Pro feature, no credit card) is the cheapest way to start, and its $29/month Starter plan is the cheapest paid tier among the tools that handle CASL credibly — priced in CAD. Wise Agent's flat $49 USD/month for unlimited users is competitive for 3-5 person teams who don't mind the aging UI.",
       },
       {
         q: "Can I use HubSpot's free CRM for real estate in Canada?",
@@ -224,7 +224,7 @@ export const posts: BlogPost[] = [
       },
       {
         q: 'Is kvCORE worth it for a solo Canadian agent?',
-        a: "No. kvCORE is built for brokerages standardizing tooling across 20+ agents. The pricing model and feature complexity are wildly mismatched to a solo agent's needs. Buy a CRM your size — Clientaro (free for 30 contacts, then $19/mo Starter), Wise Agent, or Follow Up Boss Single — and revisit kvCORE if and when you build a brokerage.",
+        a: "No. kvCORE is built for brokerages standardizing tooling across 20+ agents. The pricing model and feature complexity are wildly mismatched to a solo agent's needs. Buy a CRM your size — Clientaro (free for 30 contacts, then $29/mo Starter), Wise Agent, or Follow Up Boss Single — and revisit kvCORE if and when you build a brokerage.",
       },
     ],
   },
@@ -264,10 +264,10 @@ export const posts: BlogPost[] = [
 
     <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">The 6 best Top Producer alternatives in 2026</h2>
 
-    <h3 class="text-xl font-semibold text-[#0F172A] mt-8 mb-3">1. Clientaro — Free · $19/mo Starter · $49/mo Pro</h3>
+    <h3 class="text-xl font-semibold text-[#0F172A] mt-8 mb-3">1. Clientaro — Free · $29/mo Starter · $59/mo Pro</h3>
     <p class="mb-4"><em>Disclosure: this is our product. We built it specifically for the "too much CRM, too little rhythm" problem Top Producer leaves its users with. Read this entry accordingly.</em></p>
     <p class="mb-4"><strong>Who it's for:</strong> the agent whose business is 60-80% repeat and referral, who wants the CRM to push five past-client touches a day instead of showing a thousand leads in a pipeline. This is the <a href="/blog/daily-five-method-real-estate" class="text-[#2563EB] underline">Daily Five method</a> in product form.</p>
-    <p class="mb-4"><strong>Beats Top Producer on:</strong> modern interface, mobile-first design, transparent pricing, Daily Five rhythm. Migration tool imports the full Top Producer CSV in ~15 minutes including action plans. Free for 30 contacts (no credit card), then $19/mo Starter for 1,000 contacts or $49/mo Pro unlimited — with a 60-day Pro trial on every paid signup.</p>
+    <p class="mb-4"><strong>Beats Top Producer on:</strong> modern interface, mobile-first design, transparent pricing, Daily Five rhythm. Migration tool imports the full Top Producer CSV in ~15 minutes including action plans. Free for 30 contacts (no credit card), then $29/mo Starter for 1,000 contacts or $59/mo Pro unlimited — with a 60-day Pro trial on every paid signup.</p>
     <p class="mb-6"><strong>Loses to Top Producer on:</strong> transaction-management depth (Top Producer has 40 years of compliance fields baked in — Clientaro is simpler). If your state/province requires specific compliance fields in CRM, verify before migrating. If you came from a workflow-heavy tool, see also our <a href="/blog/realvolve-alternatives-2026" class="text-[#2563EB] underline">Realvolve alternatives guide</a>.</p>
 
     <h3 class="text-xl font-semibold text-[#0F172A] mt-8 mb-3">2. Follow Up Boss — $69/user/month Grow, $99/user/month Pro</h3>
@@ -308,7 +308,7 @@ export const posts: BlogPost[] = [
           </tr>
         </thead>
         <tbody>
-          <tr><td class="border border-slate-300 px-3 py-2">Clientaro</td><td class="border border-slate-300 px-3 py-2">Free, then $19/mo</td><td class="border border-slate-300 px-3 py-2">Solo, repeat-and-referral</td><td class="border border-slate-300 px-3 py-2">Yes (CSV, ~15 min)</td></tr>
+          <tr><td class="border border-slate-300 px-3 py-2">Clientaro</td><td class="border border-slate-300 px-3 py-2">Free, then $29/mo</td><td class="border border-slate-300 px-3 py-2">Solo, repeat-and-referral</td><td class="border border-slate-300 px-3 py-2">Yes (CSV, ~15 min)</td></tr>
           <tr><td class="border border-slate-300 px-3 py-2">Follow Up Boss</td><td class="border border-slate-300 px-3 py-2">$69/user/mo</td><td class="border border-slate-300 px-3 py-2">Teams of 5+, high lead volume</td><td class="border border-slate-300 px-3 py-2">Yes (CSV)</td></tr>
           <tr><td class="border border-slate-300 px-3 py-2">Wise Agent</td><td class="border border-slate-300 px-3 py-2">$49/mo flat</td><td class="border border-slate-300 px-3 py-2">2-5 person teams, budget-conscious</td><td class="border border-slate-300 px-3 py-2">Yes (CSV)</td></tr>
           <tr><td class="border border-slate-300 px-3 py-2">Realvolve</td><td class="border border-slate-300 px-3 py-2">$94/mo</td><td class="border border-slate-300 px-3 py-2">Workflow-obsessed solos + small teams</td><td class="border border-slate-300 px-3 py-2">Yes (CSV, field mapping required)</td></tr>
@@ -360,7 +360,7 @@ export const posts: BlogPost[] = [
 
     <div class="my-12 p-8 rounded-2xl bg-gradient-to-br from-blue-600 to-violet-700 text-white text-center">
       <h3 class="text-2xl font-bold mb-3">Want to try Clientaro for free?</h3>
-      <p class="mb-6 text-blue-100 max-w-xl mx-auto">CSV import for Top Producer, LionDesk, Follow Up Boss, Wise Agent, Realvolve. Free forever for 30 contacts, no credit card — or start a 60-day Pro trial on any paid signup ($19/mo Starter, $49/mo Pro).</p>
+      <p class="mb-6 text-blue-100 max-w-xl mx-auto">CSV import for Top Producer, LionDesk, Follow Up Boss, Wise Agent, Realvolve. Free forever for 30 contacts, no credit card — or start a 60-day Pro trial on any paid signup ($29/mo Starter, $59/mo Pro).</p>
       <a href="https://app.clientaro.com/signup" class="inline-block px-8 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition">Start free →</a>
     </div>
   `,
@@ -375,7 +375,7 @@ export const posts: BlogPost[] = [
     faqs: [
       {
         q: 'What is the best Top Producer alternative for a solo agent?',
-        a: 'Clientaro is the closest fit for a solo agent whose business is 60-80% repeat and referral — a modern, mobile-first interface with a Daily Five that surfaces five past clients to call each morning. It is Free for 30 contacts, then $19/mo Starter or $49/mo Pro, and imports the full Top Producer CSV in about 15 minutes.',
+        a: 'Clientaro is the closest fit for a solo agent whose business is 60-80% repeat and referral — a modern, mobile-first interface with a Daily Five that surfaces five past clients to call each morning. It is Free for 30 contacts, then $29/mo Starter or $59/mo Pro, and imports the full Top Producer CSV in about 15 minutes.',
       },
       {
         q: 'Is Top Producer actually a bad CRM?',
@@ -387,7 +387,7 @@ export const posts: BlogPost[] = [
       },
       {
         q: 'What is the cheapest Top Producer alternative?',
-        a: 'Clientaro has the only true free-forever tier (30 contacts, every Pro feature, no credit card), with paid plans at $19/mo Starter for 1,000 contacts and $49/mo Pro unlimited. Wise Agent and IXACT Contact at $49/mo are the next-cheapest if you need built-in transaction management.',
+        a: 'Clientaro has the only true free-forever tier (30 contacts, every Pro feature, no credit card), with paid plans at $29/mo Starter for 1,000 contacts and $59/mo Pro unlimited. Wise Agent and IXACT Contact at $49/mo are the next-cheapest if you need built-in transaction management.',
       },
     ],
   },
@@ -406,7 +406,7 @@ export const posts: BlogPost[] = [
         Follow Up Boss is a genuinely good CRM. It is also genuinely expensive, and genuinely built for the wrong kind of agent if most of your business comes from repeat clients and referrals. This is an honest list of what to look at instead — with pricing, pros and cons, and a short decision tree at the end so you can stop shopping and just pick one.
       </p>
       <p class="mb-6">
-        Short answer up top: if you run real lead volume with a team of 5+, stay on Follow Up Boss — it is the best tool in the category at what it does. If you are a solo agent or 2-person team whose business is 60-80% repeat and referral, any of <strong>Clientaro</strong> (our own product, Free for 30 contacts or $19/mo Starter), <strong>Wise Agent</strong> ($49/mo flat), or <strong>Realvolve</strong> ($94/mo) will fit your work better at a lower cost.
+        Short answer up top: if you run real lead volume with a team of 5+, stay on Follow Up Boss — it is the best tool in the category at what it does. If you are a solo agent or 2-person team whose business is 60-80% repeat and referral, any of <strong>Clientaro</strong> (our own product, Free for 30 contacts or $29/mo Starter), <strong>Wise Agent</strong> ($49/mo flat), or <strong>Realvolve</strong> ($94/mo) will fit your work better at a lower cost.
       </p>
   
       <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Why agents shop "Follow Up Boss alternatives" in the first place</h2>
@@ -440,7 +440,7 @@ export const posts: BlogPost[] = [
         Ranked by fit for solo and small-team agents, not by feature count. We are Clientaro — we are #1 on the list — but the other five are good fits for specific situations and we will tell you when.
       </p>
   
-      <h3 class="text-xl font-semibold text-[#0F172A] mt-8 mb-3">1. Clientaro — Free · $19/mo Starter · $49/mo Pro</h3>
+      <h3 class="text-xl font-semibold text-[#0F172A] mt-8 mb-3">1. Clientaro — Free · $29/mo Starter · $59/mo Pro</h3>
       <p class="mb-4">
         <strong>Best for:</strong> solo agents and 2-5 person teams whose business is 60-80% repeat and referral. Agents who do not need lead routing, drip campaigns at volume, or IDX.
       </p>
@@ -448,7 +448,7 @@ export const posts: BlogPost[] = [
         <strong>What Clientaro does differently:</strong> we flipped the model. Instead of a pipeline, you get a <strong>Daily Five</strong> — every morning Clientaro surfaces five past clients to call today, ranked by referral probability, time since last contact, and life events. Contact data is organized as <strong>households</strong> (spouses, kids, anniversaries, pets) so you walk into every call remembering the person, not the deal. <strong>Referral Radar</strong> tells you which 20 people in your database are most likely to send you business this quarter.
       </p>
       <p class="mb-4">
-        <strong>Where Clientaro beats Follow Up Boss for solo work:</strong> Free for 30 contacts (then $19/mo Starter or $49/mo Pro) vs $69/mo. Zero setup — import your contacts, answer three questions, the Daily Five starts tomorrow morning. Mobile-first UI that loads in under 2 seconds. Purpose-built for the retention and referral motion instead of the lead-conversion motion.
+        <strong>Where Clientaro beats Follow Up Boss for solo work:</strong> Free for 30 contacts (then $29/mo Starter or $59/mo Pro) vs $69/mo. Zero setup — import your contacts, answer three questions, the Daily Five starts tomorrow morning. Mobile-first UI that loads in under 2 seconds. Purpose-built for the retention and referral motion instead of the lead-conversion motion.
       </p>
       <p class="mb-6">
         <strong>Where Follow Up Boss beats Clientaro:</strong> if you pipe in 30+ Zillow leads a week and need a lead router, FUB wins. If you run a team of 10 with assignment rules, FUB wins. Clientaro is not the tool for you in those cases — and we will tell you so on the sales call.
@@ -535,7 +535,7 @@ export const posts: BlogPost[] = [
             <tr>
               <td class="p-3 border border-gray-200"><strong>Entry price (1 user)</strong></td>
               <td class="p-3 border border-gray-200">$69/mo</td>
-              <td class="p-3 border border-gray-200"><strong>Free / $19 / $49</strong></td>
+              <td class="p-3 border border-gray-200"><strong>Free / $29 / $59</strong></td>
               <td class="p-3 border border-gray-200">$49/mo flat</td>
               <td class="p-3 border border-gray-200">$94/mo</td>
             </tr>
@@ -589,7 +589,7 @@ export const posts: BlogPost[] = [
       <ol class="list-decimal pl-6 mb-6 space-y-2">
         <li><strong>Do you bring in 20+ new leads per month from paid sources (Zillow, Realtor.com, Facebook ads)?</strong> If yes — stay on Follow Up Boss. It is the right tool for that job. The rest of this article is not for you.</li>
         <li><strong>Do 60%+ of your deals come from past clients and referrals?</strong> Look at Clientaro first. The Daily Five workflow assumes exactly that business mix.</li>
-        <li><strong>Is your budget firmly under $50/month?</strong> Clientaro (Free for 30 contacts, $19/mo Starter for 1,000, $49/mo Pro unlimited), IXACT ($38), or Wise Agent ($49). All three do the job.</li>
+        <li><strong>Is your budget firmly under $50/month?</strong> Clientaro (Free for 30 contacts, $29/mo Starter for 1,000), IXACT ($38), or Wise Agent ($49). All three do the job.</li>
         <li><strong>Do you love building systems and want deep workflow automation?</strong> Realvolve. Budget the weekend to set it up.</li>
         <li><strong>Do you want the closest thing to an all-in-one that still feels mainstream?</strong> Wise Agent.</li>
       </ol>
@@ -619,7 +619,7 @@ export const posts: BlogPost[] = [
   
       <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">I am on a team of 5+ — should I still consider alternatives?</h3>
       <p class="mb-6">
-        Probably not. Follow Up Boss at $499/mo for 10 users is roughly $50/user, which is competitive once you have that many seats. The lead-distribution and team-dashboard features earn their cost at that scale. If your team is under 5 and mostly solo work with shared lead sources, look at Clientaro Pro ($49/mo, unlimited contacts, account-wide rather than per-seat) — it is materially cheaper.
+        Probably not. Follow Up Boss at $499/mo for 10 users is roughly $50/user, which is competitive once you have that many seats. The lead-distribution and team-dashboard features earn their cost at that scale. If your team is under 5 and mostly solo work with shared lead sources, look at Clientaro Pro ($59/mo, unlimited contacts, account-wide rather than per-seat) — it is materially cheaper.
       </p>
   
       <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">What about Chime, BoomTown, CINC, BoldTrail?</h3>
@@ -629,7 +629,7 @@ export const posts: BlogPost[] = [
   
       <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">Is there a free alternative to Follow Up Boss?</h3>
       <p class="mb-6">
-        HubSpot Free is usable for up to 1,000 contacts but is not real-estate-specific — you rebuild transaction, commission, and anniversary tracking as custom properties. Clientaro's Free plan is a closer apples-to-apples comparison since it is a real real-estate CRM; it stays free forever for 30 contacts, and paid tiers start at $19/mo Starter with a 60-day Pro trial.
+        HubSpot Free is usable for up to 1,000 contacts but is not real-estate-specific — you rebuild transaction, commission, and anniversary tracking as custom properties. Clientaro's Free plan is a closer apples-to-apples comparison since it is a real real-estate CRM; it stays free forever for 30 contacts, and paid tiers start at $29/mo Starter with a 60-day Pro trial.
       </p>
   
       <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">The bottom line</h2>
@@ -637,10 +637,10 @@ export const posts: BlogPost[] = [
         Follow Up Boss is not the wrong CRM. It is the wrong CRM for you if most of your business comes from people who already know you, and you are paying $69/mo to ignore the parts of FUB built for lead-heavy teams.
       </p>
       <p class="mb-6">
-        For that agent, Clientaro is built from the ground up. Free for 30 contacts (no credit card), $19/mo Starter for 1,000 contacts, $49/mo Pro unlimited, with a 60-day Pro trial on every paid signup. FUB CSV imports in 15 minutes. The Daily Five tells you who to call this morning. Referral Radar tells you who is most likely to send you business this quarter. That is the entire product.
+        For that agent, Clientaro is built from the ground up. Free for 30 contacts (no credit card), $29/mo Starter for 1,000 contacts, $59/mo Pro unlimited, with a 60-day Pro trial on every paid signup. FUB CSV imports in 15 minutes. The Daily Five tells you who to call this morning. Referral Radar tells you who is most likely to send you business this quarter. That is the entire product.
       </p>
       <p class="mb-6">
-        <a href="/realestate" class="text-[#2563EB] underline"><strong>Try Clientaro free for 14 days →</strong></a>
+        <a href="/realestate" class="text-[#2563EB] underline"><strong>Try Clientaro free →</strong></a>
       </p>
       <p class="text-sm text-gray-500 italic mb-6">
         Last updated 2026-04-21. Pricing verified against each vendor's public pricing page as of this date. We update this post quarterly.
@@ -661,7 +661,7 @@ export const posts: BlogPost[] = [
   },
   {
     q: 'What is the cheapest alternative to Follow Up Boss?',
-    a: 'Clientaro is the cheapest active-development alternative: Free forever for 30 contacts, $19/month Starter for 1,000 contacts, $49/month Pro unlimited — all tiers include bundled SMS, email, and a daily call surface. Wise Agent at $49/month flat is the next-cheapest if you need built-in transaction management. Anything under $15/month is usually an inactive product or a glorified spreadsheet.',
+    a: 'Clientaro is the cheapest active-development alternative: Free forever for 30 contacts, $29/month Starter for 1,000 contacts, $59/month Pro unlimited — all tiers include bundled SMS, email, and a daily call surface. Wise Agent at $49/month flat is the next-cheapest if you need built-in transaction management. Anything under $15/month is usually an inactive product or a glorified spreadsheet.',
   },
   {
     q: 'Can I import my Follow Up Boss contacts into another CRM?',
@@ -692,7 +692,7 @@ export const posts: BlogPost[] = [
       Realvolve is one of the few real estate CRMs built around the right idea: your past clients and sphere matter more than your lead pipeline. Agents who find Realvolve usually love the philosophy — and then quietly get frustrated with the reality. The workflow builder is powerful but fragile. The $94/mo starting price is steep for a solo agent. Setup takes weeks, and the moment you stop maintaining your workflows, they rot. This is an honest list of what to look at instead if the Realvolve idea is right for you but the execution is not.
     </p>
     <p class="mb-6">
-      Short answer up front: if you genuinely enjoy building custom workflows and have 10+ hours to invest in setup, stay on Realvolve — nothing in the category matches its flexibility. If you want the same relationship-first philosophy without the build-your-own-CRM burden, <strong>Clientaro</strong> (our own product, Free for 30 contacts or $19/mo Starter) is the closest match in spirit at a fraction of the price. Wise Agent, Top Producer, and a couple of others are also worth considering for specific situations, and we will tell you when.
+      Short answer up front: if you genuinely enjoy building custom workflows and have 10+ hours to invest in setup, stay on Realvolve — nothing in the category matches its flexibility. If you want the same relationship-first philosophy without the build-your-own-CRM burden, <strong>Clientaro</strong> (our own product, Free for 30 contacts or $29/mo Starter) is the closest match in spirit at a fraction of the price. Wise Agent, Top Producer, and a couple of others are also worth considering for specific situations, and we will tell you when.
     </p>
 
     <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Why agents shop "Realvolve alternatives" in the first place</h2>
@@ -726,7 +726,7 @@ export const posts: BlogPost[] = [
       Ranked by fit for agents leaving Realvolve specifically — not by total feature count. Clientaro is #1 because it is the closest philosophical match at a fraction of the setup cost. The other five are honest options for specific situations.
     </p>
 
-    <h3 class="text-xl font-semibold text-[#0F172A] mt-8 mb-3">1. Clientaro — Free · $19/mo Starter · $49/mo Pro</h3>
+    <h3 class="text-xl font-semibold text-[#0F172A] mt-8 mb-3">1. Clientaro — Free · $29/mo Starter · $59/mo Pro</h3>
     <p class="mb-4">
       <strong>Best for:</strong> solo agents and 2-5 person teams who loved Realvolve's relationship-first framing but gave up on workflow maintenance. Agents who want the system to work on day one.
     </p>
@@ -734,7 +734,7 @@ export const posts: BlogPost[] = [
       <strong>What Clientaro does differently:</strong> we built the system Realvolve expects you to configure. Instead of a workflow builder, you get a <strong>Daily Five</strong> — Clientaro picks five past clients every morning based on referral probability, time since last contact, and life events. <strong>Households</strong> group spouses, kids, anniversaries, pets, and move-in dates so every conversation is grounded in the actual relationship. <strong>Referral Radar</strong> surfaces the 20 people most likely to send you business this quarter. No workflow to build, no plan to maintain, no trigger to debug.
     </p>
     <p class="mb-4">
-      <strong>Where Clientaro beats Realvolve for most agents:</strong> Free for 30 contacts (then $19/mo Starter or $49/mo Pro) vs $94/mo. Under 10 minutes of setup — import your CSV, answer three questions, Daily Five starts tomorrow. Mobile-first, sub-2-second load. Opinionated defaults instead of blank canvas. If you liked the <em>idea</em> of Realvolve but never fully deployed it, this is the version that actually ships.
+      <strong>Where Clientaro beats Realvolve for most agents:</strong> Free for 30 contacts (then $29/mo Starter or $59/mo Pro) vs $94/mo. Under 10 minutes of setup — import your CSV, answer three questions, Daily Five starts tomorrow. Mobile-first, sub-2-second load. Opinionated defaults instead of blank canvas. If you liked the <em>idea</em> of Realvolve but never fully deployed it, this is the version that actually ships.
     </p>
     <p class="mb-6">
       <strong>Where Realvolve beats Clientaro:</strong> if you genuinely enjoy building multi-branch automations and want every touchpoint to be custom, Realvolve wins. If you run a team with bespoke processes and a workflow-builder personality on staff, Realvolve wins. Clientaro is opinionated by design — that is the point — so power users who want to own their workflow should stay put.
@@ -813,7 +813,7 @@ export const posts: BlogPost[] = [
       Stop shopping. Pick one of these paths and move.
     </p>
     <ul class="list-disc pl-6 mb-6 space-y-2">
-      <li><strong>You liked Realvolve's philosophy but never fully deployed it →</strong> Clientaro (Free for 30 contacts, then $19/mo Starter). You get the relationship-first framing without the workflow-building burden.</li>
+      <li><strong>You liked Realvolve's philosophy but never fully deployed it →</strong> Clientaro (Free for 30 contacts, then $29/mo Starter). You get the relationship-first framing without the workflow-building burden.</li>
       <li><strong>You want the cheapest stable option with unlimited users →</strong> Wise Agent ($49/mo flat).</li>
       <li><strong>You are a workflow-building power user and want more flexibility, not less →</strong> stay on Realvolve. It is still the best at what it does, and the cost of switching is higher than the cost of continuing.</li>
       <li><strong>Your business has shifted to paid leads and you have a team of 5+ →</strong> Follow Up Boss. Accept the price, get the lead router.</li>
@@ -822,7 +822,7 @@ export const posts: BlogPost[] = [
 
     <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Honest bottom line</h2>
     <p class="mb-6">
-      If Realvolve clicked for you philosophically but you kept bouncing off the complexity, Clientaro is the CRM Realvolve is trying to be for most agents — opinionated, relationship-first, instant to set up, Free for 30 contacts or $19/mo Starter instead of $94/mo. If you genuinely enjoy building the system and have the time for it, Realvolve remains a great product and you should stay. Real estate CRM is a tool, not a hobby — pick the one that matches how much CRM work you actually want to do.
+      If Realvolve clicked for you philosophically but you kept bouncing off the complexity, Clientaro is the CRM Realvolve is trying to be for most agents — opinionated, relationship-first, instant to set up, Free for 30 contacts or $29/mo Starter instead of $94/mo. If you genuinely enjoy building the system and have the time for it, Realvolve remains a great product and you should stay. Real estate CRM is a tool, not a hobby — pick the one that matches how much CRM work you actually want to do.
     </p>
     <p class="mb-8">
       <strong>Next step:</strong> <a href="https://app.clientaro.com/signup" class="text-[#2563EB] underline font-semibold">Start free →</a>. Import your Realvolve contacts and households in under 25 minutes. See the Daily Five tomorrow morning. Free forever for 30 contacts, no credit card required.
@@ -845,7 +845,7 @@ export const posts: BlogPost[] = [
     faqs: [
       {
         q: 'What is the best Realvolve alternative for a solo agent?',
-        a: 'Clientaro is the closest philosophical match — relationship-first like Realvolve, but with opinionated defaults instead of a workflow builder you have to maintain. It is Free for 30 contacts, then $19/mo Starter or $49/mo Pro, versus Realvolve\'s $94/mo, and it sets up in under 10 minutes instead of weeks.',
+        a: 'Clientaro is the closest philosophical match — relationship-first like Realvolve, but with opinionated defaults instead of a workflow builder you have to maintain. It is Free for 30 contacts, then $29/mo Starter or $59/mo Pro, versus Realvolve\'s $94/mo, and it sets up in under 10 minutes instead of weeks.',
       },
       {
         q: 'Is Realvolve worth the $94/month price?',
@@ -857,7 +857,7 @@ export const posts: BlogPost[] = [
       },
       {
         q: 'What is the cheapest Realvolve alternative?',
-        a: 'Clientaro has the only true free-forever tier (30 contacts, every Pro feature, no credit card), with paid plans at $19/mo Starter for 1,000 contacts. Wise Agent at $49/mo flat for unlimited users is the next-cheapest if you need built-in transaction management.',
+        a: 'Clientaro has the only true free-forever tier (30 contacts, every Pro feature, no credit card), with paid plans at $29/mo Starter for 1,000 contacts. Wise Agent at $49/mo flat for unlimited users is the next-cheapest if you need built-in transaction management.',
       },
     ],
   },
@@ -909,12 +909,12 @@ export const posts: BlogPost[] = [
       <p class="mb-4">
         Full disclosure: Clientaro is our product. We're listing it first because for the specific LionDesk refugee — a solo agent who wants a CRM that <em>doesn't get in the way</em> — it's the closest match, priced below every alternative on this list.
       </p>
-      <p class="mb-4"><strong>Price:</strong> Free · Starter $19/mo · Pro $49/mo</p>
+      <p class="mb-4"><strong>Price:</strong> Free · Starter $29/mo · Pro $59/mo</p>
       <p class="mb-4"><strong>Pros:</strong></p>
       <ul class="list-disc pl-6 mb-4 space-y-1">
-        <li>Only dedicated real estate CRM with a true Free-forever tier (30 contacts, every Pro feature). Paid tiers start at $19/mo Starter — still under LionDesk's old $39 price.</li>
+        <li>Only dedicated real estate CRM with a true Free-forever tier (30 contacts, every Pro feature). Paid tiers start at $29/mo Starter — still under LionDesk's old $39 price.</li>
         <li>Built around the Daily 5 — the 5 relationships to touch today, ranked by recency and opportunity</li>
-        <li>Pro is account-wide, not per-seat — a small team pays $49/mo total, not $49/user</li>
+        <li>Pro is account-wide, not per-seat — a small team pays $59/mo total, not $59/user</li>
         <li>Clean, fast interface — no IDX or lead-gen bloat</li>
         <li>Direct CSV import from LionDesk export with field mapping</li>
       </ul>
@@ -1015,7 +1015,7 @@ export const posts: BlogPost[] = [
           </tr>
         </thead>
         <tbody>
-          <tr><td class="border border-gray-200 px-4 py-2"><strong>Clientaro</strong></td><td class="border border-gray-200 px-4 py-2">Free / $19 / $49</td><td class="border border-gray-200 px-4 py-2">Solo agents on referrals</td><td class="border border-gray-200 px-4 py-2">✅ Yes (modern, free tier)</td></tr>
+          <tr><td class="border border-gray-200 px-4 py-2"><strong>Clientaro</strong></td><td class="border border-gray-200 px-4 py-2">Free / $29 / $59</td><td class="border border-gray-200 px-4 py-2">Solo agents on referrals</td><td class="border border-gray-200 px-4 py-2">✅ Yes (modern, free tier)</td></tr>
           <tr><td class="border border-gray-200 px-4 py-2">Follow Up Boss</td><td class="border border-gray-200 px-4 py-2">$69/user/mo</td><td class="border border-gray-200 px-4 py-2">High-volume teams</td><td class="border border-gray-200 px-4 py-2">❌ Different buyer</td></tr>
           <tr><td class="border border-gray-200 px-4 py-2">Wise Agent</td><td class="border border-gray-200 px-4 py-2">$49/mo flat</td><td class="border border-gray-200 px-4 py-2">Feature-for-feature match</td><td class="border border-gray-200 px-4 py-2">✅ Yes (similar era UX)</td></tr>
           <tr><td class="border border-gray-200 px-4 py-2">Top Producer</td><td class="border border-gray-200 px-4 py-2">$40/mo</td><td class="border border-gray-200 px-4 py-2">CRM + marketing bundle</td><td class="border border-gray-200 px-4 py-2">⚠️ Partially</td></tr>
@@ -1067,7 +1067,7 @@ export const posts: BlogPost[] = [
   
       <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">What was the cheapest LionDesk plan, and what's the cheapest replacement?</h3>
       <p class="mb-6">
-        LionDesk's entry plan was $39/mo. The cheapest dedicated real estate CRM replacement in 2026 is Clientaro: Free forever for 30 contacts, or $19/mo Starter for 1,000 contacts — that is half the price of LionDesk's old $39 entry tier. Top Producer Starter is $40. Wise Agent is $49. Everything else starts at $69 or above.
+        LionDesk's entry plan was $39/mo. The cheapest dedicated real estate CRM replacement in 2026 is Clientaro: Free forever for 30 contacts, or $29/mo Starter for 1,000 contacts — well under LionDesk's old $39 entry tier. Top Producer Starter is $40. Wise Agent is $49. Everything else starts at $69 or above.
       </p>
   
       <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">Do these CRMs work on mobile?</h3>
@@ -1087,7 +1087,7 @@ export const posts: BlogPost[] = [
   
       <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">Which LionDesk alternative is best for a solo agent in 2026?</h3>
       <p class="mb-6">
-        For a solo agent replacing LionDesk in 2026, Clientaro is the cheapest dedicated real estate CRM with a modern interface — Free forever for 30 contacts, $19/mo Starter for 1,000 contacts, $49/mo Pro unlimited (matches Wise Agent's price with more bundled SMS). Wise Agent at $49/mo flat is the closest feature-for-feature match to LionDesk. Top Producer Starter at $40/mo is a strong middle option with bundled marketing tools. Which one wins for you depends on whether you prioritize price (Clientaro), familiarity (Wise Agent), or bundled marketing (Top Producer).
+        For a solo agent replacing LionDesk in 2026, Clientaro is the cheapest dedicated real estate CRM with a modern interface — Free forever for 30 contacts, $29/mo Starter for 1,000 contacts, $59/mo Pro unlimited (with far more bundled SMS than Wise Agent). Wise Agent at $49/mo flat is the closest feature-for-feature match to LionDesk. Top Producer Starter at $40/mo is a strong middle option with bundled marketing tools. Which one wins for you depends on whether you prioritize price (Clientaro), familiarity (Wise Agent), or bundled marketing (Top Producer).
       </p>
   
       <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Final Thought</h2>
@@ -1114,7 +1114,7 @@ export const posts: BlogPost[] = [
   },
   {
     q: 'What CRM is most like LionDesk?',
-    a: 'LionDesk was loved for video email, SMS automation, and a sub-$40/month price point. The closest modern equivalents are Clientaro (Free for 30 contacts, then $19/mo Starter or $49/mo Pro — better contact-first model, video email on roadmap), Wise Agent at $49/month (full feature parity including video email), and BoomTown for teams that need IDX bundled in.',
+    a: 'LionDesk was loved for video email, SMS automation, and a sub-$40/month price point. The closest modern equivalents are Clientaro (Free for 30 contacts, then $29/mo Starter or $59/mo Pro — better contact-first model, video email on roadmap), Wise Agent at $49/month (full feature parity including video email), and BoomTown for teams that need IDX bundled in.',
   },
   {
     q: 'How do I migrate from LionDesk to a new CRM?',
@@ -1122,7 +1122,7 @@ export const posts: BlogPost[] = [
   },
   {
     q: 'What is the best free alternative to LionDesk?',
-    a: 'Clientaro is the only dedicated real-estate CRM with a true free-forever tier — 30 contacts, every Pro feature, no credit card. HubSpot Free is the closest non-real-estate alternative, but it is not real-estate-shaped — no transaction stages, no sphere-of-influence views. Clientaro paid tiers ($19/mo Starter, $49/mo Pro) start with a 60-day Pro trial for any agent moving off LionDesk.',
+    a: 'Clientaro is the only dedicated real-estate CRM with a true free-forever tier — 30 contacts, every Pro feature, no credit card. HubSpot Free is the closest non-real-estate alternative, but it is not real-estate-shaped — no transaction stages, no sphere-of-influence views. Clientaro paid tiers ($29/mo Starter, $59/mo Pro) start with a 60-day Pro trial for any agent moving off LionDesk.',
   },
   {
     q: 'Can I use LionDesk with Lone Wolf Foundation in 2026?',
@@ -1145,7 +1145,7 @@ export const posts: BlogPost[] = [
         Wise Agent is a good CRM. It is also priced at the high end of the solo-agent market ($49/month flat), packs in a lot of features many solo agents never use, and has a learning curve that surprises people who picked it because of the Forbes Advisor recommendation. This is an honest comparison of what to look at instead — with pricing, pros and cons, and a decision tree at the end.
       </p>
       <p class="mb-6">
-        Short answer up top: if you want all-in-one and you will use the transaction-management features, Wise Agent earns its $49/month. If you are a solo agent whose business is 60–80% sphere and referrals, <strong>Clientaro</strong> (Free for 30 contacts, $19/mo Starter, $49/mo Pro) covers the parts you actually use at a lower price — and has the only true free-forever tier in the category. If you need the cheapest credible option, <strong>RealOffice360</strong> ($15/mo) is the floor. If you want enterprise polish, <strong>Lone Wolf Relationships</strong> (formerly LionDesk) is the closest one-to-one swap.
+        Short answer up top: if you want all-in-one and you will use the transaction-management features, Wise Agent earns its $49/month. If you are a solo agent whose business is 60–80% sphere and referrals, <strong>Clientaro</strong> (Free for 30 contacts, $29/mo Starter, $59/mo Pro) covers the parts you actually use at a lower price — and has the only true free-forever tier in the category. If you need the cheapest credible option, <strong>RealOffice360</strong> ($15/mo) is the floor. If you want enterprise polish, <strong>Lone Wolf Relationships</strong> (formerly LionDesk) is the closest one-to-one swap.
       </p>
 
       <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Why agents shop "Wise Agent alternatives" in the first place</h2>
@@ -1178,7 +1178,7 @@ export const posts: BlogPost[] = [
         Ranked by best fit for a solo agent whose business is repeat and referral-driven. Different ranking applies if you run team workflows — see the decision tree at the end.
       </p>
 
-      <h3 class="text-xl font-bold text-[#0F172A] mt-8 mb-3">1. Clientaro — Free · $19/mo Starter · $49/mo Pro</h3>
+      <h3 class="text-xl font-bold text-[#0F172A] mt-8 mb-3">1. Clientaro — Free · $29/mo Starter · $59/mo Pro</h3>
       <p class="mb-6">
         <strong>Best for:</strong> Solo agents who want the relationship-tracking parts of Wise Agent without the all-in-one weight. Built around a contact card that surfaces family, kids' names, life events, and referral graph — not a pipeline of leads.
       </p>
@@ -1189,7 +1189,7 @@ export const posts: BlogPost[] = [
         <strong>What you gain:</strong> Built-in SMS and email on every tier — including Free. 60-day Pro trial on every paid signup. Cleaner mobile interface for between-showing logging. Contact card design that makes the "Brad's daughter's volleyball tournament is this weekend" reminder surface naturally.
       </p>
       <p class="mb-6">
-        <strong>Pricing honesty:</strong> Free forever for 30 contacts (every Pro feature unlocked, 50 SMS/mo) → $19/mo Starter (1,000 contacts, 500 SMS/mo) → $49/mo Pro (unlimited contacts, 5,000 SMS/mo, priority support). 60-day Pro trial on every paid signup, no credit card to start Free.
+        <strong>Pricing honesty:</strong> Free forever for 30 contacts (every Pro feature unlocked, 50 SMS/mo) → $29/mo Starter (1,000 contacts, 500 SMS/mo) → $59/mo Pro (unlimited contacts, 5,000 SMS/mo, priority support). 60-day Pro trial on every paid signup, no credit card to start Free.
       </p>
 
       <h3 class="text-xl font-bold text-[#0F172A] mt-8 mb-3">2. RealOffice360 — from $15/mo</h3>
@@ -1250,7 +1250,7 @@ export const posts: BlogPost[] = [
 
       <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Quick decision tree</h2>
       <ul class="list-disc pl-6 mb-6 space-y-2">
-        <li><strong>Your business is 60%+ referrals and repeat clients</strong> → Clientaro (Free for 30 contacts, $19/mo Starter for 1,000, $49/mo Pro unlimited).</li>
+        <li><strong>Your business is 60%+ referrals and repeat clients</strong> → Clientaro (Free for 30 contacts, $29/mo Starter for 1,000, $59/mo Pro unlimited).</li>
         <li><strong>You want the absolute cheapest credible option</strong> → RealOffice360 ($15/mo).</li>
         <li><strong>You loved LionDesk and want the closest swap</strong> → Lone Wolf Relationships (~$39/mo).</li>
         <li><strong>You want bundled marketing automation</strong> → Top Producer ($40–80/mo).</li>
@@ -1275,7 +1275,7 @@ export const posts: BlogPost[] = [
 
       <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">What is the cheapest Wise Agent alternative?</h3>
       <p class="mb-6">
-        RealOffice360 starts at $15/month (annual), making it the cheapest paid dedicated real estate CRM with real customer ratings (Capterra 4.6, Google 4.9). Clientaro is the cheapest overall — Free forever for 30 contacts (the only true free-forever tier in the category), then $19/mo Starter for 1,000 contacts with bundled SMS and a relationship-first contact card.
+        RealOffice360 starts at $15/month (annual), making it the cheapest paid dedicated real estate CRM with real customer ratings (Capterra 4.6, Google 4.9). Clientaro is the cheapest overall — Free forever for 30 contacts (the only true free-forever tier in the category), then $29/mo Starter for 1,000 contacts with bundled SMS and a relationship-first contact card.
       </p>
 
       <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">Does Wise Agent have a free tier?</h3>
@@ -1290,7 +1290,7 @@ export const posts: BlogPost[] = [
 
       <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">Which Wise Agent alternative is best for a solo agent in 2026?</h3>
       <p class="mb-6">
-        For a solo agent whose business is sphere and referral driven, Clientaro is the best balance of price, modern interface, and relationship-first contact design — Free forever for 30 contacts, $19/mo Starter for 1,000 contacts, $49/mo Pro unlimited. For agents prioritizing absolute lowest paid tier, RealOffice360 at $15/month is the floor. For agents who specifically want bundled marketing tools, Top Producer at $40/month is the right pick.
+        For a solo agent whose business is sphere and referral driven, Clientaro is the best balance of price, modern interface, and relationship-first contact design — Free forever for 30 contacts, $29/mo Starter for 1,000 contacts, $59/mo Pro unlimited. For agents prioritizing absolute lowest paid tier, RealOffice360 at $15/month is the floor. For agents who specifically want bundled marketing tools, Top Producer at $40/month is the right pick.
       </p>
 
       <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Final thought</h2>
@@ -1311,11 +1311,11 @@ export const posts: BlogPost[] = [
     faqs: [
       {
         q: 'Is Wise Agent still a good CRM in 2026?',
-        a: 'Yes — Forbes Advisor has named Wise Agent "Best Real Estate CRM" three years running (2022–2024). It is a genuinely solid tool. The question is whether the full feature set matches how you actually work. For agents who use the full transaction-management and marketing surface, it earns the $49/month. For agents who mainly want a clean contact list with relationship context, lighter alternatives like Clientaro (Free for 30 contacts, then $19/mo Starter or $49/mo Pro) or RealOffice360 ($15/mo) cover the parts you actually use at lower price.',
+        a: 'Yes — Forbes Advisor has named Wise Agent "Best Real Estate CRM" three years running (2022–2024). It is a genuinely solid tool. The question is whether the full feature set matches how you actually work. For agents who use the full transaction-management and marketing surface, it earns the $49/month. For agents who mainly want a clean contact list with relationship context, lighter alternatives like Clientaro (Free for 30 contacts, then $29/mo Starter or $59/mo Pro) or RealOffice360 ($15/mo) cover the parts you actually use at lower price.',
       },
       {
         q: 'What is the cheapest Wise Agent alternative?',
-        a: 'RealOffice360 starts at $15/month (annual), making it the cheapest paid dedicated real estate CRM with real customer ratings (Capterra 4.6, Google 4.9). Clientaro is the cheapest overall — Free forever for 30 contacts (the only true free-forever tier in the category), then $19/mo Starter for 1,000 contacts with bundled SMS and a relationship-first contact card.',
+        a: 'RealOffice360 starts at $15/month (annual), making it the cheapest paid dedicated real estate CRM with real customer ratings (Capterra 4.6, Google 4.9). Clientaro is the cheapest overall — Free forever for 30 contacts (the only true free-forever tier in the category), then $29/mo Starter for 1,000 contacts with bundled SMS and a relationship-first contact card.',
       },
       {
         q: 'Does Wise Agent have a free tier?',
@@ -1327,7 +1327,7 @@ export const posts: BlogPost[] = [
       },
       {
         q: 'Which Wise Agent alternative is best for a solo agent in 2026?',
-        a: 'For a solo agent whose business is sphere and referral driven, Clientaro is the best balance of price, modern interface, and relationship-first contact design — Free forever for 30 contacts, $19/mo Starter for 1,000 contacts, $49/mo Pro unlimited. For absolute lowest paid tier, RealOffice360 at $15/month is the floor. For bundled marketing tools, Top Producer at $40/month fits best.',
+        a: 'For a solo agent whose business is sphere and referral driven, Clientaro is the best balance of price, modern interface, and relationship-first contact design — Free forever for 30 contacts, $29/mo Starter for 1,000 contacts, $59/mo Pro unlimited. For absolute lowest paid tier, RealOffice360 at $15/month is the floor. For bundled marketing tools, Top Producer at $40/month fits best.',
       },
     ],
   },
@@ -1346,7 +1346,7 @@ export const posts: BlogPost[] = [
         Lone Wolf Relationships is what every LionDesk user got migrated to in September 2025. If you were one of them and the new tool is not fitting — you are not alone. Aggregated public reviews (Capterra, SourceForge, SelectHub) lean hard in one direction: roughly <strong>55% explicitly call Lone Wolf Relationships overpriced</strong> for the features it delivers, and <strong>roughly two-thirds say customer support lacks product knowledge</strong>. Overall satisfaction is around 83% — fine, not great.
       </p>
       <p class="mb-6">
-        This is an honest comparison of six alternatives for solo and small-team agents looking for a CRM that does not feel like a forced upgrade. Short answer up top: if your business runs on relationships and referrals, <strong>Clientaro</strong> ($0 Free / $19 Starter / $49 Pro) is built for exactly that and has the only true free-forever tier in the category. If you want a Forbes-recognized all-in-one with strong 24/7 support, <strong><a href="/blog/wise-agent-alternatives-2026" class="text-amber-600 hover:text-amber-700 underline">Wise Agent</a></strong> ($49/mo flat) is the most direct one-to-one swap. If you want workflow-automation depth, <strong><a href="/blog/realvolve-alternatives-2026" class="text-amber-600 hover:text-amber-700 underline">Realvolve</a></strong> ($94/mo) is the power user pick.
+        This is an honest comparison of six alternatives for solo and small-team agents looking for a CRM that does not feel like a forced upgrade. Short answer up top: if your business runs on relationships and referrals, <strong>Clientaro</strong> ($0 Free / $29 Starter / $59 Pro) is built for exactly that and has the only true free-forever tier in the category. If you want a Forbes-recognized all-in-one with strong 24/7 support, <strong><a href="/blog/wise-agent-alternatives-2026" class="text-amber-600 hover:text-amber-700 underline">Wise Agent</a></strong> ($49/mo flat) is the most direct one-to-one swap. If you want workflow-automation depth, <strong><a href="/blog/realvolve-alternatives-2026" class="text-amber-600 hover:text-amber-700 underline">Realvolve</a></strong> ($94/mo) is the power user pick.
       </p>
 
       <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">What happened to LionDesk</h2>
@@ -1382,7 +1382,7 @@ export const posts: BlogPost[] = [
         Ranked by best fit for the displaced LionDesk audience — solo and small-team agents whose business is relationship-driven. A different ranking applies for high-volume team workflows; see the decision tree at the end.
       </p>
 
-      <h3 class="text-xl font-bold text-[#0F172A] mt-8 mb-3">1. Clientaro — Free · $19/mo Starter · $49/mo Pro</h3>
+      <h3 class="text-xl font-bold text-[#0F172A] mt-8 mb-3">1. Clientaro — Free · $29/mo Starter · $59/mo Pro</h3>
       <p class="mb-6">
         <strong>Best for:</strong> Solo agents and 2–5 person teams whose business is 60–80% referrals and repeat clients. Built around a contact card that surfaces family, kids' names, hobbies, and life events — not a pipeline of cold leads.
       </p>
@@ -1393,7 +1393,7 @@ export const posts: BlogPost[] = [
         <strong>What you gain:</strong> The only true free-forever tier in the dedicated real-estate CRM category — 30 contacts, every Pro feature unlocked, 50 SMS/month bundled. Every paid tier ships every feature; you pay for volume, not for unlocking things you should already have. Bundled SMS and email on every tier including Free. 60-day Pro trial on every paid signup, credit card not charged until day 61. Mobile-first interface that loads in under 2 seconds.
       </p>
       <p class="mb-6">
-        <strong>Pricing honesty:</strong> Free $0 forever (30 contacts, 50 SMS/mo) → Starter $19/mo (1,000 contacts, 500 SMS/mo) → Pro $49/mo (unlimited contacts, 5,000 SMS/mo, priority support). No credit card to start Free.
+        <strong>Pricing honesty:</strong> Free $0 forever (30 contacts, 50 SMS/mo) → Starter $29/mo (1,000 contacts, 500 SMS/mo) → Pro $59/mo (unlimited contacts, 5,000 SMS/mo, priority support). No credit card to start Free.
       </p>
 
       <h3 class="text-xl font-bold text-[#0F172A] mt-8 mb-3">2. Wise Agent — $49/mo flat</h3>
@@ -1470,7 +1470,7 @@ export const posts: BlogPost[] = [
           <tbody>
             <tr>
               <td class="p-3 border border-gray-200"><strong>Clientaro</strong></td>
-              <td class="p-3 border border-gray-200">Free / $19 / $49</td>
+              <td class="p-3 border border-gray-200">Free / $29 / $59</td>
               <td class="p-3 border border-gray-200">✅ 30 contacts, every Pro feature</td>
               <td class="p-3 border border-gray-200">✅ Every tier</td>
               <td class="p-3 border border-gray-200">⚠️ Roadmap</td>
@@ -1530,7 +1530,7 @@ export const posts: BlogPost[] = [
 
       <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Which one wins for which agent</h2>
       <ul class="list-disc pl-6 mb-6 space-y-2">
-        <li><strong>"I want out of Lone Wolf as cheaply as possible and my business is referrals."</strong> → Clientaro Free (30 contacts, $0/forever) or Starter ($19/mo, 1,000 contacts).</li>
+        <li><strong>"I want out of Lone Wolf as cheaply as possible and my business is referrals."</strong> → Clientaro Free (30 contacts, $0/forever) or Starter ($29/mo, 1,000 contacts).</li>
         <li><strong>"I want the closest one-to-one Lone Wolf swap with much better support."</strong> → Wise Agent ($49/mo flat). 24/7 phone support and Forbes recognition.</li>
         <li><strong>"I need deep workflow automation."</strong> → Realvolve ($94/mo). Pay more, get the deepest engine in the category.</li>
         <li><strong>"I want the cheapest paid dedicated real-estate CRM."</strong> → RealOffice360 ($15/mo annual).</li>
@@ -1583,7 +1583,7 @@ export const posts: BlogPost[] = [
 
       <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">What is the best Lone Wolf Relationships alternative for solo agents?</h3>
       <p class="mb-6">
-        For a solo agent whose business is 60–80% referrals and repeat clients, Clientaro is the best balance of price, modern interface, and relationship-first contact design — Free for 30 contacts, $19/mo Starter for 1,000 contacts, $49/mo Pro unlimited. For solo agents whose business depends on video email, Wise Agent at $49/mo flat is the closest one-to-one Lone Wolf swap with stronger 24/7 support.
+        For a solo agent whose business is 60–80% referrals and repeat clients, Clientaro is the best balance of price, modern interface, and relationship-first contact design — Free for 30 contacts, $29/mo Starter for 1,000 contacts, $59/mo Pro unlimited. For solo agents whose business depends on video email, Wise Agent at $49/mo flat is the closest one-to-one Lone Wolf swap with stronger 24/7 support.
       </p>
 
       <h3 class="text-lg font-semibold text-[#0F172A] mt-6 mb-2">How long does it take to migrate from Lone Wolf to a new CRM?</h3>
@@ -1634,7 +1634,7 @@ export const posts: BlogPost[] = [
       },
       {
         q: 'What is the best Lone Wolf Relationships alternative for solo agents?',
-        a: 'For a solo agent whose business is 60–80% referrals and repeat clients, Clientaro is the best balance of price, modern interface, and relationship-first contact design — Free for 30 contacts, $19/mo Starter for 1,000 contacts, $49/mo Pro unlimited. For solo agents who depend on video email, Wise Agent at $49/mo flat is the closest one-to-one Lone Wolf swap with stronger 24/7 support.',
+        a: 'For a solo agent whose business is 60–80% referrals and repeat clients, Clientaro is the best balance of price, modern interface, and relationship-first contact design — Free for 30 contacts, $29/mo Starter for 1,000 contacts, $59/mo Pro unlimited. For solo agents who depend on video email, Wise Agent at $49/mo flat is the closest one-to-one Lone Wolf swap with stronger 24/7 support.',
       },
       {
         q: 'How long does it take to migrate from Lone Wolf to a new CRM?',
@@ -1802,15 +1802,15 @@ export const posts: BlogPost[] = [
     faqs: [
   {
     q: 'What is the best CRM for solo real estate agents in 2026?',
-    a: 'For solo agents whose business is 60-80% repeat and referral, Clientaro (Free for 30 contacts, then $19/mo Starter or $49/mo Pro) is the closest fit because it is contact-first instead of pipeline-first and surfaces a Daily Five list of past clients to call each morning. Follow Up Boss and kvCORE are stronger fits for high-volume lead-gen teams of 5+.',
+    a: 'For solo agents whose business is 60-80% repeat and referral, Clientaro (Free for 30 contacts, then $29/mo Starter or $59/mo Pro) is the closest fit because it is contact-first instead of pipeline-first and surfaces a Daily Five list of past clients to call each morning. Follow Up Boss and kvCORE are stronger fits for high-volume lead-gen teams of 5+.',
   },
   {
     q: 'How much should a real estate agent pay for a CRM?',
-    a: 'A solo agent earning under $150k GCI can usually start free — Clientaro Free covers 30 contacts at $0/month. As the contact list grows, expect to land at $19/month (Clientaro Starter, 1,000 contacts) to $49/month (Clientaro Pro unlimited, or Wise Agent flat). Teams of 2-5 agents usually fit on Clientaro Pro at $49/month total (account-wide) or pay $69-99/user on team-oriented tools like Follow Up Boss. Above $200/month per user is typically only justified at 30+ leads per week or with team-routing requirements that solo and small-team CRMs do not handle.',
+    a: 'A solo agent earning under $150k GCI can usually start free — Clientaro Free covers 30 contacts at $0/month. As the contact list grows, expect to land at $29/month (Clientaro Starter, 1,000 contacts) to $59/month (Clientaro Pro unlimited, or Wise Agent flat). Teams of 2-5 agents usually fit on Clientaro Pro at $59/month total (account-wide) or pay $69-99/user on team-oriented tools like Follow Up Boss. Above $200/month per user is typically only justified at 30+ leads per week or with team-routing requirements that solo and small-team CRMs do not handle.',
   },
   {
     q: 'Is a real estate CRM worth it for a part-time agent?',
-    a: 'Yes — but only the lightweight, contact-first kind. A part-time agent does 6-12 transactions a year and lives or dies on referrals from past clients. A free or low-cost CRM that reminds you who to call adds 1-2 referral deals per year, which pays for itself many times over. Clientaro Free covers up to 30 contacts at $0/month forever; Starter at $19/month handles 1,000 contacts once the sphere grows. Heavier $69+/month team CRMs are over-tooled for part-time work.',
+    a: 'Yes — but only the lightweight, contact-first kind. A part-time agent does 6-12 transactions a year and lives or dies on referrals from past clients. A free or low-cost CRM that reminds you who to call adds 1-2 referral deals per year, which pays for itself many times over. Clientaro Free covers up to 30 contacts at $0/month forever; Starter at $29/month handles 1,000 contacts once the sphere grows. Heavier $69+/month team CRMs are over-tooled for part-time work.',
   },
   {
     q: 'Do I need a real estate CRM if I already use Google Contacts?',
@@ -2760,7 +2760,7 @@ export const posts: BlogPost[] = [
     <div class="bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
       <h3 class="text-xl font-bold mb-3 text-amber-900">The Daily Five, automated — try Clientaro free</h3>
       <p class="text-amber-900 mb-4">
-        Clientaro is built around this method. The Daily Five generates itself every morning from your contacts, with a one-line reason for each. Free forever for 30 contacts (no credit card), $19/mo Starter, $49/mo Pro — with a 60-day Pro trial on every paid signup.
+        Clientaro is built around this method. The Daily Five generates itself every morning from your contacts, with a one-line reason for each. Free forever for 30 contacts (no credit card), $29/mo Starter, $59/mo Pro — with a 60-day Pro trial on every paid signup.
       </p>
       <a href="https://app.clientaro.com/signup" class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors">Start free →</a>
     </div>
@@ -2896,9 +2896,9 @@ export const posts: BlogPost[] = [
       We considered 14 CRMs. Six survived the "does it actually fit a solo budget and workflow?" filter. Here they are, in order of how we would recommend them to a friend.
     </p>
 
-    <h3 class="text-xl font-bold mt-8 mb-3">1. Clientaro — Free forever, or $19/month (Starter)</h3>
+    <h3 class="text-xl font-bold mt-8 mb-3">1. Clientaro — Free forever, or $29/month (Starter)</h3>
     <p class="mb-4">
-      We are biased — we built it — so read with a grain of salt. But the positioning is specific: Clientaro is built for solo and tiny-team agents who run on relationships and referrals, not lead-gen waterfalls. There is a genuinely free-forever tier for your first 30 contacts, and Starter at $19/month is the cheapest dedicated real estate CRM on the market once you outgrow it. No per-seat pricing, no 10-field custom-property upsell.
+      We are biased — we built it — so read with a grain of salt. But the positioning is specific: Clientaro is built for solo and tiny-team agents who run on relationships and referrals, not lead-gen waterfalls. There is a genuinely free-forever tier for your first 30 contacts, and Starter at $29/month is one of the cheapest dedicated real estate CRMs on the market once you outgrow it. No per-seat pricing, no 10-field custom-property upsell.
     </p>
     <p class="mb-4">
       <strong>What works:</strong> the <a href="/blog/daily-five-method-real-estate" class="text-amber-600 hover:text-amber-700 font-semibold underline">Daily Five method</a> — five people to touch every morning, generated automatically from contact recency, birthday, and referral-potential scoring. Household tracking (spouses, adult kids, parents — the people who actually make referrals to you). A Referral Radar that surfaces who owes you a closing check and who you owe a check-in call. Simple, fast, no training required.
@@ -2961,7 +2961,7 @@ export const posts: BlogPost[] = [
         <tbody>
           <tr>
             <td class="border border-gray-200 px-4 py-2">Clientaro (Free / Starter)</td>
-            <td class="border border-gray-200 px-4 py-2">$0–$19/mo</td>
+            <td class="border border-gray-200 px-4 py-2">$0–$29/mo</td>
             <td class="border border-gray-200 px-4 py-2">$0–$228</td>
             <td class="border border-gray-200 px-4 py-2">Referral + relationship agents</td>
           </tr>
@@ -3002,7 +3002,7 @@ export const posts: BlogPost[] = [
     <h2 class="text-2xl font-bold mt-10 mb-4">The honest recommendation framework</h2>
     <p class="mb-4">Pick your pattern:</p>
     <ul class="list-disc pl-6 mb-6 space-y-2">
-      <li><strong>Referral-driven solo, 5–50 deals/yr, $0–$50/mo budget:</strong> Clientaro (Free forever, or Starter $19/mo).</li>
+      <li><strong>Referral-driven solo, 5–50 deals/yr, $0–$50/mo budget:</strong> Clientaro (Free forever, or Starter $29/mo).</li>
       <li><strong>Lead-gen-heavy (you buy Zillow/Ylopo leads), 15+ deals/yr:</strong> Follow Up Boss.</li>
       <li><strong>Feature-first, want everything built-in, UX tolerance high:</strong> Wise Agent.</li>
       <li><strong>30+ deals/yr, love process automation, will invest a weekend in setup:</strong> Realvolve.</li>
@@ -3021,7 +3021,7 @@ export const posts: BlogPost[] = [
     <div class="bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
       <h3 class="text-xl font-bold mb-3 text-amber-900">Try Clientaro free — forever</h3>
       <p class="text-amber-900 mb-4">
-        If you are a solo agent who runs on relationships, import your contacts in 5 minutes and see if the Daily Five method feels right. Free forever for your first 30 contacts, no credit card required to start. Starter is $19/month for a full book of 1,000, with a 60-day Pro trial on any paid plan.
+        If you are a solo agent who runs on relationships, import your contacts in 5 minutes and see if the Daily Five method feels right. Free forever for your first 30 contacts, no credit card required to start. Starter is $29/month for a full book of 1,000, with a 60-day Pro trial on any paid plan.
       </p>
       <a href="/signup" class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors">Start your free account →</a>
     </div>
@@ -3030,7 +3030,7 @@ export const posts: BlogPost[] = [
 
     <h3 class="text-xl font-bold mt-6 mb-2">Is there a truly free CRM for real estate agents?</h3>
     <p class="mb-4">
-      Clientaro is genuinely free forever for your first 30 contacts — every Pro feature unlocked, no credit card, no trial timer. HubSpot Free is the other option, but it is not built for real estate, so plan to spend a weekend customizing it. Most other "free forever" real estate CRMs are either lead-gen companies collecting your data or trial tiers that cap usage aggressively. Beyond a free tier, $19 to $50 a month is the typical floor for a dedicated real estate CRM that actually works.
+      Clientaro is genuinely free forever for your first 30 contacts — every Pro feature unlocked, no credit card, no trial timer. HubSpot Free is the other option, but it is not built for real estate, so plan to spend a weekend customizing it. Most other "free forever" real estate CRMs are either lead-gen companies collecting your data or trial tiers that cap usage aggressively. Beyond a free tier, $29 to $59 a month is the typical floor for a dedicated real estate CRM that actually works.
     </p>
 
     <h3 class="text-xl font-bold mt-6 mb-2">Can I switch CRMs later without losing my contacts?</h3>
@@ -3076,7 +3076,7 @@ export const posts: BlogPost[] = [
     faqs: [
       {
         q: 'Is there a truly free CRM for real estate agents?',
-        a: 'Clientaro is genuinely free forever for your first 30 contacts — every Pro feature unlocked, no credit card, no trial timer. HubSpot Free is the other option, but it is not built for real estate, so plan to spend a weekend customizing it. Beyond a free tier, $19 to $50 a month is the typical floor for a dedicated real estate CRM that actually works.',
+        a: 'Clientaro is genuinely free forever for your first 30 contacts — every Pro feature unlocked, no credit card, no trial timer. HubSpot Free is the other option, but it is not built for real estate, so plan to spend a weekend customizing it. Beyond a free tier, $29 to $59 a month is the typical floor for a dedicated real estate CRM that actually works.',
       },
       {
         q: 'Can I switch CRMs later without losing my contacts?',

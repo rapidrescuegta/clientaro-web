@@ -39,7 +39,7 @@ export function CtaBanner({ headline, sub }: CtaBannerProps) {
               </a>
             </div>
 
-            <p className="text-slate-500 text-sm mt-6">No credit card required · 14-day free trial</p>
+            <p className="text-slate-500 text-sm mt-6">No credit card required to start Free · 60-day Pro trial on paid plans</p>
           </div>
         </div>
       </div>

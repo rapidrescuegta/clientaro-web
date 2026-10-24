@@ -22,12 +22,12 @@ const OFFERS = [
   },
   {
     name: 'Starter',
-    price: '19',
+    price: '29',
     description: '1,000 contacts, full feature set, 500 SMS / month.',
   },
   {
     name: 'Pro',
-    price: '49',
+    price: '59',
     description: 'Unlimited contacts, full feature set, 5,000 SMS / month, priority support.',
   },
 ]

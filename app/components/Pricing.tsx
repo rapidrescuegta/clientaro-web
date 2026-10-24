@@ -31,7 +31,7 @@ const plans: Plan[] = [
   },
   {
     name: 'Starter',
-    monthly: 19,
+    monthly: 29,
     desc: 'For working solo agents managing a real book.',
     features: [
       'Everything in Free',
@@ -45,7 +45,7 @@ const plans: Plan[] = [
   },
   {
     name: 'Pro',
-    monthly: 49,
+    monthly: 59,
     desc: 'For top producers running on relationships at scale.',
     features: [
       'Everything in Starter',

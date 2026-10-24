@@ -183,7 +183,7 @@ async function scheduleDripEmails(apiKey: string, email: string, name: string) {
 <li><strong>The Share</strong> — "Saw this article about backyard renovations and thought of you!"</li>
 </ol>
 <p>Simple. Human. Effective.</p>
-<p>If you want a tool that reminds you who to reach out to every morning, <a href="https://app.clientaro.com/signup" style="color:#C9930A;font-weight:600;">try Clientaro free for 14 days</a>.</p>
+<p>If you want a tool that reminds you who to reach out to every morning, <a href="https://app.clientaro.com/signup" style="color:#C9930A;font-weight:600;">try Clientaro free</a>.</p>
 <p>— Steve @ Clientaro</p>`,
     },
     {
@@ -205,7 +205,7 @@ async function scheduleDripEmails(apiKey: string, email: string, name: string) {
     },
     {
       delay: 7,
-      subject: 'Your 14-day free trial is waiting',
+      subject: 'Your free CRM is waiting',
       body: `<p>Hey ${escHtml(name)},</p>
 <p>Over the last week, I've shared the Daily 5 system and how top agents use it to generate more referrals without cold calling or paid ads.</p>
 <p>If any of it resonated, here's your chance to put it into practice — for free.</p>
@@ -219,7 +219,7 @@ async function scheduleDripEmails(apiKey: string, email: string, name: string) {
 </ul>
 <p>No credit card required. No long onboarding. Just sign up and start building better relationships.</p>
 <div style="text-align:center;margin:32px 0;">
-<a href="https://app.clientaro.com/signup" style="display:inline-block;background:linear-gradient(135deg,#F5C842,#C9930A);color:#0F172A;font-size:16px;font-weight:700;text-decoration:none;padding:14px 32px;border-radius:10px;">Start free for 14 days →</a>
+<a href="https://app.clientaro.com/signup" style="display:inline-block;background:linear-gradient(135deg,#F5C842,#C9930A);color:#0F172A;font-size:16px;font-weight:700;text-decoration:none;padding:14px 32px;border-radius:10px;">Start free →</a>
 </div>
 <p>If you have questions, just reply to this email. I read every one.</p>
 <p>— Steve @ Clientaro</p>`,
