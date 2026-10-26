@@ -76,7 +76,7 @@ export const posts: BlogPost[] = [
       If you Google "best real estate CRM" you will get the same five tools recommended in a different order across forty articles. Follow Up Boss. LionDesk. kvCORE. Top Producer. Realvolve. All of them are built in the United States, marketed at US agents, and treat Canada as a checkbox — "yes, we have Canadian customers" — without ever doing the actual work.
     </p>
     <p class="mb-6">
-      The actual work looks like this: CASL-compliant consent capture baked into every contact form. MLS feed compatibility for TRREB, RAHB, KW, OCR, REBGV, CREB, and the eight or nine other boards Canadian agents touch. E-signature workflows that integrate with WEBForms or Authentisign — not just DocuSign. Currency in CAD by default. Phone number formatting that doesn't strip the leading 1 on a 416 number. Tax handling that knows the difference between HST, GST, and PST.
+      The actual work looks like this: CASL-compliant consent capture baked into every contact form. MLS feed compatibility for TRREB, RAHB, KW, OCR, REBGV, CREB, and the eight or nine other boards Canadian agents touch. E-signature workflows that integrate with WEBForms or Authentisign — not just DocuSign. Currency clarity — pricing a deal in CAD and knowing exactly what currency your software bills you in. Phone number formatting that doesn't strip the leading 1 on a 416 number. Tax handling that knows the difference between HST, GST, and PST.
     </p>
     <p class="mb-6">
       We just spent a Sunday going through the five most-recommended CRMs from a Canadian agent's seat. Here is what we found, ranked by how much friction you will hit if you actually buy them.
@@ -94,17 +94,18 @@ export const posts: BlogPost[] = [
     <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">The 5 options, ranked by Canadian fit</h2>
 
     <h3 class="text-xl font-semibold text-[#0F172A] mt-8 mb-3">1. Clientaro — built in Canada, for Canadians</h3>
-    <p class="mb-4"><strong>Pricing:</strong> Free for 30 contacts · $29/mo Starter (1,000 contacts) · $59/mo Pro unlimited — priced in CAD, with a 60-day Pro trial on every paid signup.</p>
+    <p class="mb-4"><strong>Pricing:</strong> Free for 30 contacts · $29/mo Starter (1,000 contacts) · $59/mo Pro unlimited — billed in USD, with a 60-day Pro trial on every paid signup.</p>
     <p class="mb-4"><strong>Where it wins:</strong></p>
     <ul class="list-disc pl-6 mb-4 space-y-1">
       <li>CASL-aware contact intake forms — express consent capture is baked in, not a paid add-on.</li>
       <li>Phone formats default to North American 10-digit with country-code awareness for snowbird clients.</li>
-      <li>Pricing in CAD by default. No FX surprise on your annual.</li>
+      <li>Flat monthly pricing — no per-agent seat fee, whether you run the shop alone or take on a partner.</li>
       <li>Built by a working Sutton Group agent in Ontario. Roadmap reflects what TRREB agents actually need (referral tracking, household relationships, post-closing follow-up that isn't a glorified email blast).</li>
       <li><a href="/blog/daily-five-method-real-estate" class="text-[#2563EB] underline">The Daily Five method</a> baked into the dashboard — five touches a day, not 50, so the CRM becomes a habit instead of a chore.</li>
     </ul>
     <p class="mb-4"><strong>Where it loses:</strong></p>
     <ul class="list-disc pl-6 mb-6 space-y-1">
+      <li>Billing is in USD, not CAD — Canadian agents should expect an FX line on the card. There is no CAD-denominated plan today.</li>
       <li>No native MLS integration with TRREB / RAHB yet (CSV import works; native feed roadmap 2026 H2).</li>
       <li>Smaller user base than Follow Up Boss — fewer YouTube tutorials, fewer "CRM coach" consultants who specialize in it (yet).</li>
     </ul>
@@ -181,7 +182,7 @@ export const posts: BlogPost[] = [
 
     <h2 class="text-2xl font-bold text-[#0F172A] mt-10 mb-4">Decision framework: which one to pick</h2>
     <ul class="list-disc pl-6 mb-6 space-y-2">
-      <li><strong>Solo agent or 2-3 person team, want CAD pricing + CASL handled:</strong> Clientaro. <a href="https://app.clientaro.com/signup" class="text-[#2563EB] underline font-semibold">Start free →</a></li>
+      <li><strong>Solo agent or 2-3 person team, want flat pricing + CASL handled:</strong> Clientaro. <a href="https://app.clientaro.com/signup" class="text-[#2563EB] underline font-semibold">Start free →</a></li>
       <li><strong>4-10 agent team, willing to pay USD for best-in-class automation:</strong> Follow Up Boss.</li>
       <li><strong>Migrating off LionDesk in 2026:</strong> Clientaro or Follow Up Boss. <a href="/blog/best-liondesk-alternatives-2026" class="text-[#2563EB] underline">Migration guide here.</a></li>
       <li><strong>Renewing Wise Agent and team grew past 5 people:</strong> <a href="/blog/wise-agent-alternatives-2026" class="text-[#2563EB] underline">See Wise Agent alternatives breakdown.</a></li>
@@ -194,7 +195,7 @@ export const posts: BlogPost[] = [
 
     <div class="my-12 p-8 rounded-2xl bg-gradient-to-br from-blue-600 to-violet-700 text-white text-center">
       <h3 class="text-2xl font-bold mb-3">Try Clientaro free</h3>
-      <p class="mb-6 text-blue-100 max-w-xl mx-auto">CAD pricing, CASL-aware contact intake, Daily Five method built in. Free forever for 30 contacts, no credit card — or a 60-day Pro trial on any paid signup ($29/mo Starter, $59/mo Pro).</p>
+      <p class="mb-6 text-blue-100 max-w-xl mx-auto">Flat monthly pricing, CASL-aware contact intake, Daily Five method built in. Free forever for 30 contacts, no credit card — or a 60-day Pro trial on any paid signup ($29/mo Starter, $59/mo Pro).</p>
       <a href="https://app.clientaro.com/signup" class="inline-block px-8 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition">Start free →</a>
     </div>
   `,
@@ -216,7 +217,7 @@ export const posts: BlogPost[] = [
       },
       {
         q: 'What is the cheapest real estate CRM for Canadian agents?',
-        a: "Clientaro's free tier (30 contacts, every Pro feature, no credit card) is the cheapest way to start, and its $29/month Starter plan is the cheapest paid tier among the tools that handle CASL credibly — priced in CAD. Wise Agent's flat $49 USD/month for unlimited users is competitive for 3-5 person teams who don't mind the aging UI.",
+        a: "Clientaro's free tier (30 contacts, every Pro feature, no credit card) is the cheapest way to start, and its $29/month Starter plan is the cheapest paid tier among the tools that handle CASL credibly — flat monthly pricing with no per-agent seat fee (billed in USD). Wise Agent's flat $49 USD/month for unlimited users is competitive for 3-5 person teams who don't mind the aging UI.",
       },
       {
         q: "Can I use HubSpot's free CRM for real estate in Canada?",
