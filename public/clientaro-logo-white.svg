@@ -17,5 +17,5 @@
         font-size="20"
         font-weight="700"
         letter-spacing="-0.5"
-        fill="#FFFFFF">Clientaro</text>
+        fill="#FFFFFF">Client<tspan font-weight="600" fill="#F5C842">aro</tspan></text>
 </svg>

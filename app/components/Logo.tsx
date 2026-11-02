@@ -24,9 +24,10 @@ export function LogoWordmark({ dark = false }: { dark?: boolean }) {
     <div className="flex items-center gap-2.5">
       <LogoIcon size={36} />
       <span
+        aria-label="Clientaro"
         className={`text-xl font-bold tracking-tight ${dark ? 'text-white' : 'text-[#0F172A]'}`}
       >
-        Clientaro
+        Client<span className="font-semibold text-[#C9930A]">aro</span>
       </span>
     </div>
   )
