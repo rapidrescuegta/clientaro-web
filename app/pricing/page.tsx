@@ -38,6 +38,10 @@ const PRICING_FAQS = [
     a: 'No. The Free plan requires only email. Paid plans (Starter $29/mo, Pro $59/mo) start with a 60-day Pro trial — credit card is collected at trial signup but not charged until day 61.',
   },
   {
+    q: 'Is there a launch discount?',
+    a: 'Yes. Subscribe to Starter or Pro by March 31, 2027 and you pay $10/mo less for your first 12 months: Starter $19/mo, then $29/mo; Pro $49/mo, then $59/mo. The discount is applied automatically at checkout.',
+  },
+  {
     q: 'What is included in the 60-day Pro trial?',
     a: 'Every Pro feature, unlimited contacts, 5,000 SMS/month, priority support. After day 60, the account auto-downgrades to the plan you selected at signup (Starter or Pro). No surprise charges.',
   },

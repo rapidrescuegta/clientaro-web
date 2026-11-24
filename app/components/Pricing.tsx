@@ -2,6 +2,12 @@
 
 const CRM_URL = process.env.NEXT_PUBLIC_CRM_URL || 'https://app.clientaro.com'
 
+// Launch offer — must match aria-crm src/lib/plan-limits.ts LAUNCH_OFFER
+// ($10/mo off for the first 12 months, for anyone subscribing before endsAt).
+// After endsAt the cards fall back to list price automatically.
+const LAUNCH_OFFER = { discountUsd: 10, months: 12, endsAt: '2027-03-31', endsLabel: 'March 31, 2027' }
+const launchOfferActive = () => Date.now() < new Date(`${LAUNCH_OFFER.endsAt}T23:59:59-05:00`).getTime()
+
 type Plan = {
   name: 'Free' | 'Starter' | 'Pro'
   monthly: number
@@ -77,7 +83,9 @@ export function Pricing() {
 
         {/* Plan cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-start">
-          {plans.map((plan) => (
+          {plans.map((plan) => {
+            const offer = plan.monthly > 0 && launchOfferActive()
+            return (
             <div
               key={plan.name}
               className={`relative rounded-2xl p-5 ${
@@ -96,13 +104,23 @@ export function Pricing() {
                 {plan.name}
               </div>
               <div className="flex items-end gap-1 mb-0.5">
+                {offer && (
+                  <span className={`text-lg font-bold line-through mb-1 mr-1 ${plan.featured ? 'text-slate-500' : 'text-gray-400'}`}>
+                    ${plan.monthly}
+                  </span>
+                )}
                 <span className={`text-4xl font-extrabold ${plan.featured ? 'text-white' : 'text-[#0F172A]'}`}>
-                  ${plan.monthly}
+                  ${offer ? plan.monthly - LAUNCH_OFFER.discountUsd : plan.monthly}
                 </span>
                 <span className={`text-xs mb-1.5 ${plan.featured ? 'text-slate-400' : 'text-gray-400'}`}>
                   {plan.monthly === 0 ? '/forever' : '/mo'}
                 </span>
               </div>
+              {offer && (
+                <p className={`text-[11px] font-semibold ${plan.featured ? 'text-amber-400' : 'text-amber-600'}`}>
+                  Launch price for your first {LAUNCH_OFFER.months} months, then ${plan.monthly}/mo
+                </p>
+              )}
               <p className={`text-xs mb-4 mt-1 ${plan.featured ? 'text-slate-400' : 'text-gray-500'}`}>
                 {plan.desc}
               </p>
@@ -127,12 +145,18 @@ export function Pricing() {
                 {plan.cta} →
               </a>
             </div>
-          ))}
+            )
+          })}
         </div>
 
         <p className="text-center text-gray-400 text-xs mt-6">
           60-day free trial of Pro on every paid signup. No credit card required to start free. Cancel anytime.
         </p>
+        {launchOfferActive() && (
+          <p className="text-center text-gray-400 text-xs mt-1">
+            Launch price: ${LAUNCH_OFFER.discountUsd}/mo off Starter or Pro for your first {LAUNCH_OFFER.months} months when you subscribe by {LAUNCH_OFFER.endsLabel}.
+          </p>
+        )}
 
       </div>
     </section>
